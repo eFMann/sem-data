@@ -52,10 +52,10 @@ jobs:
 
           # Build Steam app lookup from complete app list
           print('Fetching Steam app list...')
-          r = requests.get('http://api.steampowered.com/ISteamApps/GetAppList/v0002/?format=json', timeout=60)
+          r = requests.get('https://raw.githubusercontent.com/jsnli/steamappidlist/main/data/apps.json', timeout=60)
           if r.status_code != 200 or not r.text.strip():
               raise Exception(f'Steam app list failed: status={r.status_code}, body={r.text[:200]}')
-          steam_apps = r.json().get('applist', {}).get('apps', [])
+          steam_apps = r.json()
 
           # Build normalised name → list of appids lookup
           steam_lookup = {}
