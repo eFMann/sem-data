@@ -12,28 +12,42 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install chromium
+          playwright install-deps chromium
+
       - name: Fetch and strip hydralinks index
         run: |
-          docker run --rm \
-            -v /tmp:/tmp \
-            lwthiker/curl-impersonate:0.5-chrome \
-            curl_chrome110 \
-            -H "Accept: application/json, text/plain, */*" \
-            -H "Accept-Language: en-US,en;q=0.9" \
-            -o /tmp/raw.json \
-            https://hydralinks.cloud/sources/onlinefix.json
-          
-          echo "First 200 chars:"
-          head -c 200 /tmp/raw.json
-          
           python3 -c "
+          import asyncio
+          from playwright.async_api import async_playwright
           import json
-          with open('/tmp/raw.json') as f:
-              data = json.load(f)
-          for entry in data.get('downloads', []):
-              entry.pop('uris', None)
-          with open('onlinefix.json', 'w') as f:
-              json.dump(data, f)
+
+          async def fetch():
+              async with async_playwright() as p:
+                  browser = await p.chromium.launch()
+                  page = await browser.new_page()
+                  await page.goto('https://hydralinks.cloud/sources/onlinefix.json', wait_until='networkidle')
+                  content = await page.inner_text('body')
+                  await browser.close()
+                  
+                  data = json.loads(content)
+                  for entry in data.get('downloads', []):
+                      entry.pop('uris', None)
+                  
+                  with open('onlinefix.json', 'w') as f:
+                      json.dump(data, f)
+                  
+                  print(f'Done — {len(data[\"downloads\"])} entries')
+
+          asyncio.run(fetch())
           "
 
       - name: Commit and push
