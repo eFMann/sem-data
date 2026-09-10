@@ -96,8 +96,7 @@ jobs:
                       
                       for link in links:
                           href = link['href']
-                          if '/games/' in href and 'po-seti' in href and href not in seen:
-                              print(f'DEBUG href={href}, text={link.get_text(strip=True)[:30]}')
+                          if '/games/' in href and 'po-seti' in href and '#' not in href and href not in seen:                             
                               title = link.get('title', '') or link.get_text(strip=True)
                               for suffix in [' по сети', ' По Сети', ' Online', ' online']:
                                   if title.endswith(suffix):
