@@ -107,8 +107,8 @@ jobs:
 
               print(f'  Key: "{key}", matches found: {len(matches)}')
               if not matches:
-                  similar = [k for k in steam_lookup if 'hood' in k and 'outlaw' in k]
-                  print(f'  Similar keys in lookup: {similar}')
+                similar = [(k, steam_lookup[k][0]['name']) for k in steam_lookup if 'hood' in k]
+                print(f'  Similar keys in lookup: {similar}')
 
               if not matches:
                   return None
