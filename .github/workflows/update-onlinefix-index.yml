@@ -8,6 +8,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -84,7 +86,7 @@ jobs:
                                           title = title[:-len(suffix)].strip()
                                   
                                   if title and not any(c in title for c in ['©', '→', '←']):
-                                      games.append({'title': title, 'url': href})
+                                      games.append({'title': title})
                                       seen.add(href)
                                       found_any = True
                       
