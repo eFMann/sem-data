@@ -1,0 +1,39 @@
+name: Update Online-Fix Index
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch and strip hydralinks index
+        run: |
+          curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
+               -H "Accept: application/json" \
+               -o raw.json \
+               https://hydralinks.cloud/sources/onlinefix.json
+          
+          python3 -c "
+          import json
+          with open('raw.json') as f:
+              data = json.load(f)
+          for entry in data.get('downloads', []):
+              entry.pop('uris', None)
+          with open('onlinefix.json', 'w') as f:
+              json.dump(data, f)
+          "
+          rm raw.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add onlinefix.json
+          git diff --staged --quiet || git commit -m "Update onlinefix index"
+          git push
