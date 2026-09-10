@@ -30,6 +30,7 @@ jobs:
           import json
           import time
           import re
+          from datetime import datetime
 
           headers = {
               'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
@@ -49,7 +50,39 @@ jobs:
               s = re.sub(r'\s+', ' ', s).strip()
               return s
 
-          def resolve_appid(title):
+          def get_onlinefix_release_date(page_url):
+              try:
+                  r = requests.get(page_url, headers=headers, timeout=15)
+                  content = r.content.decode('windows-1251', errors='replace')
+                  # Pattern: Релиз игры: 25.02.2022
+                  match = re.search(r'[Рр]елиз\s+игры[:\s]+(\d{2}\.\d{2}\.\d{4})', content)
+                  if match:
+                      return datetime.strptime(match.group(1), '%d.%m.%Y').date()
+              except:
+                  pass
+              return None
+
+          def get_steam_release_date(app_id):
+              try:
+                  url = f'https://store.steampowered.com/api/appdetails?appids={app_id}&l=english'
+                  r = requests.get(url, timeout=10)
+                  data = r.json()
+                  app_data = data.get(str(app_id), {}).get('data', {})
+                  date_str = app_data.get('release_date', {}).get('date', '')
+                  if date_str:
+                      # Steam returns dates like "25 Feb, 2022"
+                      try:
+                          return datetime.strptime(date_str, '%d %b, %Y').date()
+                      except:
+                          try:
+                              return datetime.strptime(date_str, '%b %d, %Y').date()
+                          except:
+                              pass
+              except:
+                  pass
+              return None
+
+          def resolve_appid(title, page_url):
               try:
                   url = f'https://store.steampowered.com/api/storesearch?term={requests.utils.quote(title)}&l=english&cc=US'
                   r = requests.get(url, timeout=10)
@@ -57,15 +90,45 @@ jobs:
                   items = data.get('items', [])
                   if not items:
                       return None
-                  
+
                   needle = normalise(title)
-                  for item in items[:5]:
-                      candidate = normalise(item.get('name', ''))
-                      if candidate == needle:
-                          return str(item['id'])
                   
-                  return None
-              except:
+                  # Find all exact name matches
+                  exact_matches = [
+                      item for item in items[:10]
+                      if normalise(item.get('name', '')) == needle
+                  ]
+
+                  if not exact_matches:
+                      return None
+
+                  # Only one exact match — no ambiguity
+                  if len(exact_matches) == 1:
+                      return str(exact_matches[0]['id'])
+
+                  # Multiple exact matches — use release date to disambiguate
+                  print(f'  Multiple matches for "{title}" — fetching release dates...')
+                  
+                  of_date = get_onlinefix_release_date(page_url)
+                  if of_date is None:
+                      # Can't get Online-Fix date — just take first match
+                      return str(exact_matches[0]['id'])
+
+                  time.sleep(0.3)
+
+                  for item in exact_matches:
+                      steam_date = get_steam_release_date(item['id'])
+                      time.sleep(0.3)
+                      if steam_date and steam_date == of_date:
+                          print(f'  Matched by date {of_date} → {item["id"]}')
+                          return str(item['id'])
+
+                  # No date match found — fall back to first result
+                  print(f'  No date match found — using first result')
+                  return str(exact_matches[0]['id'])
+
+              except Exception as e:
+                  print(f'  resolve_appid error: {e}')
                   return None
 
           games = []
@@ -84,58 +147,58 @@ jobs:
                       url = f'https://online-fix.me/games/{category}/'
                   else:
                       url = f'https://online-fix.me/games/{category}/page/{page}/'
-                  
+
                   try:
                       r = requests.get(url, headers=headers, timeout=15)
                       if r.status_code == 404:
                           break
-                      
+
                       soup = BeautifulSoup(r.content.decode('windows-1251', errors='replace'), 'html.parser')
                       links = soup.find_all('a', href=True)
                       found_any = False
-                      
+
                       for link in links:
                           href = link['href']
-                          if '/games/' in href and 'po-seti' in href and '#' not in href and href not in seen:                             
+                          if '/games/' in href and 'po-seti' in href and '#' not in href and href not in seen:
                               title = link.get('title', '') or link.get_text(strip=True)
                               for suffix in [' по сети', ' По Сети', ' Online', ' online']:
                                   if title.endswith(suffix):
                                       title = title[:-len(suffix)].strip()
-                              
-                              if title and not any(c in title for c in ['©', '→', '←']):
+
+                              if title and not title.strip().isdigit():
                                   seen.add(href)
                                   found_any = True
-                                  
-                                  # Resolve Steam AppID
-                                  app_id = resolve_appid(title)
-                                  time.sleep(0.3)  # polite delay for Steam API
-                                  
+
+                                  app_id = resolve_appid(title, href)
+                                  time.sleep(0.3)
+
                                   entry = {'title': title}
                                   if app_id:
                                       entry['appId'] = app_id
                                       print(f'✓ {title} → {app_id}')
                                   else:
                                       print(f'✗ {title} → no match')
-                                  
+
                                   games.append(entry)
-                      
+
                       if not found_any:
                           break
-                      
+
                       print(f'{category} page {page}: {len(games)} total games')
                       page += 1
                       time.sleep(0.5)
-                      
+
                   except Exception as e:
                       print(f'Error on {url}: {e}')
                       break
 
           result = {'name': 'onlinefix', 'games': games}
-          
+
           with open('onlinefix.json', 'w', encoding='utf-8') as f:
               json.dump(result, f, ensure_ascii=False, indent=2)
-          
-          print(f'Done - {len(games)} games, {sum(1 for g in games if "appId" in g)} with AppID')
+
+          matched = sum(1 for g in games if 'appId' in g)
+          print(f'Done - {len(games)} games, {matched} with AppID')
           EOF
 
       - name: Commit and push
