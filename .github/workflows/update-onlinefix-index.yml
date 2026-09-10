@@ -14,24 +14,23 @@ jobs:
 
       - name: Fetch and strip hydralinks index
         run: |
-          curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" \
-               -H "Accept: application/json" \
-               -o raw.json \
-               https://hydralinks.cloud/sources/onlinefix.json
-          
-          echo "First 200 chars:"
-          head -c 200 raw.json
+          docker run --rm \
+            lwthiker/curl-impersonate:0.5-chrome \
+            curl_chrome110 \
+            -H "Accept: application/json, text/plain, */*" \
+            -H "Accept-Language: en-US,en;q=0.9" \
+            -o /tmp/raw.json \
+            https://hydralinks.cloud/sources/onlinefix.json
           
           python3 -c "
           import json
-          with open('raw.json') as f:
+          with open('/tmp/raw.json') as f:
               data = json.load(f)
           for entry in data.get('downloads', []):
               entry.pop('uris', None)
           with open('onlinefix.json', 'w') as f:
               json.dump(data, f)
           "
-          rm raw.json
 
       - name: Commit and push
         run: |
