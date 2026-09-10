@@ -105,6 +105,11 @@ jobs:
               key = normalise(title)
               matches = steam_lookup.get(key, [])
 
+              print(f'  Key: "{key}", matches found: {len(matches)}')
+              if not matches:
+                  similar = [k for k in steam_lookup if 'hood' in k and 'outlaw' in k]
+                  print(f'  Similar keys in lookup: {similar}')
+
               if not matches:
                   return None
 
