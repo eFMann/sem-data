@@ -147,6 +147,10 @@ jobs:
                       if normalise(item.get('name', '')) == key
                   ]
 
+                  if 'hood' in search_term.lower():
+                      print(f'  API results for "{search_term}": {[(i["name"], normalise(i["name"])) for i in items[:5]]}')
+
+
                   if not exact_matches:
                       continue
 
