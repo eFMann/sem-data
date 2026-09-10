@@ -91,6 +91,8 @@ jobs:
                   if not items:
                       return None
 
+                  print(f'  Steam results for "{title}": {[item.get("name") for item in items[:5]]}')
+
                   needle = normalise(title)
                   
                   # Find all exact name matches
