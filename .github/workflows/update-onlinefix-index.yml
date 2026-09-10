@@ -19,6 +19,9 @@ jobs:
                -o raw.json \
                https://hydralinks.cloud/sources/onlinefix.json
           
+          echo "First 200 chars:"
+          head -c 200 raw.json
+          
           python3 -c "
           import json
           with open('raw.json') as f:
