@@ -22,13 +22,14 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Scrape online-fix.me game list
+      - name: Scrape online-fix.me and resolve Steam AppIDs
         run: |
           python3 << 'EOF'
           import requests
           from bs4 import BeautifulSoup
           import json
           import time
+          import re
 
           headers = {
               'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
@@ -36,10 +37,40 @@ jobs:
               'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
           }
 
+          def normalise(s):
+              if not s:
+                  return ''
+              s = s.lower()
+              s = re.sub(r'[™®©℠]', '', s)
+              s = re.sub(r"'s\b", 's', s)
+              s = re.sub(r"'", '', s)
+              s = re.sub(r'[:!()\.\-&]', ' ', s)
+              s = re.sub(r'[^\w\s]', ' ', s)
+              s = re.sub(r'\s+', ' ', s).strip()
+              return s
+
+          def resolve_appid(title):
+              try:
+                  url = f'https://store.steampowered.com/api/storesearch?term={requests.utils.quote(title)}&l=english&cc=US'
+                  r = requests.get(url, timeout=10)
+                  data = r.json()
+                  items = data.get('items', [])
+                  if not items:
+                      return None
+                  
+                  needle = normalise(title)
+                  for item in items[:5]:
+                      candidate = normalise(item.get('name', ''))
+                      if candidate == needle:
+                          return str(item['id'])
+                  
+                  return None
+              except:
+                  return None
+
           games = []
           seen = set()
 
-          # Scrape all category listing pages
           categories = [
               'adventures', 'arcade', 'horror', 'officialservers',
               'rpg', 'shooter', 'simulator', 'strategy', 'survival',
@@ -60,35 +91,33 @@ jobs:
                           break
                       
                       soup = BeautifulSoup(r.content.decode('windows-1251', errors='replace'), 'html.parser')
-                      
-                      # Find game links matching pattern /games/category/id-name-po-seti.html
                       links = soup.find_all('a', href=True)
                       found_any = False
                       
                       for link in links:
                           href = link['href']
                           if '/games/' in href and 'po-seti' in href and href not in seen:
-                              # Extract game name from URL
-                              parts = href.rstrip('/').split('/')
-                              if len(parts) >= 2:
-                                  slug = parts[-1].replace('-po-seti.html', '').replace('-online.html', '')
-                                  # Remove leading ID number
-                                  slug_parts = slug.split('-')
-                                  if slug_parts[0].isdigit():
-                                      slug_parts = slug_parts[1:]
-                                  name = ' '.join(slug_parts).title()
+                              title = link.get('title', '') or link.get_text(strip=True)
+                              for suffix in [' по сети', ' По Сети', ' Online', ' online']:
+                                  if title.endswith(suffix):
+                                      title = title[:-len(suffix)].strip()
+                              
+                              if title and not any(c in title for c in ['©', '→', '←']):
+                                  seen.add(href)
+                                  found_any = True
                                   
-                                  # Also try to get title from link text or title attribute
-                                  title = link.get('title', '') or link.get_text(strip=True)
-                                  # Clean up Cyrillic "по сети" suffix
-                                  for suffix in [' по сети', ' По Сети', ' Online', ' online']:
-                                      if title.endswith(suffix):
-                                          title = title[:-len(suffix)].strip()
+                                  # Resolve Steam AppID
+                                  app_id = resolve_appid(title)
+                                  time.sleep(0.3)  # polite delay for Steam API
                                   
-                                  if title and not any(c in title for c in ['©', '→', '←']):
-                                      games.append({'title': title})
-                                      seen.add(href)
-                                      found_any = True
+                                  entry = {'title': title}
+                                  if app_id:
+                                      entry['appId'] = app_id
+                                      print(f'✓ {title} → {app_id}')
+                                  else:
+                                      print(f'✗ {title} → no match')
+                                  
+                                  games.append(entry)
                       
                       if not found_any:
                           break
@@ -106,7 +135,7 @@ jobs:
           with open('onlinefix.json', 'w', encoding='utf-8') as f:
               json.dump(result, f, ensure_ascii=False, indent=2)
           
-          print(f'Done - {len(games)} games saved')
+          print(f'Done - {len(games)} games, {sum(1 for g in games if "appId" in g)} with AppID')
           EOF
 
       - name: Commit and push
