@@ -50,11 +50,29 @@ jobs:
               s = re.sub(r'\s+', ' ', s).strip()
               return s
 
+          # Build Steam app lookup from complete app list
+          print('Fetching Steam app list...')
+          r = requests.get('https://api.steampowered.com/ISteamApps/GetAppList/v2/', timeout=30)
+          steam_apps = r.json().get('applist', {}).get('apps', [])
+
+          # Build normalised name → list of appids lookup
+          steam_lookup = {}
+          for app in steam_apps:
+              name = app.get('name', '')
+              app_id = str(app.get('appid', ''))
+              if not name or not app_id:
+                  continue
+              key = normalise(name)
+              if key not in steam_lookup:
+                  steam_lookup[key] = []
+              steam_lookup[key].append({'id': app_id, 'name': name})
+
+          print(f'Steam app list loaded: {len(steam_apps)} apps')
+
           def get_onlinefix_release_date(page_url):
               try:
                   r = requests.get(page_url, headers=headers, timeout=15)
                   content = r.content.decode('windows-1251', errors='replace')
-                  # Pattern: Релиз игры: 25.02.2022
                   match = re.search(r'[Рр]елиз\s+игры[:\s]+(\d{2}\.\d{2}\.\d{4})', content)
                   if match:
                       return datetime.strptime(match.group(1), '%d.%m.%Y').date()
@@ -70,7 +88,6 @@ jobs:
                   app_data = data.get(str(app_id), {}).get('data', {})
                   date_str = app_data.get('release_date', {}).get('date', '')
                   if date_str:
-                      # Steam returns dates like "25 Feb, 2022"
                       try:
                           return datetime.strptime(date_str, '%d %b, %Y').date()
                       except:
@@ -83,55 +100,33 @@ jobs:
               return None
 
           def resolve_appid(title, page_url):
-              try:
-                  url = f'https://store.steampowered.com/api/storesearch?term={requests.utils.quote(title)}&l=english&cc=US'
-                  r = requests.get(url, timeout=10)
-                  data = r.json()
-                  items = data.get('items', [])
-                  if not items:
-                      return None
+              key = normalise(title)
+              matches = steam_lookup.get(key, [])
 
-                  print(f'  Steam results for "{title}": {[item.get("name") for item in items[:5]]}')
-
-                  needle = normalise(title)
-                  
-                  # Find all exact name matches
-                  exact_matches = [
-                      item for item in items[:10]
-                      if normalise(item.get('name', '')) == needle
-                  ]
-
-                  if not exact_matches:
-                      return None
-
-                  # Only one exact match — no ambiguity
-                  if len(exact_matches) == 1:
-                      return str(exact_matches[0]['id'])
-
-                  # Multiple exact matches — use release date to disambiguate
-                  print(f'  Multiple matches for "{title}" — fetching release dates...')
-                  
-                  of_date = get_onlinefix_release_date(page_url)
-                  if of_date is None:
-                      # Can't get Online-Fix date — just take first match
-                      return str(exact_matches[0]['id'])
-
-                  time.sleep(0.3)
-
-                  for item in exact_matches:
-                      steam_date = get_steam_release_date(item['id'])
-                      time.sleep(0.3)
-                      if steam_date and steam_date == of_date:
-                          print(f'  Matched by date {of_date} → {item["id"]}')
-                          return str(item['id'])
-
-                  # No date match found — fall back to first result
-                  print(f'  No date match found — using first result')
-                  return str(exact_matches[0]['id'])
-
-              except Exception as e:
-                  print(f'  resolve_appid error: {e}')
+              if not matches:
                   return None
+
+              # Only one match — no ambiguity
+              if len(matches) == 1:
+                  return matches[0]['id']
+
+              # Multiple matches — use release date to disambiguate
+              print(f'  Multiple matches for "{title}" — fetching release dates...')
+
+              of_date = get_onlinefix_release_date(page_url)
+              if of_date is None:
+                  return None
+
+              time.sleep(0.3)
+
+              for match in matches:
+                  steam_date = get_steam_release_date(match['id'])
+                  time.sleep(0.3)
+                  if steam_date and steam_date == of_date:
+                      print(f'  Matched by date {of_date} → {match["id"]}')
+                      return match['id']
+
+              return None
 
           games = []
           seen = set()
@@ -170,10 +165,8 @@ jobs:
                               if title and not title.strip().isdigit():
                                   seen.add(href)
                                   found_any = True
-                                  
-                                  print(f'  Raw title: "{title}"')
+
                                   app_id = resolve_appid(title, href)
-                                  time.sleep(0.3)
 
                                   entry = {'title': title}
                                   if app_id:
