@@ -170,7 +170,8 @@ jobs:
                               if title and not title.strip().isdigit():
                                   seen.add(href)
                                   found_any = True
-
+                                  
+                                  print(f'  Raw title: "{title}"')
                                   app_id = resolve_appid(title, href)
                                   time.sleep(0.3)
 
