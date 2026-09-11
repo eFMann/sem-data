@@ -274,7 +274,7 @@ jobs:
                                   platform = page_info['platform']
                                   time.sleep(0.3)
 
-                                  app_id = resolve_appid(title, href)
+                                  app_id = resolve_appid(title, full_href)
                                   time.sleep(0.3)
 
                                   entry = {'title': title, 'platform': platform}
