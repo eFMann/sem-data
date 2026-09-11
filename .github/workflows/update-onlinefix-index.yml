@@ -30,6 +30,7 @@ jobs:
           import json
           import time
           import re
+          import os
           from datetime import datetime
 
           headers = {
@@ -50,6 +51,14 @@ jobs:
               s = re.sub(r'\s+', ' ', s).strip()
               return s
 
+          # Load manual overrides if they exist
+          manual_path = 'OnlineFix/manual_appids.json'
+          manual_appids = {}
+          if os.path.exists(manual_path):
+              with open(manual_path, encoding='utf-8') as f:
+                  manual_appids = json.load(f)
+              print(f'Loaded {len(manual_appids)} manual AppID overrides')
+
           # Build Steam app lookup from json
           print('Fetching Steam app list...')
           r = requests.get('https://raw.githubusercontent.com/jsnli/steamappidlist/refs/heads/master/data/games_appid.json', timeout=60)
@@ -57,7 +66,6 @@ jobs:
               raise Exception(f'Steam app list failed: status={r.status_code}')
           steam_apps = r.json()
 
-          # Build normalised name → list of entries lookup
           steam_lookup = {}
           for app in steam_apps:
               name = app.get('name', '')
@@ -102,6 +110,11 @@ jobs:
               return None
 
           def resolve_appid(title, page_url):
+              # Check manual overrides first
+              if title in manual_appids:
+                  print(f'  Manual override: {title} → {manual_appids[title]}')
+                  return manual_appids[title]
+
               key = normalise(title)
 
               # Primary — JSON lookup
@@ -111,8 +124,8 @@ jobs:
                   if len(matches) == 1:
                       return str(matches[0]['id'])
 
-                  # Multiple JSON matches — use release date
-                  print(f'  Multiple JSON matches for "{title}" — fetching release dates...')
+                  # Multiple matches — use release date
+                  print(f'  Multiple matches for "{title}" — fetching release dates...')
                   of_date = get_onlinefix_release_date(page_url)
                   if of_date is None:
                       return None
@@ -125,7 +138,7 @@ jobs:
                           return str(match['id'])
                   return None
 
-              # Fallback — word by word Steam API search to find exact name
+              # Fallback — Steam API search
               words = [w for w in title.split() if len(w) > 2]
 
               for num_words in range(2, min(4, len(words) + 1)):
@@ -141,32 +154,22 @@ jobs:
                   if not items:
                       continue
 
-                  # Find items where normalised name matches our normalised title
                   exact_matches = [
                       item for item in items
                       if normalise(item.get('name', '')) == key
                   ]
 
-                  if 'hood' in search_term.lower():
-                      print(f'  API results for "{search_term}": {[(i["name"], normalise(i["name"])) for i in items[:5]]}')
-
-
                   if not exact_matches:
                       continue
 
-                  print(f'  Found via API search "{search_term}": {[i["name"] for i in exact_matches]}')
-
                   if len(exact_matches) == 1:
-                      # Now look up in JSON using exact Steam name
                       exact_key = normalise(exact_matches[0]['name'])
                       json_matches = steam_lookup.get(exact_key, [])
                       if json_matches:
                           return str(json_matches[0]['id'])
-                      # Not in JSON — use API result directly
                       return str(exact_matches[0]['id'])
 
                   # Multiple API matches — use release date
-                  print(f'  Multiple API matches for "{title}" — fetching release dates...')
                   of_date = get_onlinefix_release_date(page_url)
                   if of_date is None:
                       return None
@@ -183,6 +186,7 @@ jobs:
               return None
 
           games = []
+          unresolved = []
           seen = set()
 
           categories = [
@@ -229,6 +233,7 @@ jobs:
                                       print(f'✓ {title} → {app_id}')
                                   else:
                                       print(f'✗ {title} → no match')
+                                      unresolved.append(title)
 
                                   games.append(entry)
 
@@ -243,19 +248,29 @@ jobs:
                       print(f'Error on {url}: {e}')
                       break
 
-          result = {'name': 'onlinefix', 'games': games}
+          # Write output files to OnlineFix folder
+          os.makedirs('OnlineFix', exist_ok=True)
 
-          with open('onlinefix.json', 'w', encoding='utf-8') as f:
-              json.dump(result, f, ensure_ascii=False, indent=2)
+          with open('OnlineFix/onlinefix.json', 'w', encoding='utf-8') as f:
+              json.dump({'name': 'onlinefix', 'games': games}, f, ensure_ascii=False, indent=2)
+
+          with open('OnlineFix/unresolved.json', 'w', encoding='utf-8') as f:
+              json.dump(unresolved, f, ensure_ascii=False, indent=2)
+
+          # Create manual_appids.json if it doesn't exist
+          if not os.path.exists(manual_path):
+              with open(manual_path, 'w', encoding='utf-8') as f:
+                  json.dump({}, f, ensure_ascii=False, indent=2)
+              print('Created empty manual_appids.json')
 
           matched = sum(1 for g in games if 'appId' in g)
-          print(f'Done - {len(games)} games, {matched} with AppID')
+          print(f'Done - {len(games)} games, {matched} with AppID, {len(unresolved)} unresolved')
           EOF
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add onlinefix.json
+          git add OnlineFix/
           git diff --staged --quiet || git commit -m "Update onlinefix index"
           git push
