@@ -267,6 +267,8 @@ jobs:
                                   seen.add(href)
                                   found_any = True
 
+                                  full_href = href if href.startswith('http') else f'https://online-fix.me{href}'
+
                                   # Fetch game page info (platform + release date)
                                   page_info = get_game_page_info(href)
                                   platform = page_info['platform']
