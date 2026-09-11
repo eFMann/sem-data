@@ -79,16 +79,57 @@ jobs:
 
           print(f'Steam app list loaded: {len(steam_apps)} apps')
 
-          def get_onlinefix_release_date(page_url):
+          # Cache for game page info to avoid double fetching
+          page_info_cache = {}
+
+          def get_game_page_info(page_url):
+              """Fetch game page once and extract both platform and release date."""
+              if page_url in page_info_cache:
+                  return page_info_cache[page_url]
+
+              result = {'platform': 'Steam', 'release_date': None}
+
               try:
                   r = requests.get(page_url, headers=headers, timeout=15)
                   content = r.content.decode('windows-1251', errors='replace')
-                  match = re.search(r'[Рр]елиз\s+игры[:\s]+(\d{2}\.\d{2}\.\d{4})', content)
-                  if match:
-                      return datetime.strptime(match.group(1), '%d.%m.%Y').date()
-              except:
-                  pass
-              return None
+
+                  # Extract platform — "Игра через: Steam" or "Игра через: Epic" etc
+                  platform_match = re.search(
+                      r'[Ии]гра\s+через[:\s]+([^\n<]+)',
+                      content
+                  )
+                  if platform_match:
+                      platform_raw = platform_match.group(1).strip()
+                      # Normalise platform name
+                      p = platform_raw.lower()
+                      if 'epic' in p:
+                          result['platform'] = 'Epic'
+                      elif 'steam' in p:
+                          result['platform'] = 'Steam'
+                      elif 'battle' in p or 'blizzard' in p:
+                          result['platform'] = 'Battle.net'
+                      elif 'xbox' in p or 'microsoft' in p:
+                          result['platform'] = 'Xbox'
+                      elif 'ubisoft' in p or 'uplay' in p:
+                          result['platform'] = 'Ubisoft'
+                      else:
+                          result['platform'] = platform_raw
+
+                  # Extract release date — "Релиз игры: 25.02.2022"
+                  date_match = re.search(
+                      r'[Рр]елиз\s+игры[:\s]+(\d{2}\.\d{2}\.\d{4})',
+                      content
+                  )
+                  if date_match:
+                      result['release_date'] = datetime.strptime(
+                          date_match.group(1), '%d.%m.%Y'
+                      ).date()
+
+              except Exception as e:
+                  print(f'  Page fetch error for {page_url}: {e}')
+
+              page_info_cache[page_url] = result
+              return result
 
           def get_steam_release_date(app_id):
               try:
@@ -126,7 +167,8 @@ jobs:
 
                   # Multiple matches — use release date
                   print(f'  Multiple matches for "{title}" — fetching release dates...')
-                  of_date = get_onlinefix_release_date(page_url)
+                  info = get_game_page_info(page_url)
+                  of_date = info['release_date']
                   if of_date is None:
                       return None
                   time.sleep(0.3)
@@ -170,7 +212,8 @@ jobs:
                       return str(exact_matches[0]['id'])
 
                   # Multiple API matches — use release date
-                  of_date = get_onlinefix_release_date(page_url)
+                  info = get_game_page_info(page_url)
+                  of_date = info['release_date']
                   if of_date is None:
                       return None
                   time.sleep(0.3)
@@ -224,16 +267,21 @@ jobs:
                                   seen.add(href)
                                   found_any = True
 
+                                  # Fetch game page info (platform + release date)
+                                  page_info = get_game_page_info(href)
+                                  platform = page_info['platform']
+                                  time.sleep(0.3)
+
                                   app_id = resolve_appid(title, href)
                                   time.sleep(0.3)
 
-                                  entry = {'title': title}
+                                  entry = {'title': title, 'platform': platform}
                                   if app_id:
                                       entry['appId'] = app_id
-                                      print(f'✓ {title} → {app_id}')
+                                      print(f'✓ {title} [{platform}] → {app_id}')
                                   else:
-                                      print(f'✗ {title} → no match')
-                                      unresolved.append(title)
+                                      print(f'✗ {title} [{platform}] → no match')
+                                      unresolved.append({'title': title, 'platform': platform})
 
                                   games.append(entry)
 
@@ -257,7 +305,6 @@ jobs:
           with open('OnlineFix/unresolved.json', 'w', encoding='utf-8') as f:
               json.dump(unresolved, f, ensure_ascii=False, indent=2)
 
-          # Create manual_appids.json if it doesn't exist
           if not os.path.exists(manual_path):
               with open(manual_path, 'w', encoding='utf-8') as f:
                   json.dump({}, f, ensure_ascii=False, indent=2)
