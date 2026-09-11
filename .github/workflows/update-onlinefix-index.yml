@@ -270,7 +270,8 @@ jobs:
                                   full_href = href if href.startswith('http') else f'https://online-fix.me{href}'
 
                                   # Fetch game page info (platform + release date)
-                                  page_info = get_game_page_info(href)
+                                  page_info = get_game_page_info(full_href)
+
                                   platform = page_info['platform']
                                   time.sleep(0.3)
 
