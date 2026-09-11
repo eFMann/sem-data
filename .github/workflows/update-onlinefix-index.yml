@@ -95,12 +95,13 @@ jobs:
 
                   # Extract platform — "Игра через: Steam" or "Игра через: Epic" etc
                   platform_match = re.search(
-                      r'через[:\s]+([^\n<]+)',
-                      content
+                      r'через[:\s]*<a[^>]*>([^<]+)</a>',
+                      content,
+                      re.IGNORECASE
                   )
-
                   if platform_match:
                       platform_raw = platform_match.group(1).strip()
+
                       # Normalise platform name
                       p = platform_raw.lower()
                       if 'epic' in p:
