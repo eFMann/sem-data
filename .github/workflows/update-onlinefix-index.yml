@@ -244,7 +244,13 @@ jobs:
 
                       for link in links:
                           href = link['href']
-                                if '/games/' in href and ('-po-seti' in href or href.endswith('-online.html')) and '#' not in href and href not in seen and link.find_parent('h2'):
+                          if (
+                              '/games/' in href
+                              and ('-po-seti' in href or href.endswith('-online.html'))
+                              and '#' not in href
+                              and href not in seen
+                              and link.find_parent('h2')
+                          ):
                               title = link.get('title', '') or link.get_text(strip=True)
                               for suffix in [' по сети', ' По Сети', ' Online', ' online']:
                                   if title.endswith(suffix):
@@ -256,14 +262,14 @@ jobs:
                               seen.add(href)
                               found_any = True
 
-                              parent = link.parent
-                              for _ in range(5):
-                                  if parent and parent.name in ['article', 'div', 'section', 'li']:
+                              # Get the h2 parent and collect siblings for entry HTML
+                              parent_h2 = link.find_parent('h2')
+                              entry_parts = [str(parent_h2)]
+                              for sibling in parent_h2.next_siblings:
+                                  if sibling.name == 'h2':
                                       break
-                                  if parent:
-                                      parent = parent.parent
-
-                              entry_html = str(parent) if parent else ''
+                                  entry_parts.append(str(sibling))
+                              entry_html = ''.join(entry_parts)
 
                               platform = extract_platform_from_entry(entry_html)
                               release_date = extract_release_date(entry_html)
