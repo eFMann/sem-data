@@ -239,57 +239,53 @@ jobs:
 
                       content = r.content.decode('windows-1251', errors='replace')
                       soup = BeautifulSoup(content, 'html.parser')
+                      found_any = False
 
-                      # Find all h2 tags containing game links
-                      h2_tags = soup.find_all('h2')
-                      game_h2s = []
-                      for h2 in h2_tags:
-                          a = h2.find('a', href=True)
-                          if a and '/games/' in a['href'] and ('-po-seti' in a['href'] or a['href'].endswith('-online.html')) and '#' not in a['href']:
-                              game_h2s.append(h2)
+                      links = soup.find_all('a', href=True)
 
-                      for h2 in game_h2s:
-                          a = h2.find('a', href=True)
-                          href = a['href']
+                      for link in links:
+                          href = link['href']
+                          if '/games/' in href and ('-po-seti' in href or href.endswith('-online.html')) and '#' not in href and href not in seen:
+                              title = link.get('title', '') or link.get_text(strip=True)
+                              for suffix in [' по сети', ' По Сети', ' Online', ' online']:
+                                  if title.endswith(suffix):
+                                      title = title[:-len(suffix)].strip()
 
-                          if href in seen:
-                              continue
+                              if not title or title.strip().isdigit():
+                                  continue
 
-                          title = a.get('title', '') or a.get_text(strip=True)
-                          for suffix in [' по сети', ' По Сети', ' Online', ' online']:
-                              if title.endswith(suffix):
-                                  title = title[:-len(suffix)].strip()
+                              seen.add(href)
+                              found_any = True
 
-                          if not title or title.strip().isdigit():
-                              continue
+                              # Find the h2 parent and collect siblings for entry HTML
+                              parent_h2 = link.find_parent('h2')
+                              if parent_h2:
+                                  entry_parts = [str(parent_h2)]
+                                  for sibling in parent_h2.next_siblings:
+                                      if sibling.name == 'h2':
+                                          break
+                                      entry_parts.append(str(sibling))
+                                  entry_html = ''.join(entry_parts)
+                              else:
+                                  entry_html = ''
 
-                          seen.add(href)
+                              platform = extract_platform_from_entry(entry_html)
+                              release_date = extract_release_date(entry_html)
 
-                          # Collect siblings after h2 until next h2
-                          entry_parts = [str(h2)]
-                          for sibling in h2.next_siblings:
-                              if sibling.name == 'h2':
-                                  break
-                              entry_parts.append(str(sibling))
-                          entry_html = ''.join(entry_parts)
+                              app_id = resolve_appid(title, release_date)
+                              time.sleep(0.3)
 
-                          platform = extract_platform_from_entry(entry_html)
-                          release_date = extract_release_date(entry_html)
+                              entry = {'title': title, 'platform': platform}
+                              if app_id:
+                                  entry['appId'] = app_id
+                                  print(f'✓ {title} [{platform}] → {app_id}')
+                              else:
+                                  print(f'✗ {title} [{platform}] → no match')
+                                  unresolved.append({'title': title, 'platform': platform})
 
-                          app_id = resolve_appid(title, release_date)
-                          time.sleep(0.3)
+                              games.append(entry)
 
-                          entry = {'title': title, 'platform': platform}
-                          if app_id:
-                              entry['appId'] = app_id
-                              print(f'✓ {title} [{platform}] → {app_id}')
-                          else:
-                              print(f'✗ {title} [{platform}] → no match')
-                              unresolved.append({'title': title, 'platform': platform})
-
-                          games.append(entry)
-
-                      if not game_h2s:
+                      if not found_any:
                           break
 
                       print(f'{category} page {page}: {len(games)} total games')
