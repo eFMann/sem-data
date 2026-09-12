@@ -52,7 +52,6 @@ jobs:
               return s
 
           def extract_platform_from_entry(entry_html):
-              # Match both /programs/XXXXX and /files/progs/XXXXX
               program_links = re.findall(
                   r'(?:programs|files/progs)/(\d+)-[^"]+\.html',
                   entry_html,
@@ -257,17 +256,14 @@ jobs:
                               seen.add(href)
                               found_any = True
 
-                              # Find the h2 parent and collect siblings for entry HTML
-                              parent_h2 = link.find_parent('h2')
-                              if parent_h2:
-                                  entry_parts = [str(parent_h2)]
-                                  for sibling in parent_h2.next_siblings:
-                                      if sibling.name == 'h2':
-                                          break
-                                      entry_parts.append(str(sibling))
-                                  entry_html = ''.join(entry_parts)
-                              else:
-                                  entry_html = ''
+                              parent = link.parent
+                              for _ in range(5):
+                                  if parent and parent.name in ['article', 'div', 'section', 'li']:
+                                      break
+                                  if parent:
+                                      parent = parent.parent
+
+                              entry_html = str(parent) if parent else ''
 
                               platform = extract_platform_from_entry(entry_html)
                               release_date = extract_release_date(entry_html)
