@@ -1,1 +1,1372 @@
-[]
+[
+  {
+    "name": "A Total War Saga: Troy",
+    "appId": "1099410,1188790,1353190,1486710,1553060,1553061,1720820",
+    "status": "active"
+  },
+  {
+    "name": "Ace Combat 8: Wings of Theve",
+    "appId": "2288340",
+    "status": "active"
+  },
+  {
+    "name": "Anno 117: Pax Romana",
+    "appId": "3274580,3749050, 3749060, 3749080, 3749090, 3875910, 4168120, 4168130",
+    "status": "active"
+  },
+  {
+    "name": "Anno 1800",
+    "appId": "916440",
+    "status": "active"
+  },
+  {
+    "name": "Anno 2205",
+    "appId": "375910",
+    "status": "active"
+  },
+  {
+    "name": "Anthem",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "Assassin's Creed Mirage",
+    "appId": "3035570",
+    "status": "active"
+  },
+  {
+    "name": "Assassin's Creed Odyssey",
+    "appId": "812140,937890,937891,937892",
+    "status": "active"
+  },
+  {
+    "name": "Assassin's Creed Origins",
+    "appId": "582160",
+    "status": "active"
+  },
+  {
+    "name": "Assassin's Creed Shadows",
+    "appId": "3159330,3362570, 3362550",
+    "status": "active"
+  },
+  {
+    "name": "Assassin's Creed Valhalla",
+    "appId": "2208920",
+    "status": "active"
+  },
+  {
+    "name": "Assassin's Creed: Black Flag Resynced",
+    "appId": "3751950,4496490, 4496510, 4496530, 4496550, 4496580, 4496600, 4496620, 4496640, 4496660",
+    "status": "active"
+  },
+  {
+    "name": "Atomfall",
+    "appId": "801800,3607720, 3047140, 3252020",
+    "status": "active"
+  },
+  {
+    "name": "Avatar: Frontiers of Pandora",
+    "appId": "2840770",
+    "status": "active"
+  },
+  {
+    "name": "Battlefield 1",
+    "appId": "1238840",
+    "status": "active"
+  },
+  {
+    "name": "Battlefield 2042",
+    "appId": "1517290",
+    "status": "active"
+  },
+  {
+    "name": "Battlefield Hardline",
+    "appId": "1238880",
+    "status": "active"
+  },
+  {
+    "name": "Battlefield V",
+    "appId": "1238810",
+    "status": "active"
+  },
+  {
+    "name": "Battlezone (2017)",
+    "appId": "312650,558830,558831,558832,558833,558834,558835,558836,594430,594431,594432,594433,594440,594450,594451,594452,594453,594454,594460,594461,594462,594463,594464,594470,594480,623130,623131,623132,623133,623134",
+    "status": "active"
+  },
+  {
+    "name": "Beyond Good & Evil: 20th Anniversary Edition",
+    "appId": "2556990",
+    "status": "active"
+  },
+  {
+    "name": "Black Myth: Wukong",
+    "appId": "2358720,2672610, 3132990",
+    "status": "active"
+  },
+  {
+    "name": "Borderlands 4",
+    "appId": "1285190",
+    "status": "active"
+  },
+  {
+    "name": "Burnout Paradise Remastered",
+    "appId": "1238080",
+    "status": "active"
+  },
+  {
+    "name": "Champions of Anteria",
+    "appId": "374520,455420",
+    "status": "active"
+  },
+  {
+    "name": "City Transport Simulator 2026",
+    "appId": "4148530",
+    "status": "active"
+  },
+  {
+    "name": "Code Vein",
+    "appId": "678960",
+    "status": "active"
+  },
+  {
+    "name": "Construction Simulator",
+    "appId": "1273400,1944340, 1944341, 2153870, 2203420, 2291420, 2295780, 2295810, 2295820, 2322970, 2322980, 2322990, 2323000, 2657380, 2657390, 2657420, 2666240",
+    "status": "active"
+  },
+  {
+    "name": "Crazy Taxi: World Tour",
+    "appId": "2924540",
+    "status": "active"
+  },
+  {
+    "name": "Crimson Desert",
+    "appId": "3321460,4024620",
+    "status": "active"
+  },
+  {
+    "name": "Crysis 2 Remastered",
+    "appId": "2096600",
+    "status": "active"
+  },
+  {
+    "name": "Crysis 3 Remastered",
+    "appId": "2096610",
+    "status": "active"
+  },
+  {
+    "name": "DIRT 5",
+    "appId": "1038250",
+    "status": "active"
+  },
+  {
+    "name": "Damaged Core",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "Dead Rising 4",
+    "appId": "543460",
+    "status": "active"
+  },
+  {
+    "name": "Dead Space (2023)",
+    "appId": "1693980,2164210",
+    "status": "active"
+  },
+  {
+    "name": "Deathloop",
+    "appId": "1252330",
+    "status": "active"
+  },
+  {
+    "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+    "appId": "1490890",
+    "status": "active"
+  },
+  {
+    "name": "Deus Ex: Mankind Divided",
+    "appId": "337000,413360,413370,413380,413390,470070,609220",
+    "status": "active"
+  },
+  {
+    "name": "Discovery Tour: Ancient Egypt",
+    "appId": "775430",
+    "status": "active"
+  },
+  {
+    "name": "Dragon Age: Inquisition",
+    "appId": "1222690",
+    "status": "active"
+  },
+  {
+    "name": "Dragon Ball FighterZ",
+    "appId": "678950",
+    "status": "active"
+  },
+  {
+    "name": "Dragon Quest Heroes II",
+    "appId": "574050",
+    "status": "active"
+  },
+  {
+    "name": "Dragon Quest Monsters: The Withered World",
+    "appId": "3681610",
+    "status": "active"
+  },
+  {
+    "name": "Dragon Quest XI",
+    "appId": "742120",
+    "status": "active"
+  },
+  {
+    "name": "EA Sports FC 24",
+    "appId": "2195250,2380512, 2195260",
+    "status": "active"
+  },
+  {
+    "name": "EA Sports FC 25",
+    "appId": "2669320,1033082, 1033078",
+    "status": "active"
+  },
+  {
+    "name": "EA Sports FC 26",
+    "appId": "3405690",
+    "status": "active"
+  },
+  {
+    "name": "EA Sports PGA Tour",
+    "appId": "1677350",
+    "status": "active"
+  },
+  {
+    "name": "EA Sports WRC",
+    "appId": "1849250",
+    "status": "active"
+  },
+  {
+    "name": "EFootball PES 2020",
+    "appId": "996470,996480",
+    "status": "active"
+  },
+  {
+    "name": "EFootball PES 2021 Season Update",
+    "appId": "1259970",
+    "status": "active"
+  },
+  {
+    "name": "EVE: Gunjack",
+    "appId": "410570",
+    "status": "active"
+  },
+  {
+    "name": "Ebaseball: Pro Spirit",
+    "appId": "4128400",
+    "status": "active"
+  },
+  {
+    "name": "Echoes of Aincrad",
+    "appId": "2244210,4148250",
+    "status": "active"
+  },
+  {
+    "name": "Edge of Nowhere",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "Etrian Odyssey HD",
+    "appId": "1868180",
+    "status": "active"
+  },
+  {
+    "name": "Etrian Odyssey II HD",
+    "appId": "1868170",
+    "status": "active"
+  },
+  {
+    "name": "Etrian Odyssey III HD",
+    "appId": "1810820",
+    "status": "active"
+  },
+  {
+    "name": "Evil Genius 2: World Domination",
+    "appId": "700600,1364224, 1545860, 1531602, 1531603, 1531604, 1531605, 1531606, 1531607",
+    "status": "active"
+  },
+  {
+    "name": "F1 2016",
+    "appId": "391040,480400",
+    "status": "active"
+  },
+  {
+    "name": "F1 2017",
+    "appId": "515220,600620",
+    "status": "active"
+  },
+  {
+    "name": "F1 2018",
+    "appId": "737800",
+    "status": "active"
+  },
+  {
+    "name": "F1 2019",
+    "appId": "928600",
+    "status": "active"
+  },
+  {
+    "name": "F1 2021",
+    "appId": "1134570",
+    "status": "active"
+  },
+  {
+    "name": "F1 22",
+    "appId": "1692250,1904900",
+    "status": "active"
+  },
+  {
+    "name": "F1 23",
+    "appId": "2108330",
+    "status": "active"
+  },
+  {
+    "name": "F1 24",
+    "appId": "2488620,2751140",
+    "status": "active"
+  },
+  {
+    "name": "F1 25",
+    "appId": "3059520",
+    "status": "active"
+  },
+  {
+    "name": "F1 Manager 2022",
+    "appId": "1708520",
+    "status": "active"
+  },
+  {
+    "name": "F1 Manager 2023",
+    "appId": "2287220,2386730",
+    "status": "active"
+  },
+  {
+    "name": "F1 Manager 2024",
+    "appId": "2591280,2934780, 2934790",
+    "status": "active"
+  },
+  {
+    "name": "FAR: Changing Tides",
+    "appId": "1570010,1684390",
+    "status": "active"
+  },
+  {
+    "name": "FIFA 15",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "FIFA 16",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "FIFA 17",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "FIFA 18",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "FIFA 19",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "FIFA 20",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "FIFA 21",
+    "appId": "1313860",
+    "status": "active"
+  },
+  {
+    "name": "FIFA 23",
+    "appId": "1811260",
+    "status": "active"
+  },
+  {
+    "name": "Far Cry 5",
+    "appId": "552520",
+    "status": "active"
+  },
+  {
+    "name": "Far Cry 6",
+    "appId": "2369390,2369472, 2369470, 2369458, 2369456, 2369454, 2369450",
+    "status": "active"
+  },
+  {
+    "name": "Far Cry New Dawn",
+    "appId": "939960,996970, 1019510, 1019511, 1019512, 1019513",
+    "status": "active"
+  },
+  {
+    "name": "Far Cry Primal",
+    "appId": "371660",
+    "status": "active"
+  },
+  {
+    "name": "Fe",
+    "appId": "1225580",
+    "status": "active"
+  },
+  {
+    "name": "Fernbus Simulator",
+    "appId": "427100",
+    "status": "active"
+  },
+  {
+    "name": "Final Fantasy Resonance",
+    "appId": "3259780",
+    "status": "active"
+  },
+  {
+    "name": "Final Fantasy Tactics - The Ivalice Chronicles",
+    "appId": "1004640,3681880, 58597, 1294130, 3589760, 3589750",
+    "status": "active"
+  },
+  {
+    "name": "Final Fantasy VII Revelation",
+    "appId": "4354570,4910840",
+    "status": "active"
+  },
+  {
+    "name": "Final Fantasy XV",
+    "appId": "637650,671210, 771560",
+    "status": "active"
+  },
+  {
+    "name": "Firefighting Simulator - The Squad",
+    "appId": "420560,695840",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 2017",
+    "appId": "482730",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 2018",
+    "appId": "624090",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 2019",
+    "appId": "872790",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 2020",
+    "appId": "1100600",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 2021",
+    "appId": "1263850,1277110",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 2021 Touch",
+    "appId": "1263860",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 2022",
+    "appId": "1569040",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 2023",
+    "appId": "1904540",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 2024",
+    "appId": "2252570,2473420, 2687760",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager 26",
+    "appId": "3551340,3551410, 3551360",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager Touch 2017",
+    "appId": "482750",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager Touch 2018",
+    "appId": "624120",
+    "status": "active"
+  },
+  {
+    "name": "Football Manager Touch 2019",
+    "appId": "872820",
+    "status": "active"
+  },
+  {
+    "name": "For Honor",
+    "appId": "304390,572600, 768350",
+    "status": "active"
+  },
+  {
+    "name": "GRID Legends",
+    "appId": "1307710",
+    "status": "active"
+  },
+  {
+    "name": "God Eater 2: Rage Burst",
+    "appId": "438490",
+    "status": "active"
+  },
+  {
+    "name": "God Eater: Resurrection",
+    "appId": "460870",
+    "status": "active"
+  },
+  {
+    "name": "Gundam Rogue Orbit",
+    "appId": "1963680",
+    "status": "active"
+  },
+  {
+    "name": "Handball 17",
+    "appId": "526980",
+    "status": "active"
+  },
+  {
+    "name": "Hatsune Miku: Project DIVA Mega Mix+",
+    "appId": "1761390",
+    "status": "active"
+  },
+  {
+    "name": "Hello Kitty Island Adventure",
+    "appId": "2495100",
+    "status": "active"
+  },
+  {
+    "name": "Hogwarts Legacy",
+    "appId": "990080",
+    "status": "active"
+  },
+  {
+    "name": "Hunting Simulator",
+    "appId": "585080",
+    "status": "active"
+  },
+  {
+    "name": "Immortals Fenyx Rising",
+    "appId": "2221920",
+    "status": "active"
+  },
+  {
+    "name": "Judgment",
+    "appId": "2058180",
+    "status": "active"
+  },
+  {
+    "name": "Jurassic World Evolution",
+    "appId": "648350",
+    "status": "active"
+  },
+  {
+    "name": "Jurassic World Evolution 2",
+    "appId": "1244460,1336321,1336322,1882470,1966010,2492640",
+    "status": "active"
+  },
+  {
+    "name": "Jurassic World Evolution 3",
+    "appId": "2958130,3651200, 3651190, 4131660, 4131670",
+    "status": "active"
+  },
+  {
+    "name": "Just Cause 4",
+    "appId": "517630",
+    "status": "active"
+  },
+  {
+    "name": "Just Dance 2017",
+    "appId": "446560",
+    "status": "active"
+  },
+  {
+    "name": "Left Alive",
+    "appId": "714370",
+    "status": "active"
+  },
+  {
+    "name": "Lego Batman: Legacy of the Dark Knight",
+    "appId": "2215200,4168610, 4168620, 4168630, 4168640, 4468750",
+    "status": "active"
+  },
+  {
+    "name": "Life Is Strange 2",
+    "appId": "532210",
+    "status": "active"
+  },
+  {
+    "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+    "appId": "2375550",
+    "status": "active"
+  },
+  {
+    "name": "Like a Dragon: Infinite Wealth",
+    "appId": "2072450",
+    "status": "active"
+  },
+  {
+    "name": "Like a Dragon: Ishin!",
+    "appId": "1805480",
+    "status": "active"
+  },
+  {
+    "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+    "appId": "3061810",
+    "status": "active"
+  },
+  {
+    "name": "Lords of the Fallen",
+    "appId": "265300,317200,317201,317202,317203,317208",
+    "status": "active"
+  },
+  {
+    "name": "Lost Judgment",
+    "appId": "2058190",
+    "status": "active"
+  },
+  {
+    "name": "Lost in Random",
+    "appId": "1462570",
+    "status": "active"
+  },
+  {
+    "name": "Mad Max",
+    "appId": "234140",
+    "status": "active"
+  },
+  {
+    "name": "Madden NFL 19",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "Madden NFL 20",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "Madden NFL 21",
+    "appId": "1239520",
+    "status": "active"
+  },
+  {
+    "name": "Madden NFL 22",
+    "appId": "1519350",
+    "status": "active"
+  },
+  {
+    "name": "Madden NFL 25",
+    "appId": "2582560",
+    "status": "active"
+  },
+  {
+    "name": "Madden NFL 26",
+    "appId": "3230400",
+    "status": "active"
+  },
+  {
+    "name": "Mafia: The Old Country",
+    "appId": "1941540",
+    "status": "active"
+  },
+  {
+    "name": "Maneater",
+    "appId": "629820",
+    "status": "active"
+  },
+  {
+    "name": "Marvel's Guardians of the Galaxy",
+    "appId": "1088850",
+    "status": "active"
+  },
+  {
+    "name": "Marvel's Midnight Suns",
+    "appId": "368260,1712442,1922631,1922632,1922633,1922634,2074340,2100870,2100871",
+    "status": "active"
+  },
+  {
+    "name": "Metal Gear Solid V: The Phantom Pain",
+    "appId": "287700",
+    "status": "active"
+  },
+  {
+    "name": "Metaphor: ReFantazio",
+    "appId": "2679460,3130330, 2924470, 2924450, 2924460, 2924440, 2924410, 2924420, 2924430, 2924400, 2924480, 2924490, 2999630, 2999640, 2999650, 2999660",
+    "status": "active"
+  },
+  {
+    "name": "Middle-earth: Shadow of War",
+    "appId": "356190",
+    "status": "active"
+  },
+  {
+    "name": "Might & Magic Heroes VII",
+    "appId": "321960",
+    "status": "active"
+  },
+  {
+    "name": "Might & Magic Heroes VII: Trial by Fire",
+    "appId": "445310",
+    "status": "active"
+  },
+  {
+    "name": "Mirror's Edge Catalyst",
+    "appId": "1233570",
+    "status": "active"
+  },
+  {
+    "name": "Monopoly (2024)",
+    "appId": "2929170",
+    "status": "active"
+  },
+  {
+    "name": "Monopoly Madness",
+    "appId": "2383760",
+    "status": "active"
+  },
+  {
+    "name": "Monopoly Plus",
+    "appId": "562810",
+    "status": "active"
+  },
+  {
+    "name": "Monopoly: Star Wars - Heroes vs. Villains",
+    "appId": "3936610",
+    "status": "active"
+  },
+  {
+    "name": "Monster Hunter Stories 3: Twisted Reflection",
+    "appId": "2852190",
+    "status": "active"
+  },
+  {
+    "name": "Monster Hunter Wilds",
+    "appId": "2246340",
+    "status": "active"
+  },
+  {
+    "name": "Mortal Kombat 1",
+    "appId": "1971870",
+    "status": "active"
+  },
+  {
+    "name": "NBA 2K24",
+    "appId": "2338770",
+    "status": "active"
+  },
+  {
+    "name": "NBA 2K25",
+    "appId": "2878980",
+    "status": "active"
+  },
+  {
+    "name": "NBA 2K26",
+    "appId": "3472040",
+    "status": "active"
+  },
+  {
+    "name": "Need for Speed (2016)",
+    "appId": "1262540",
+    "status": "active"
+  },
+  {
+    "name": "Need for Speed Heat",
+    "appId": "1222680",
+    "status": "active"
+  },
+  {
+    "name": "Need for Speed Payback",
+    "appId": "1262580",
+    "status": "active"
+  },
+  {
+    "name": "Need for Speed Unbound",
+    "appId": "1846380,1958731, 2055280, 2057870, 2057880, 2075010, 2298540",
+    "status": "active"
+  },
+  {
+    "name": "Need for Speed: Hot Pursuit Remastered",
+    "appId": "1328660",
+    "status": "active"
+  },
+  {
+    "name": "New Gundam Breaker",
+    "appId": "738530",
+    "status": "active"
+  },
+  {
+    "name": "OddBallers",
+    "appId": "1064070",
+    "status": "active"
+  },
+  {
+    "name": "Onimusha: Way of the Sword",
+    "appId": "2638890",
+    "status": "active"
+  },
+  {
+    "name": "Overturn",
+    "appId": "650070",
+    "status": "active"
+  },
+  {
+    "name": "PGA Tour 2K25",
+    "appId": "2385530",
+    "status": "active"
+  },
+  {
+    "name": "Persona 3 Portable",
+    "appId": "1809700",
+    "status": "active"
+  },
+  {
+    "name": "Persona 4 Arena Ultimax",
+    "appId": "1602010",
+    "status": "active"
+  },
+  {
+    "name": "Persona 4 Golden",
+    "appId": "1113000",
+    "status": "active"
+  },
+  {
+    "name": "Persona 4 Revival",
+    "appId": "2963950",
+    "status": "active"
+  },
+  {
+    "name": "Persona 5 Royal",
+    "appId": "1687950",
+    "status": "active"
+  },
+  {
+    "name": "Persona 5 Strikers",
+    "appId": "1382330,1482081,1482080",
+    "status": "active"
+  },
+  {
+    "name": "Persona 5 Tactica",
+    "appId": "2254740",
+    "status": "active"
+  },
+  {
+    "name": "Phantom Blade Zero",
+    "appId": "4115450",
+    "status": "active"
+  },
+  {
+    "name": "Planet Coaster",
+    "appId": "493340",
+    "status": "active"
+  },
+  {
+    "name": "Planet Coaster 2",
+    "appId": "2688950,3091180, 3091190, 3337040, 3902620, 4129920, 4492160, 4961870",
+    "status": "active"
+  },
+  {
+    "name": "Planet Zoo",
+    "appId": "703080",
+    "status": "active"
+  },
+  {
+    "name": "Pragmata",
+    "appId": "3357650,4003800, 3859930",
+    "status": "active"
+  },
+  {
+    "name": "Prince of Persia: The Lost Crown",
+    "appId": "2751000",
+    "status": "active"
+  },
+  {
+    "name": "Pro Evolution Soccer 2017",
+    "appId": "456610",
+    "status": "active"
+  },
+  {
+    "name": "Pro Evolution Soccer 2018",
+    "appId": "592580",
+    "status": "active"
+  },
+  {
+    "name": "Pro Evolution Soccer 2018 Lite",
+    "appId": "592600",
+    "status": "active"
+  },
+  {
+    "name": "Pro Evolution Soccer 2019",
+    "appId": "770240",
+    "status": "active"
+  },
+  {
+    "name": "Professional Baseball Spirits 2024-2025",
+    "appId": "2051010",
+    "status": "active"
+  },
+  {
+    "name": "Puyo Puyo Tetris",
+    "appId": "546050",
+    "status": "active"
+  },
+  {
+    "name": "Rabbids: Party of Legends",
+    "appId": "",
+    "status": "active"
+  },
+  {
+    "name": "Raidou Remastered: The Mystery of the Soulless Army",
+    "appId": "2288350",
+    "status": "active"
+  },
+  {
+    "name": "Rayman Legends Retold",
+    "appId": "4084710",
+    "status": "active"
+  },
+  {
+    "name": "Redfall",
+    "appId": "1294810,2253140, 2253141, 2409760",
+    "status": "active"
+  },
+  {
+    "name": "Resident Evil Requiem",
+    "appId": "3764200,3990800, 3990820, 4460240",
+    "status": "active"
+  },
+  {
+    "name": "Resident Evil Veronica",
+    "appId": "4824610",
+    "status": "active"
+  },
+  {
+    "name": "Robinson: The Journey",
+    "appId": "579820",
+    "status": "active"
+  },
+  {
+    "name": "Salthe",
+    "appId": "1357840",
+    "status": "active"
+  },
+  {
+    "name": "Scott Pilgrim vs. The World: The Game",
+    "appId": "2215260",
+    "status": "active"
+  },
+  {
+    "name": "Sea of Solitude",
+    "appId": "1225590",
+    "status": "active"
+  },
+  {
+    "name": "Shin Megami Tensei III Nocturne HD Remaster",
+    "appId": "1413480,1497870,1502000,1502940,1503720,1527660",
+    "status": "active"
+  },
+  {
+    "name": "Shining Resonance Refrain",
+    "appId": "809890",
+    "status": "active"
+  },
+  {
+    "name": "Shinobi: Art of Vengeance",
+    "appId": "2361770,3489510, 3381220, 3381230, 3381250, 3381260",
+    "status": "active"
+  },
+  {
+    "name": "Sid Meier's Civilization VII",
+    "appId": "1295660,2778060, 3004650, 3004660, 3087220, 3087240, 3087250, 3087260, 3087270, 3087430, 3087460, 3490290, 3502600",
+    "status": "active"
+  },
+  {
+    "name": "Sniper Elite 4",
+    "appId": "312660",
+    "status": "active"
+  },
+  {
+    "name": "Sniper Elite 5",
+    "appId": "1029690,1875170, 1872751, 1872750, 1724942, 1724941, 1724940, 1363480",
+    "status": "active"
+  },
+  {
+    "name": "Sniper Elite VR",
+    "appId": "752480",
+    "status": "active"
+  },
+  {
+    "name": "Sniper Elite: Resistance",
+    "appId": "2169200,2561520, 3258690",
+    "status": "active"
+  },
+  {
+    "name": "Sonic Colors: Ultimate",
+    "appId": "2055290",
+    "status": "active"
+  },
+  {
+    "name": "Sonic Forces",
+    "appId": "637100,715850,715900,715870,715910,715860",
+    "status": "active"
+  },
+  {
+    "name": "Sonic Frontiers",
+    "appId": "1237320,2079300,2079301,2089730,2089733,2089840,2093240",
+    "status": "active"
+  },
+  {
+    "name": "Sonic Origins",
+    "appId": "1794960,2343200, 1816002, 1816001, 1816000",
+    "status": "active"
+  },
+  {
+    "name": "Sonic Racing: CrossWorlds",
+    "appId": "2486820",
+    "status": "active"
+  },
+  {
+    "name": "Sonic Superstars",
+    "appId": "2022670,2376680, 2376681, 2376682, 2376683, 2376684, 2376685, 2376686, 2378680, 2504600, 2549530",
+    "status": "active"
+  },
+  {
+    "name": "Sonic X Shadow Generations",
+    "appId": "2513280,2909770, 2909780, 2909790, 2983600, 2999160",
+    "status": "active"
+  },
+  {
+    "name": "Soul Hackers 2",
+    "appId": "1777620",
+    "status": "active"
+  },
+  {
+    "name": "South Park: The Fractured but Whole",
+    "appId": "488790",
+    "status": "active"
+  },
+  {
+    "name": "Speedball (2026)",
+    "appId": "1795190",
+    "status": "active"
+  },
+  {
+    "name": "Star Ocean: The Last Hope 4K & Full HD Remaster",
+    "appId": "609150",
+    "status": "active"
+  },
+  {
+    "name": "Star Wars Battlefront (2015)",
+    "appId": "1237980",
+    "status": "active"
+  },
+  {
+    "name": "Star Wars Battlefront II (2017)",
+    "appId": "1237950",
+    "status": "active"
+  },
+  {
+    "name": "Star Wars Outlaws",
+    "appId": "2842040",
+    "status": "active"
+  },
+  {
+    "name": "Star Wars: Galactic Racer",
+    "appId": "4078430",
+    "status": "active"
+  },
+  {
+    "name": "Star Wars: Squadrons",
+    "appId": "1222730",
+    "status": "active"
+  },
+  {
+    "name": "Starlink: Battle for Atlas",
+    "appId": "950050,1075520,1075521",
+    "status": "active"
+  },
+  {
+    "name": "Stellar Blade",
+    "appId": "3489700,3564860, 3596170, 3596180, 3596190, 3596200, 3596210, 3596220, 3662250",
+    "status": "active"
+  },
+  {
+    "name": "Strange Brigade",
+    "appId": "312670",
+    "status": "active"
+  },
+  {
+    "name": "Stranger Than Heaven",
+    "appId": "4260840",
+    "status": "active"
+  },
+  {
+    "name": "Street Fighter 6",
+    "appId": "1364780,1792750, 1792751, 2224460, 2224461, 2224462, 2494130, 2825190, 2825200, 3401790, 3410460, 3410470, 3594250, 3899360, 4412680, 4412690",
+    "status": "active"
+  },
+  {
+    "name": "Suicide Squad: Kill the Justice League",
+    "appId": "315210,2716350",
+    "status": "active"
+  },
+  {
+    "name": "Super Mega Baseball 4",
+    "appId": "1487210,2378180, 2378181, 2378182",
+    "status": "active"
+  },
+  {
+    "name": "Sword Art Online: Fatal Bullet",
+    "appId": "626690",
+    "status": "active"
+  },
+  {
+    "name": "Tales of Berseria",
+    "appId": "429660,550350",
+    "status": "active"
+  },
+  {
+    "name": "Team Sonic Racing",
+    "appId": "785260",
+    "status": "active"
+  },
+  {
+    "name": "The Adventures of Elliot: The Millennium Tales",
+    "appId": "3483510,4126310, 4031020",
+    "status": "active"
+  },
+  {
+    "name": "The Awesome Adventures of Captain Spirit",
+    "appId": "845070",
+    "status": "active"
+  },
+  {
+    "name": "The First Berserker: Khazan",
+    "appId": "2680010,3265140, 3265150, 3265160",
+    "status": "active"
+  },
+  {
+    "name": "The Quiet Man",
+    "appId": "790540",
+    "status": "active"
+  },
+  {
+    "name": "The Settlers: New Allies",
+    "appId": "2750080,2880540, 2880550, 2880560, 2880570, 2880590, 2888500",
+    "status": "active"
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon Breakpoint",
+    "appId": "2231380,2231410",
+    "status": "active"
+  },
+  {
+    "name": "Tom Clancy's Ghost Recon Wildlands",
+    "appId": "460930,584210,719690",
+    "status": "active"
+  },
+  {
+    "name": "Tom Clancy's Rainbow Six Extraction",
+    "appId": "2379390",
+    "status": "active"
+  },
+  {
+    "name": "Tomb Raider: Legacy of Atlantis",
+    "appId": "3558670",
+    "status": "active"
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 1 + 2",
+    "appId": "2395210",
+    "status": "active"
+  },
+  {
+    "name": "TopSpin 2K25",
+    "appId": "1785650,2820460, 2820470, 2820480, 2820490, 2820550, 2820560, 2820570",
+    "status": "active"
+  },
+  {
+    "name": "Total War: Pharaoh",
+    "appId": "1937780,2951630, 2574940",
+    "status": "active"
+  },
+  {
+    "name": "Total War: Three Kingdoms",
+    "appId": "779340,853360, 874310, 1102310, 1154760, 1180600, 1209110, 1244640, 1299590, 1299591, 1493250",
+    "status": "active"
+  },
+  {
+    "name": "Total War: Warhammer",
+    "appId": "364360",
+    "status": "active"
+  },
+  {
+    "name": "Total War: Warhammer II",
+    "appId": "594570,651460",
+    "status": "active"
+  },
+  {
+    "name": "Total War: Warhammer III",
+    "appId": "1142710,1670540, 1374300, 1824060",
+    "status": "active"
+  },
+  {
+    "name": "Tourist Bus Simulator",
+    "appId": "953580",
+    "status": "active"
+  },
+  {
+    "name": "Train Sim World 2",
+    "appId": "1282590",
+    "status": "active"
+  },
+  {
+    "name": "Trials Rising",
+    "appId": "641080",
+    "status": "active"
+  },
+  {
+    "name": "Two Point Campus",
+    "appId": "1649080,1884560,1907450,2088830,2195430",
+    "status": "active"
+  },
+  {
+    "name": "Two Point Museum",
+    "appId": "2185060,2999840, 2999850, 3457760, 3550890, 3592600, 3804850, 4114070, 4511680",
+    "status": "active"
+  },
+  {
+    "name": "Undisputed",
+    "appId": "1451190",
+    "status": "active"
+  },
+  {
+    "name": "Uno (2016)",
+    "appId": "470220,471610,560940,560941,571810,1246520",
+    "status": "active"
+  },
+  {
+    "name": "Unravel",
+    "appId": "1225560",
+    "status": "active"
+  },
+  {
+    "name": "Unravel Two",
+    "appId": "1225570",
+    "status": "active"
+  },
+  {
+    "name": "Valiant Hearts: Coming Home",
+    "appId": "2741360",
+    "status": "active"
+  },
+  {
+    "name": "Valkyria Chronicles 4",
+    "appId": "790820",
+    "status": "active"
+  },
+  {
+    "name": "WRC 6: FIA World Rally Championship",
+    "appId": "458770",
+    "status": "active"
+  },
+  {
+    "name": "WRC 7: FIA World Rally Championship",
+    "appId": "621830",
+    "status": "active"
+  },
+  {
+    "name": "WWE 2K26",
+    "appId": "3717070",
+    "status": "active"
+  },
+  {
+    "name": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+    "appId": "1611910,1804350,1883510,2126610,2421890",
+    "status": "active"
+  },
+  {
+    "name": "Warhammer 40,000: Dawn of War III",
+    "appId": "285190",
+    "status": "active"
+  },
+  {
+    "name": "Warhammer Age of Sigmar: Realms of Ruin",
+    "appId": "1844380,2531130",
+    "status": "active"
+  },
+  {
+    "name": "Watch Dogs 2",
+    "appId": "447040",
+    "status": "active"
+  },
+  {
+    "name": "Watch Dogs: Legion",
+    "appId": "2239550,2239575, 2239577",
+    "status": "active"
+  },
+  {
+    "name": "White Day: A Labyrinth Named School (2017)",
+    "appId": "466130",
+    "status": "active"
+  },
+  {
+    "name": "Wild Hearts",
+    "appId": "1938010",
+    "status": "active"
+  },
+  {
+    "name": "Yakuza Kiwami 3 & Dark Ties",
+    "appId": "3937550",
+    "status": "active"
+  },
+  {
+    "name": "Yakuza: Like a Dragon",
+    "appId": "1235140,1253350, 1259670, 1261270, 1289190, 1289191, 1289192, 1289211, 1289234",
+    "status": "active"
+  },
+  {
+    "name": "Yesterday Origins",
+    "appId": "465280",
+    "status": "active"
+  },
+  {
+    "name": "Zombie Army 4: Dead War",
+    "appId": "694280",
+    "status": "active"
+  },
+  {
+    "name": "Zombie Army VR",
+    "appId": "2058030",
+    "status": "active"
+  },
+  {
+    "name": "Zone of the Enders: The 2nd Runner MARS",
+    "appId": "650510",
+    "status": "active"
+  }
+]
