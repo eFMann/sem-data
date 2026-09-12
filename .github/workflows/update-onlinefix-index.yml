@@ -94,7 +94,7 @@ jobs:
               elif has_steam:
                   return 'Steam'
               else:
-                  return 'Steam'
+                  return 'Unknown'
 
           def extract_release_date(entry_html):
               match = re.search(r'(\d{2}\.\d{2}\.\d{4})', entry_html)
