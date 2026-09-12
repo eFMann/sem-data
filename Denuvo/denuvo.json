@@ -2,7 +2,8 @@
   {
     "name": "007 First Light",
     "appId": "3768760",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/3768760/history/?changeid=U:81332012"
   },
   {
     "name": "2Dark",
@@ -17,7 +18,8 @@
   {
     "name": "A Way Out",
     "appId": "1222700",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2024-01-11"
   },
   {
     "name": "ADR1FT",
@@ -127,7 +129,9 @@
   {
     "name": "Balan Wonderworld",
     "appId": "1341050",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1341050/history/?changeid=U:25716510",
+    "removalDate": "2021-09-22"
   },
   {
     "name": "Batman: Arkham Knight",
@@ -192,7 +196,8 @@
   {
     "name": "Bravely Default II",
     "appId": "1446650",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1446650/history/?changeid=U:28515475"
   },
   {
     "name": "Bulletstorm: Full Clip Edition",
@@ -207,12 +212,14 @@
   {
     "name": "Bus Simulator 18",
     "appId": "515180",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/515180/history/?changeid=U:15409392"
   },
   {
     "name": "Bus Simulator 21",
     "appId": "976590",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2023-05-16"
   },
   {
     "name": "Champions of Anteria",
@@ -247,7 +254,8 @@
   {
     "name": "Conan Unconquered",
     "appId": "989690",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/989690/history/?changeid=U:13017802"
   },
   {
     "name": "Construction Simulator",
@@ -322,7 +330,8 @@
   {
     "name": "Death Stranding",
     "appId": "1190460",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1190460/history/?changeid=U:20379349"
   },
   {
     "name": "Deathloop",
@@ -352,12 +361,14 @@
   {
     "name": "Devil May Cry 5",
     "appId": "601150",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/601150/history/?changeid=U:14809473"
   },
   {
     "name": "Digimon Story: Time Stranger",
     "appId": "1984270",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1984270/history/?changeid=U:80375435"
   },
   {
     "name": "Discovery Tour: Ancient Egypt",
@@ -412,7 +423,8 @@
   {
     "name": "Dragon Quest III HD-2D Remake",
     "appId": "2701660",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/2701660/history/?changeid=U:62583037"
   },
   {
     "name": "Dragon Quest Monsters: The Dark Prince",
@@ -427,12 +439,14 @@
   {
     "name": "Dragon Quest Treasures",
     "appId": "2021210",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/2021210/history/?changeid=U:44214401"
   },
   {
     "name": "Dragon Quest VII Reimagined",
     "appId": "2499860",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/2499860/history/?changeid=U:81659944"
   },
   {
     "name": "Dragon Quest X Offline",
@@ -707,7 +721,8 @@
   {
     "name": "Final Fantasy XII: The Zodiac Age",
     "appId": "595520",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/595520/history/?changeid=U:15947547"
   },
   {
     "name": "Final Fantasy XV",
@@ -727,7 +742,8 @@
   {
     "name": "Fishing Sim World: Pro Tour",
     "appId": "834280",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2023-01-09"
   },
   {
     "name": "Football Manager 2017",
@@ -812,12 +828,15 @@
   {
     "name": "Ghost Trick: Phantom Detective",
     "appId": "1967430",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1967430/history/?changeid=U:43745993"
   },
   {
     "name": "Ghostwire: Tokyo",
     "appId": "1475810",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1475810/history/?changeid=U:47536834",
+    "removalDate": "2024-04-17"
   },
   {
     "name": "God Eater 2: Rage Burst",
@@ -872,7 +891,8 @@
   {
     "name": "Hitman 2",
     "appId": "863550",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/863550/history/?changeid=U:9998491"
   },
   {
     "name": "Hogwarts Legacy",
@@ -907,7 +927,8 @@
   {
     "name": "InZOI",
     "appId": "2456740",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2025-03-27"
   },
   {
     "name": "Injustice 2",
@@ -987,7 +1008,8 @@
   {
     "name": "Lies of P",
     "appId": "1627720",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1627720/history/?changeid=U:45465881"
   },
   {
     "name": "Life Is Strange 2",
@@ -1027,7 +1049,9 @@
   {
     "name": "Live A Live",
     "appId": "2014380",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/2014380/history/?changeid=U:41917119",
+    "removalDate": "2023-10-10"
   },
   {
     "name": "Lone Echo",
@@ -1087,7 +1111,8 @@
   {
     "name": "Mafia: Definitive Edition",
     "appId": "1030840",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1030840/history/?changeid=U:25749192"
   },
   {
     "name": "Mafia: The Old Country",
@@ -1107,7 +1132,8 @@
   {
     "name": "Marvel's Avengers",
     "appId": "997070",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/997070/history/?changeid=U:25334043"
   },
   {
     "name": "Marvel's Guardians of the Galaxy",
@@ -1207,17 +1233,21 @@
   {
     "name": "Monster Hunter Rise",
     "appId": "1446780",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1446780/history/?changeid=U:44485024"
   },
   {
     "name": "Monster Hunter Stories",
     "appId": "2356560",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/2356560/history/?changeid=U:55939719",
+    "removalDate": "2024-11-28"
   },
   {
     "name": "Monster Hunter Stories 2: Wings of Ruin",
     "appId": "1277400",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1277400/history/?changeid=U:48262151"
   },
   {
     "name": "Monster Hunter Stories 3: Twisted Reflection",
@@ -1232,7 +1262,9 @@
   {
     "name": "Monster Hunter: World",
     "appId": "582010",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/582010/history/?changeid=U:23483754",
+    "removalDate": "2021-06-02"
   },
   {
     "name": "Moons of Madness",
@@ -1277,7 +1309,8 @@
   {
     "name": "Naruto to Boruto: Shinobi Striker",
     "appId": "633230",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2023-06-29"
   },
   {
     "name": "Need for Speed (2016)",
@@ -1312,7 +1345,9 @@
   {
     "name": "New Tales from the Borderlands",
     "appId": "1454970",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1454970/history/?changeid=U:37591449",
+    "removalDate": "2023-04-18"
   },
   {
     "name": "NieR Replicant",
@@ -1327,7 +1362,8 @@
   {
     "name": "Nikoderiko: The Magical World",
     "appId": "2374190",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/2374190/history/?changeid=U:60921599"
   },
   {
     "name": "Octopath Traveler",
@@ -1342,7 +1378,8 @@
   {
     "name": "Octopath Traveler II",
     "appId": "1971650",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1971650/history/?changeid=U:40419733"
   },
   {
     "name": "OddBallers",
@@ -1352,7 +1389,9 @@
   {
     "name": "Onimusha 2: Samurai's Destiny",
     "appId": "3046600",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/3046600/history/?changeid=U:69577101",
+    "removalDate": "2025-11-21"
   },
   {
     "name": "Onimusha: Way of the Sword",
@@ -1432,7 +1471,8 @@
   {
     "name": "Police Simulator: Patrol Duty",
     "appId": "461870",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2021-01-20"
   },
   {
     "name": "Pragmata",
@@ -1517,7 +1557,9 @@
   {
     "name": "Resident Evil 3 (2020)",
     "appId": "952060",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/952060/history/?changeid=U:18917683",
+    "removalDate": "2020-10-01"
   },
   {
     "name": "Resident Evil 4 (2023)",
@@ -1527,7 +1569,8 @@
   {
     "name": "Resident Evil 7: Biohazard",
     "appId": "418370",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/418370/history/?changeid=U:9973659"
   },
   {
     "name": "Resident Evil Requiem",
@@ -1537,7 +1580,9 @@
   {
     "name": "Resident Evil Resistance",
     "appId": "952070",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/952070/history/?changeid=U:18919670",
+    "removalDate": "2020-10-01"
   },
   {
     "name": "Resident Evil Veronica",
@@ -1547,7 +1592,8 @@
   {
     "name": "Resident Evil Village",
     "appId": "1196590",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2023-04-10"
   },
   {
     "name": "Rime",
@@ -1572,12 +1618,14 @@
   {
     "name": "Rocksmith 2014",
     "appId": "221680",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2022-09-10"
   },
   {
     "name": "Romancing SaGa 2: Revenge of the Seven",
     "appId": "2455640",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/2455640/history/?changeid=U:60971277"
   },
   {
     "name": "Salthe",
@@ -1627,7 +1675,8 @@
   {
     "name": "Slitterhead",
     "appId": "2631250",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/2631250/history/?changeid=U:61926835"
   },
   {
     "name": "Sniper Elite 4",
@@ -1672,7 +1721,8 @@
   {
     "name": "Sonic Mania",
     "appId": "584400",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/584400/history/?changeid=U:10928227"
   },
   {
     "name": "Sonic Origins",
@@ -1712,7 +1762,9 @@
   {
     "name": "Star Ocean: The Divine Force",
     "appId": "1776380",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1776380/history/?changeid=U:37658851",
+    "removalDate": "2023-04-21"
   },
   {
     "name": "Star Ocean: The Last Hope 4K & Full HD Remaster",
@@ -1822,7 +1874,8 @@
   {
     "name": "Tales of Kenzera: ZAU",
     "appId": "2316580",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/2316580/history/?changeid=U:51491255"
   },
   {
     "name": "Team Sonic Racing",
@@ -1832,7 +1885,8 @@
   {
     "name": "Tekken 7",
     "appId": "389730",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/389730/history/?changeid=U:26327796"
   },
   {
     "name": "The Adventures of Elliot: The Millennium Tales",
@@ -1867,7 +1921,8 @@
   {
     "name": "The Quarry",
     "appId": "1577120",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/1577120/history/?changeid=U:35812792"
   },
   {
     "name": "The Quiet Man",
@@ -1882,7 +1937,8 @@
   {
     "name": "The Sinking City",
     "appId": "750130",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/750130/history/?changeid=U:24062365"
   },
   {
     "name": "Tiny Tina's Wonderlands",
@@ -1967,7 +2023,8 @@
   {
     "name": "TransRoad: USA",
     "appId": "494670",
-    "status": "removed"
+    "status": "removed",
+    "removalRef": "https://steamdb.info/app/494670/history/?changeid=U:8694514"
   },
   {
     "name": "Trials Rising",
@@ -2032,7 +2089,8 @@
   {
     "name": "Valkyrie Elysium",
     "appId": "1963210",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2023-03-30"
   },
   {
     "name": "Visions of Mana",
@@ -2042,7 +2100,8 @@
   {
     "name": "Voice of Cards: The Beasts of Burden",
     "appId": "1890740",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2023-01-23"
   },
   {
     "name": "Voice of Cards: The Forsaken Maiden",
