@@ -52,7 +52,6 @@ jobs:
               return s
 
           def extract_platform_from_entry(entry_html):
-              # Match both /programs/XXXXX and /files/progs/XXXXX
               program_links = re.findall(
                   r'(?:programs|files/progs)/(\d+)-[^"]+\.html',
                   entry_html,
@@ -61,19 +60,23 @@ jobs:
 
               has_steam = '16108' in program_links
               has_epic = '16106' in program_links or bool(re.search(r'Epic\s+Games?\s+Store', entry_html, re.IGNORECASE))
-              has_microsoft = '16760' in program_links or bool(re.search(r'Microsoft Store', entry_html, re.IGNORECASE))
+              has_microsoft = '16760' in program_links or bool(re.search(r'Microsoft Store|аккаунт Microsoft', entry_html, re.IGNORECASE))
               has_battlenet = '16107' in program_links or bool(re.search(r'Battle\.net', entry_html, re.IGNORECASE))
               has_ubisoft = '16109' in program_links or bool(re.search(r'Ubisoft Connect', entry_html, re.IGNORECASE))
-              has_ea = bool(re.search(r'Electronic Arts', entry_html, re.IGNORECASE))
+              has_ea = bool(re.search(r'Electronic Arts|EA App', entry_html, re.IGNORECASE))
               has_lan = bool(re.search(r'tags/(?:lan|vpn)', entry_html, re.IGNORECASE))
-              has_gog = bool(re.search(r'GOG', entry_html, re.IGNORECASE))
-              has_steam_remote = bool(re.search(r'Steam Remote Play', entry_html, re.IGNORECASE))              
+              has_gog = bool(re.search(r'GOG\s*Galaxy|GOG', entry_html, re.IGNORECASE))
+              has_steam_remote = bool(re.search(r'Steam Remote Play', entry_html, re.IGNORECASE))
               has_internet = bool(re.search(r'Интернет', entry_html))
 
               if has_steam and has_epic:
                   return 'Steam + Epic'
               elif has_steam and has_microsoft:
                   return 'Steam + Microsoft'
+              elif has_steam and has_ea:
+                  return 'Steam + EA'
+              elif has_steam and has_gog:
+                  return 'Steam + GOG Galaxy'
               elif has_steam and has_lan:
                   return 'Steam + LAN'
               elif has_epic:
@@ -87,7 +90,7 @@ jobs:
               elif has_ubisoft:
                   return 'Ubisoft'
               elif has_gog:
-                  return 'GOG'
+                  return 'GOG Galaxy'
               elif has_lan:
                   return 'LAN'
               elif has_steam_remote:
@@ -239,10 +242,14 @@ jobs:
 
                       content = r.content.decode('windows-1251', errors='replace')
                       soup = BeautifulSoup(content, 'html.parser')
-                      found_any = False
 
-                      main = soup.find('div', id='dle-content') or soup
-                      links = main.find_all('a', href=True)
+                      # Target only the main content area to avoid sidebar links
+                      main_content = soup.find('div', id='dle-content')
+                      if not main_content:
+                          main_content = soup
+
+                      found_any = False
+                      links = main_content.find_all('a', href=True)
 
                       for link in links:
                           href = link['href']
@@ -260,11 +267,15 @@ jobs:
 
                               # Walk up to find the entry container
                               parent = link.parent
-                              for _ in range(5):
-                                  if parent and parent.name in ['article', 'div', 'section', 'li']:
+                              for _ in range(8):
+                                  if parent is None:
                                       break
-                                  if parent:
-                                      parent = parent.parent
+                                  if parent.name in ['article', 'section'] or (
+                                      parent.name == 'div'
+                                      and len(str(parent)) > 500
+                                  ):
+                                      break
+                                  parent = parent.parent
 
                               entry_html = str(parent) if parent else ''
 
