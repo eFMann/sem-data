@@ -23,7 +23,7 @@ jobs:
           PCGW_BOT_PASS: ${{ secrets.PCGW_BOT_PASS }}
         run: |
           python3 << 'EOF'
-          import requests, json, os, time
+          import requests, json, os, time, re
 
           API = 'https://www.pcgamingwiki.com/w/api.php'
           session = requests.Session()
@@ -131,14 +131,12 @@ jobs:
           game_list = sorted(games.values(), key=lambda g: g['name'])
 
           # Step 6: Fill missing App IDs via Steam store search
-          import re
-
           def normalise(s):
               if not s:
                   return ''
               s = s.lower()
               s = re.sub(r'[™®©℠]', '', s)
-              s = re.sub(r'\s*\(\d{4}\)', '', s)  # Remove year suffixes like (2017)
+              s = re.sub(r'\s*\(\d{4}\)', '', s)
               s = re.sub(r'[^\w\s]', ' ', s)
               s = re.sub(r'\s+', ' ', s).strip()
               return s
@@ -170,6 +168,87 @@ jobs:
 
               time.sleep(0.5)
 
+          # Step 7: Fetch removal dates and SteamDB links from wikitext
+          removed_games = [g for g in game_list if g['status'] == 'removed']
+          print(f'\nFetching removal details for {len(removed_games)} games...')
+
+          date_patterns = [
+              # "1 October 2020 – 02:25:05 UTC"
+              r'(\d{1,2}\s+\w+\s+\d{4})\s*[–—-]\s*\d{2}:\d{2}',
+              # "last accessed on 2020-10-01"
+              r'last accessed on\s+(\d{4}-\d{2}-\d{2})',
+              # "update for 2 June 2020"
+              r'update for\s+(\d{1,2}\s+\w+\s+\d{4})',
+              # "update for 24 April 2023"
+              r'update for\s+(\d{1,2}\s+\w+\s+\d{4})',
+          ]
+
+          def parse_date(date_str):
+              for fmt in ['%d %B %Y', '%Y-%m-%d', '%B %d, %Y']:
+                  try:
+                      from datetime import datetime
+                      return datetime.strptime(date_str.strip(), fmt).strftime('%Y-%m-%d')
+                  except:
+                      continue
+              return None
+
+          for game in removed_games:
+              page_name = game['name']
+              try:
+                  r = session.get(API, params={
+                      'action': 'parse',
+                      'page': page_name,
+                      'prop': 'wikitext',
+                      'format': 'json'
+                  })
+                  data = r.json()
+
+                  if 'error' in data:
+                      print(f'  ✗ {page_name} → page error')
+                      continue
+
+                  wikitext = data.get('parse', {}).get('wikitext', {}).get('*', '')
+
+                  # Find SteamDB changelist URLs
+                  steamdb_match = re.search(
+                      r'https?://steamdb\.info/app/\d+/(?:history/?\?changeid=U:\d+|patchnotes/\d+/?)',
+                      wikitext
+                  )
+
+                  if steamdb_match:
+                      game['removalRef'] = steamdb_match.group(0)
+
+                  # Find removal date from references near Denuvo mentions
+                  # Look for date patterns in the vicinity of "Denuvo" and "removed" or steamdb refs
+                  denuvo_sections = re.findall(
+                      r'.{0,500}(?:Denuvo|Anti-Tamper|steamdb\.info).{0,500}',
+                      wikitext,
+                      re.IGNORECASE | re.DOTALL
+                  )
+
+                  removal_date = None
+                  for section in denuvo_sections:
+                      for pattern in date_patterns:
+                          match = re.search(pattern, section, re.IGNORECASE)
+                          if match:
+                              parsed = parse_date(match.group(1))
+                              if parsed:
+                                  removal_date = parsed
+                                  break
+                      if removal_date:
+                          break
+
+                  if removal_date:
+                      game['removalDate'] = removal_date
+
+                  ref = game.get('removalRef', 'no link')
+                  date = game.get('removalDate', 'no date')
+                  print(f'  ✓ {page_name} → {date} | {ref}')
+
+              except Exception as e:
+                  print(f'  ✗ {page_name} → error: {e}')
+
+              time.sleep(2)
 
           os.makedirs('Denuvo', exist_ok=True)
           with open('Denuvo/denuvo.json', 'w', encoding='utf-8') as f:
@@ -177,7 +256,10 @@ jobs:
 
           active = sum(1 for g in game_list if g['status'] == 'active')
           removed = sum(1 for g in game_list if g['status'] == 'removed')
-          print(f'Done — {len(game_list)} total, {active} active, {removed} removed')
+          with_date = sum(1 for g in game_list if 'removalDate' in g)
+          with_ref = sum(1 for g in game_list if 'removalRef' in g)
+          print(f'\nDone — {len(game_list)} total, {active} active, {removed} removed')
+          print(f'Removal details: {with_date} with dates, {with_ref} with SteamDB links')
           EOF
 
       - name: Commit and push
