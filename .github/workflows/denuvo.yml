@@ -130,6 +130,47 @@ jobs:
 
           game_list = sorted(games.values(), key=lambda g: g['name'])
 
+          # Step 6: Fill missing App IDs via Steam store search
+          import re
+
+          def normalise(s):
+              if not s:
+                  return ''
+              s = s.lower()
+              s = re.sub(r'[™®©℠]', '', s)
+              s = re.sub(r'\s*\(\d{4}\)', '', s)  # Remove year suffixes like (2017)
+              s = re.sub(r'[^\w\s]', ' ', s)
+              s = re.sub(r'\s+', ' ', s).strip()
+              return s
+
+          missing = [g for g in game_list if not g['appId']]
+          print(f'\n{len(missing)} games missing App IDs, searching Steam...')
+
+          for game in missing:
+              search_name = game['name']
+              try:
+                  r = session.get(
+                      f'https://store.steampowered.com/api/storesearch',
+                      params={'term': search_name, 'l': 'english', 'cc': 'US'},
+                      timeout=10
+                  )
+                  items = r.json().get('items', [])
+                  norm_name = normalise(search_name)
+
+                  for item in items:
+                      if normalise(item.get('name', '')) == norm_name:
+                          game['appId'] = str(item['id'])
+                          print(f'  ✓ {search_name} → {item["id"]}')
+                          break
+                  else:
+                      print(f'  ✗ {search_name} → not on Steam')
+
+              except Exception as e:
+                  print(f'  ✗ {search_name} → error: {e}')
+
+              time.sleep(0.5)
+
+
           os.makedirs('Denuvo', exist_ok=True)
           with open('Denuvo/denuvo.json', 'w', encoding='utf-8') as f:
               json.dump(game_list, f, ensure_ascii=False, indent=2)
