@@ -67,7 +67,7 @@ jobs:
               has_ea = bool(re.search(r'Electronic Arts', entry_html, re.IGNORECASE))
               has_lan = bool(re.search(r'tags/(?:lan|vpn)', entry_html, re.IGNORECASE))
               has_gog = bool(re.search(r'GOG', entry_html, re.IGNORECASE))
-              has_steam_remote = bool(re.search(r'Steam Remote Play', entry_html, re.IGNORECASE))
+              has_steam_remote = bool(re.search(r'Steam Remote Play', entry_html, re.IGNORECASE))              
               has_internet = bool(re.search(r'Интернет', entry_html))
 
               if has_steam and has_epic:
@@ -90,14 +90,14 @@ jobs:
                   return 'GOG'
               elif has_lan:
                   return 'LAN'
-               elif has_steam_remote:
-                  return 'Steam Remote Play'    
+              elif has_steam_remote:
+                  return 'Steam Remote Play'
               elif has_internet:
                   return 'Internet'
               elif has_steam:
                   return 'Steam'
               else:
-                  return 'Unknown'
+                  return 'Steam'
 
           def extract_release_date(entry_html):
               match = re.search(r'(\d{2}\.\d{2}\.\d{4})', entry_html)
