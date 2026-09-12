@@ -24,6 +24,7 @@ jobs:
         run: |
           python3 << 'EOF'
           import requests, json, os, time, re
+          from datetime import datetime
 
           API = 'https://www.pcgamingwiki.com/w/api.php'
           session = requests.Session()
@@ -173,20 +174,21 @@ jobs:
           print(f'\nFetching removal details for {len(removed_games)} games...')
 
           date_patterns = [
+              # "was removed on February 6, 2020" (most common)
+              r'removed on\s+(\w+\s+\d{1,2},?\s+\d{4})',
+              # "was removed on 6 February 2020"
+              r'removed on\s+(\d{1,2}\s+\w+\s+\d{4})',
               # "1 October 2020 – 02:25:05 UTC"
               r'(\d{1,2}\s+\w+\s+\d{4})\s*[–—-]\s*\d{2}:\d{2}',
               # "last accessed on 2020-10-01"
               r'last accessed on\s+(\d{4}-\d{2}-\d{2})',
               # "update for 2 June 2020"
               r'update for\s+(\d{1,2}\s+\w+\s+\d{4})',
-              # "update for 24 April 2023"
-              r'update for\s+(\d{1,2}\s+\w+\s+\d{4})',
           ]
 
           def parse_date(date_str):
-              for fmt in ['%d %B %Y', '%Y-%m-%d', '%B %d, %Y']:
+              for fmt in ['%B %d, %Y', '%B %d %Y', '%d %B %Y', '%Y-%m-%d']:
                   try:
-                      from datetime import datetime
                       return datetime.strptime(date_str.strip(), fmt).strftime('%Y-%m-%d')
                   except:
                       continue
@@ -219,7 +221,6 @@ jobs:
                       game['removalRef'] = steamdb_match.group(0)
 
                   # Find removal date from references near Denuvo mentions
-                  # Look for date patterns in the vicinity of "Denuvo" and "removed" or steamdb refs
                   denuvo_sections = re.findall(
                       r'.{0,500}(?:Denuvo|Anti-Tamper|steamdb\.info).{0,500}',
                       wikitext,
@@ -248,7 +249,7 @@ jobs:
               except Exception as e:
                   print(f'  ✗ {page_name} → error: {e}')
 
-              time.sleep(2)
+              time.sleep(1)
 
           os.makedirs('Denuvo', exist_ok=True)
           with open('Denuvo/denuvo.json', 'w', encoding='utf-8') as f:
