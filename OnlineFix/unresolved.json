@@ -1,197 +1,782 @@
 [
-  "Crimson Moon",
-  "RED FLAG",
-  "MARVEL Tokon Fighting Souls",
-  "Deadly Delivery",
-  "Hytale",
-  "Dying Light The Beast Restored Land",
-  "PEAK",
-  "ENDLESS Dungeon",
-  "Star Trek",
-  "SENTRY",
-  "Marvel Ultimate Alliance 2",
-  "Ale and Tale Tavern",
-  "Dale and Dawson Stationery Supplies",
-  "BOKURA",
-  "Hood Outlaws Legends",
-  "Atlas Fallen",
-  "Among Us VR",
-  "Demeo PC Edition",
-  "Trash Sailors",
-  "Breakwaters",
-  "ANVIL",
-  "Second Hand Frankies Revenge",
-  "ReLegend",
-  "Metaverse Keeper",
-  "Osiris New Dawn",
-  "Marvels Avengers",
-  "Manual Samuel Anniversary Edition",
-  "Haven",
-  "ReadySet Heroes",
-  "LEGO Lord of the Rings",
-  "Teenage Mutant Ninja Turtles Mutants in Manhattan",
-  "Godfall",
-  "Lost Castle",
-  "MARVEL Tokon Fighting Souls",
-  "AFTERBLAST",
-  "REMATCH",
-  "Marvel Ultimate Alliance",
-  "Bread and Fred",
-  "Collapsed",
-  "Drink More Gulp",
-  "Project Arrhythmia",
-  "Taiko no Tatsujin The Drum Master",
-  "Geneshift",
-  "SEGA Mega Drive and Genesis Classics",
-  "Jets n Guns 2",
-  "Warhammer Underworlds",
-  "NASCAR 21 Ignition",
-  "Puyo Puyo Tetris",
-  "Distance",
-  "N++",
-  "Rocket League",
-  "Never Alone",
-  "Journey",
-  "HELLDIVERS",
-  "Ashen",
-  "C.A.S.T.",
-  "The Other Side",
-  "PARANOIA PLACE",
-  "Surrounded",
-  "Inout",
-  "Ghostbusters Spirits Unleashed",
-  "Soul at Stake",
-  "Home Sweet Home Survive",
-  "Forsake",
-  "Escape The Ayuwoki Horror Night",
-  "Propnight",
-  "Obscure 2",
-  "Last Year The Nightmare",
-  "Monstrum 2",
-  "Friday the 13th The Game",
-  "Loco Parentis",
-  "Dead Island Definitive Collection",
-  "MotoGP 26",
-  "Screamer",
-  "Long Drive North",
-  "Supermarket Simulator",
-  "MotoGP 25",
-  "Prison Boss Prohibition",
-  "Warhammer 40000 Space Marine Master Crafted Edition",
-  "Arizona Sunshine Remake",
-  "Ara History Untold",
-  "Prisoners",
-  "Knock Em Out",
-  "Contractors Showdown",
-  "Microsoft Flight Simulator",
-  "Minecraft for Windows",
-  "GRAVEN",
-  "Arizona Sunshine 2",
-  "Bloody Spell",
-  "EdgeOfTheAbyssAwaken",
-  "BROKE PROTOCOL Online City RPG",
-  "Dungeons & Dragons Dark Alliance",
-  "SpellForce 3",
-  "Risk of Rain",
-  "Dark Souls Prepare to Die Edition",
-  "WARRIORS OROCHI 4 Ultimate",
-  "Lord of the Rings War in the North",
-  "Outward",
-  "Hunted: The Demons Forge",
-  "Borderlands GOTY",
-  "GUARDS",
-  "Gears of War 4",
-  "Gears of War Ultimate Edition",
-  "OPERATOR",
-  "Muffled Warfare",
-  "Lemnis Gate",
-  "Memories of Mars",
-  "Evil Dead The Game",
-  "Warhammer 40000 Space Marine Anniversary Edition",
-  "Crackdown 3",
-  "Guardians VR",
-  "Nerf Legends",
-  "Serious Sam Fusion 2017",
-  "Crisis VRigade 2",
-  "Attack on Titan 2",
-  "Aliens Colonial Marines",
-  "S.T.A.L.K.E.R Clear Sky",
-  "Resident Evil Resistance",
-  "Second Extinction",
-  "Spiritfarer",
-  "BLADENET",
-  "Sekiro Shadows Die Twice",
-  "Sea of Thieves",
-  "Spec Ops The Line",
-  "Serious Sam Classic Revolution",
-  "Dead Rising 3",
-  "Saints Row 4",
-  "Waterpark Simulator",
-  "The House Always Wins",
-  "TIEBREAK Official Game of the ATP and WTA",
-  "DiRT 4",
-  "Paradise Beach Simulator",
-  "Better Mart",
-  "Fast Food Simulator",
-  "Only Up SKIBIDI TOGETHER",
-  "Grocery Store Simulator",
-  "ICARUS",
-  "F1 2017",
-  "Ball 3D Soccer",
-  "NBA 2K21",
-  "Pro Soccer",
-  "Bus Simulator 21",
-  "London 2012 The Official Video Game of the Olympic Games",
-  "Railroads",
-  "Timeflow Time & Money Sim",
-  "Olympic Games Tokyo 2020",
-  "DRIFT21",
-  "Ranch Simulator",
-  "Eleven Table Tennis VR",
-  "Spintires",
-  "Flashing Lights",
-  "Diesel Brothers Truck Building Simulator",
-  "Truck and Logistics Simulator",
-  "Stellaris Nexus",
-  "ClueCluedo",
-  "Cosmoteer Starship Architect and Commander",
-  "Feudal Friends",
-  "DwarfHeim",
-  "Mount and Blade Warband",
-  "Stronghold 2",
-  "Turmoil",
-  "Superfuse",
-  "Legion TD 2",
-  "Blood Bowl 2",
-  "CRIMESIGHT",
-  "Halo Wars 2",
-  "Filthy Lucre",
-  "Dungeons and Dragons Lords of Waterdeep",
-  "Through the Ages",
-  "Stronghold Legends",
-  "Age of Empires IV",
-  "RichMan 10",
-  "SWINE HD Remaster",
-  "Talisman Digital Edition",
-  "ClueCluedo The Classic Mystery Game",
-  "Age of Empires II",
-  "Rome Total War Collection",
-  "Root",
-  "Warhammer 40000 Gladius - Relics of War",
-  "Spaceland",
-  "Endless Legend Emperor Edition",
-  "Sid Meiers Civilization VI",
-  "DayZ (DayZavr)",
-  "SpyFall",
-  "Dungeon Done",
-  "Zombie Survival Game",
-  "Dread Hunger",
-  "Dont Die In The West",
-  "Conan Exiles",
-  "Secret Neighbor",
-  "Overkills The Walking Dead",
-  "Car For Sale Simulator 2023",
-  "Nom Nom Galaxy",
-  "RUMBLE",
-  "Trickster VR"
+  {
+    "title": "Crimson Moon",
+    "platform": "Steam"
+  },
+  {
+    "title": "RED FLAG",
+    "platform": "Steam"
+  },
+  {
+    "title": "MARVEL Tokon Fighting Souls",
+    "platform": "Steam"
+  },
+  {
+    "title": "Deadly Delivery",
+    "platform": "Steam"
+  },
+  {
+    "title": "Hytale",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dying Light The Beast Restored Land",
+    "platform": "Steam"
+  },
+  {
+    "title": "PEAK",
+    "platform": "Steam"
+  },
+  {
+    "title": "ENDLESS Dungeon",
+    "platform": "Steam"
+  },
+  {
+    "title": "Star Trek",
+    "platform": "Steam"
+  },
+  {
+    "title": "SENTRY",
+    "platform": "Steam"
+  },
+  {
+    "title": "Marvel Ultimate Alliance 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Ale and Tale Tavern",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dale and Dawson Stationery Supplies",
+    "platform": "Steam"
+  },
+  {
+    "title": "BOKURA",
+    "platform": "Steam"
+  },
+  {
+    "title": "Hood Outlaws Legends",
+    "platform": "Steam"
+  },
+  {
+    "title": "Atlas Fallen",
+    "platform": "Steam"
+  },
+  {
+    "title": "Among Us VR",
+    "platform": "Steam"
+  },
+  {
+    "title": "Demeo PC Edition",
+    "platform": "Steam"
+  },
+  {
+    "title": "Trash Sailors",
+    "platform": "Steam"
+  },
+  {
+    "title": "Breakwaters",
+    "platform": "Steam"
+  },
+  {
+    "title": "ANVIL",
+    "platform": "Steam"
+  },
+  {
+    "title": "Second Hand Frankies Revenge",
+    "platform": "Steam"
+  },
+  {
+    "title": "ReLegend",
+    "platform": "Steam"
+  },
+  {
+    "title": "Metaverse Keeper",
+    "platform": "Steam"
+  },
+  {
+    "title": "Osiris New Dawn",
+    "platform": "Steam"
+  },
+  {
+    "title": "Marvels Avengers",
+    "platform": "Steam"
+  },
+  {
+    "title": "Manual Samuel Anniversary Edition",
+    "platform": "Steam"
+  },
+  {
+    "title": "Haven",
+    "platform": "Steam"
+  },
+  {
+    "title": "ReadySet Heroes",
+    "platform": "Steam"
+  },
+  {
+    "title": "LEGO Lord of the Rings",
+    "platform": "Steam"
+  },
+  {
+    "title": "Teenage Mutant Ninja Turtles Mutants in Manhattan",
+    "platform": "Steam"
+  },
+  {
+    "title": "Godfall",
+    "platform": "Steam"
+  },
+  {
+    "title": "Lost Castle",
+    "platform": "Steam"
+  },
+  {
+    "title": "MARVEL Tokon Fighting Souls",
+    "platform": "Steam"
+  },
+  {
+    "title": "AFTERBLAST",
+    "platform": "Steam"
+  },
+  {
+    "title": "REMATCH",
+    "platform": "Steam"
+  },
+  {
+    "title": "Marvel Ultimate Alliance",
+    "platform": "Steam"
+  },
+  {
+    "title": "Bread and Fred",
+    "platform": "Steam"
+  },
+  {
+    "title": "Collapsed",
+    "platform": "Steam"
+  },
+  {
+    "title": "Drink More Gulp",
+    "platform": "Steam"
+  },
+  {
+    "title": "Project Arrhythmia",
+    "platform": "Steam"
+  },
+  {
+    "title": "Taiko no Tatsujin The Drum Master",
+    "platform": "Steam"
+  },
+  {
+    "title": "Geneshift",
+    "platform": "Steam"
+  },
+  {
+    "title": "SEGA Mega Drive and Genesis Classics",
+    "platform": "Steam"
+  },
+  {
+    "title": "Jets n Guns 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Warhammer Underworlds",
+    "platform": "Steam"
+  },
+  {
+    "title": "NASCAR 21 Ignition",
+    "platform": "Steam"
+  },
+  {
+    "title": "Puyo Puyo Tetris",
+    "platform": "Steam"
+  },
+  {
+    "title": "Distance",
+    "platform": "Steam"
+  },
+  {
+    "title": "N++",
+    "platform": "Steam"
+  },
+  {
+    "title": "Rocket League",
+    "platform": "Steam"
+  },
+  {
+    "title": "Never Alone",
+    "platform": "Steam"
+  },
+  {
+    "title": "Journey",
+    "platform": "Steam"
+  },
+  {
+    "title": "HELLDIVERS",
+    "platform": "Steam"
+  },
+  {
+    "title": "Ashen",
+    "platform": "Steam"
+  },
+  {
+    "title": "C.A.S.T.",
+    "platform": "Steam"
+  },
+  {
+    "title": "The Other Side",
+    "platform": "Steam"
+  },
+  {
+    "title": "PARANOIA PLACE",
+    "platform": "Steam"
+  },
+  {
+    "title": "Surrounded",
+    "platform": "Steam"
+  },
+  {
+    "title": "Inout",
+    "platform": "Steam"
+  },
+  {
+    "title": "Ghostbusters Spirits Unleashed",
+    "platform": "Steam"
+  },
+  {
+    "title": "Soul at Stake",
+    "platform": "Steam"
+  },
+  {
+    "title": "Home Sweet Home Survive",
+    "platform": "Steam"
+  },
+  {
+    "title": "Forsake",
+    "platform": "Steam"
+  },
+  {
+    "title": "Escape The Ayuwoki Horror Night",
+    "platform": "Steam"
+  },
+  {
+    "title": "Propnight",
+    "platform": "Steam"
+  },
+  {
+    "title": "Obscure 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Last Year The Nightmare",
+    "platform": "Steam"
+  },
+  {
+    "title": "Monstrum 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Friday the 13th The Game",
+    "platform": "Steam"
+  },
+  {
+    "title": "Loco Parentis",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dead Island Definitive Collection",
+    "platform": "Steam"
+  },
+  {
+    "title": "MotoGP 26",
+    "platform": "Steam"
+  },
+  {
+    "title": "Screamer",
+    "platform": "Steam"
+  },
+  {
+    "title": "Long Drive North",
+    "platform": "Steam"
+  },
+  {
+    "title": "Supermarket Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "MotoGP 25",
+    "platform": "Steam"
+  },
+  {
+    "title": "Prison Boss Prohibition",
+    "platform": "Steam"
+  },
+  {
+    "title": "Warhammer 40000 Space Marine Master Crafted Edition",
+    "platform": "Steam"
+  },
+  {
+    "title": "Arizona Sunshine Remake",
+    "platform": "Steam"
+  },
+  {
+    "title": "Ara History Untold",
+    "platform": "Steam"
+  },
+  {
+    "title": "Prisoners",
+    "platform": "Steam"
+  },
+  {
+    "title": "Knock Em Out",
+    "platform": "Steam"
+  },
+  {
+    "title": "Contractors Showdown",
+    "platform": "Steam"
+  },
+  {
+    "title": "Microsoft Flight Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "Minecraft for Windows",
+    "platform": "Steam"
+  },
+  {
+    "title": "GRAVEN",
+    "platform": "Steam"
+  },
+  {
+    "title": "Arizona Sunshine 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Bloody Spell",
+    "platform": "Steam"
+  },
+  {
+    "title": "EdgeOfTheAbyssAwaken",
+    "platform": "Steam"
+  },
+  {
+    "title": "BROKE PROTOCOL Online City RPG",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dungeons & Dragons Dark Alliance",
+    "platform": "Steam"
+  },
+  {
+    "title": "SpellForce 3",
+    "platform": "Steam"
+  },
+  {
+    "title": "Risk of Rain",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dark Souls Prepare to Die Edition",
+    "platform": "Steam"
+  },
+  {
+    "title": "WARRIORS OROCHI 4 Ultimate",
+    "platform": "Steam"
+  },
+  {
+    "title": "Lord of the Rings War in the North",
+    "platform": "Steam"
+  },
+  {
+    "title": "Outward",
+    "platform": "Steam"
+  },
+  {
+    "title": "Hunted: The Demons Forge",
+    "platform": "Steam"
+  },
+  {
+    "title": "Borderlands GOTY",
+    "platform": "Steam"
+  },
+  {
+    "title": "GUARDS",
+    "platform": "Steam"
+  },
+  {
+    "title": "Gears of War 4",
+    "platform": "Steam"
+  },
+  {
+    "title": "Gears of War Ultimate Edition",
+    "platform": "Steam"
+  },
+  {
+    "title": "OPERATOR",
+    "platform": "Steam"
+  },
+  {
+    "title": "Muffled Warfare",
+    "platform": "Steam"
+  },
+  {
+    "title": "Lemnis Gate",
+    "platform": "Steam"
+  },
+  {
+    "title": "Memories of Mars",
+    "platform": "Steam"
+  },
+  {
+    "title": "Evil Dead The Game",
+    "platform": "Steam"
+  },
+  {
+    "title": "Warhammer 40000 Space Marine Anniversary Edition",
+    "platform": "Steam"
+  },
+  {
+    "title": "Crackdown 3",
+    "platform": "Steam"
+  },
+  {
+    "title": "Guardians VR",
+    "platform": "Steam"
+  },
+  {
+    "title": "Nerf Legends",
+    "platform": "Steam"
+  },
+  {
+    "title": "Serious Sam Fusion 2017",
+    "platform": "Steam"
+  },
+  {
+    "title": "Crisis VRigade 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Attack on Titan 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Aliens Colonial Marines",
+    "platform": "Steam"
+  },
+  {
+    "title": "S.T.A.L.K.E.R Clear Sky",
+    "platform": "Steam"
+  },
+  {
+    "title": "Resident Evil Resistance",
+    "platform": "Steam"
+  },
+  {
+    "title": "Second Extinction",
+    "platform": "Steam"
+  },
+  {
+    "title": "Spiritfarer",
+    "platform": "Steam"
+  },
+  {
+    "title": "BLADENET",
+    "platform": "Steam"
+  },
+  {
+    "title": "Sekiro Shadows Die Twice",
+    "platform": "Steam"
+  },
+  {
+    "title": "Sea of Thieves",
+    "platform": "Steam"
+  },
+  {
+    "title": "Spec Ops The Line",
+    "platform": "Steam"
+  },
+  {
+    "title": "Serious Sam Classic Revolution",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dead Rising 3",
+    "platform": "Steam"
+  },
+  {
+    "title": "Saints Row 4",
+    "platform": "Steam"
+  },
+  {
+    "title": "Waterpark Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "The House Always Wins",
+    "platform": "Steam"
+  },
+  {
+    "title": "TIEBREAK Official Game of the ATP and WTA",
+    "platform": "Steam"
+  },
+  {
+    "title": "DiRT 4",
+    "platform": "Steam"
+  },
+  {
+    "title": "Paradise Beach Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "Better Mart",
+    "platform": "Steam"
+  },
+  {
+    "title": "Fast Food Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "Only Up SKIBIDI TOGETHER",
+    "platform": "Steam"
+  },
+  {
+    "title": "Grocery Store Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "ICARUS",
+    "platform": "Steam"
+  },
+  {
+    "title": "F1 2017",
+    "platform": "Steam"
+  },
+  {
+    "title": "Ball 3D Soccer",
+    "platform": "Steam"
+  },
+  {
+    "title": "NBA 2K21",
+    "platform": "Steam"
+  },
+  {
+    "title": "Pro Soccer",
+    "platform": "Steam"
+  },
+  {
+    "title": "Bus Simulator 21",
+    "platform": "Steam"
+  },
+  {
+    "title": "London 2012 The Official Video Game of the Olympic Games",
+    "platform": "Steam"
+  },
+  {
+    "title": "Railroads",
+    "platform": "Steam"
+  },
+  {
+    "title": "Timeflow Time & Money Sim",
+    "platform": "Steam"
+  },
+  {
+    "title": "Olympic Games Tokyo 2020",
+    "platform": "Steam"
+  },
+  {
+    "title": "DRIFT21",
+    "platform": "Steam"
+  },
+  {
+    "title": "Ranch Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "Eleven Table Tennis VR",
+    "platform": "Steam"
+  },
+  {
+    "title": "Spintires",
+    "platform": "Steam"
+  },
+  {
+    "title": "Flashing Lights",
+    "platform": "Steam"
+  },
+  {
+    "title": "Diesel Brothers Truck Building Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "Truck and Logistics Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "Stellaris Nexus",
+    "platform": "Steam"
+  },
+  {
+    "title": "ClueCluedo",
+    "platform": "Steam"
+  },
+  {
+    "title": "Cosmoteer Starship Architect and Commander",
+    "platform": "Steam"
+  },
+  {
+    "title": "Feudal Friends",
+    "platform": "Steam"
+  },
+  {
+    "title": "DwarfHeim",
+    "platform": "Steam"
+  },
+  {
+    "title": "Mount and Blade Warband",
+    "platform": "Steam"
+  },
+  {
+    "title": "Stronghold 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Turmoil",
+    "platform": "Steam"
+  },
+  {
+    "title": "Superfuse",
+    "platform": "Steam"
+  },
+  {
+    "title": "Legion TD 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Blood Bowl 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "CRIMESIGHT",
+    "platform": "Steam"
+  },
+  {
+    "title": "Halo Wars 2",
+    "platform": "Steam"
+  },
+  {
+    "title": "Filthy Lucre",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dungeons and Dragons Lords of Waterdeep",
+    "platform": "Steam"
+  },
+  {
+    "title": "Through the Ages",
+    "platform": "Steam"
+  },
+  {
+    "title": "Stronghold Legends",
+    "platform": "Steam"
+  },
+  {
+    "title": "Age of Empires IV",
+    "platform": "Steam"
+  },
+  {
+    "title": "RichMan 10",
+    "platform": "Steam"
+  },
+  {
+    "title": "SWINE HD Remaster",
+    "platform": "Steam"
+  },
+  {
+    "title": "Talisman Digital Edition",
+    "platform": "Steam"
+  },
+  {
+    "title": "ClueCluedo The Classic Mystery Game",
+    "platform": "Steam"
+  },
+  {
+    "title": "Age of Empires II",
+    "platform": "Steam"
+  },
+  {
+    "title": "Rome Total War Collection",
+    "platform": "Steam"
+  },
+  {
+    "title": "Root",
+    "platform": "Steam"
+  },
+  {
+    "title": "Warhammer 40000 Gladius - Relics of War",
+    "platform": "Steam"
+  },
+  {
+    "title": "Spaceland",
+    "platform": "Steam"
+  },
+  {
+    "title": "Endless Legend Emperor Edition",
+    "platform": "Steam"
+  },
+  {
+    "title": "Sid Meiers Civilization VI",
+    "platform": "Steam"
+  },
+  {
+    "title": "DayZ (DayZavr)",
+    "platform": "Steam"
+  },
+  {
+    "title": "SpyFall",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dungeon Done",
+    "platform": "Steam"
+  },
+  {
+    "title": "Zombie Survival Game",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dread Hunger",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dont Die In The West",
+    "platform": "Steam"
+  },
+  {
+    "title": "Conan Exiles",
+    "platform": "Steam"
+  },
+  {
+    "title": "Secret Neighbor",
+    "platform": "Steam"
+  },
+  {
+    "title": "Overkills The Walking Dead",
+    "platform": "Steam"
+  },
+  {
+    "title": "Car For Sale Simulator 2023",
+    "platform": "Steam"
+  },
+  {
+    "title": "Nom Nom Galaxy",
+    "platform": "Steam"
+  },
+  {
+    "title": "RUMBLE",
+    "platform": "Steam"
+  },
+  {
+    "title": "Trickster VR",
+    "platform": "Steam"
+  }
 ]
