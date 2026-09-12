@@ -87,7 +87,7 @@ jobs:
               return results
 
           active_rows = query_denuvo(
-              'Availability.Uses_DRM LIKE "%Denuvo Anti-Tamper%"',
+              'Availability.Uses_DRM HOLDS LIKE "%Denuvo Anti-Tamper%"',
               'Active Denuvo'
           )
 
