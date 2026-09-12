@@ -51,7 +51,7 @@ jobs:
               raise Exception(f'Login failed: {result}')
           print('Authenticated with PCGamingWiki')
 
-          # Step 3: Query games with active Denuvo
+          # Step 3: Query helper
           def query_denuvo(where_clause, label):
               results = []
               offset = 0
@@ -69,7 +69,7 @@ jobs:
                   data = r.json()
 
                   if 'error' in data:
-                      print(f'Query error: {data["error"]["info"]}')
+                      print(f'Query error ({label}): {data["error"]["info"]}')
                       break
 
                   rows = data.get('cargoquery', [])
@@ -77,8 +77,7 @@ jobs:
                       break
 
                   for row in rows:
-                      entry = row.get('title', {})
-                      results.append(entry)
+                      results.append(row.get('title', {}))
 
                   print(f'{label}: fetched {len(results)} entries (offset {offset})')
                   offset += 100
@@ -86,40 +85,44 @@ jobs:
 
               return results
 
+          # Step 4: Two queries — active and removed
           active_rows = query_denuvo(
               'Availability.Uses_DRM HOLDS LIKE "%Denuvo Anti-Tamper%"',
               'Active Denuvo'
           )
 
           removed_rows = query_denuvo(
-              'Availability.Removed_DRM LIKE "%Denuvo Anti-Tamper%"',
+              'Availability.Removed_DRM HOLDS LIKE "%Denuvo Anti-Tamper%"',
               'Removed Denuvo'
           )
 
-          # Step 4: Deduplicate and build index
+          print(f'\nRaw results: {len(active_rows)} active rows, {len(removed_rows)} removed rows')
+
+          # Step 5: Deduplicate and build index
           games = {}
 
           for row in active_rows:
               page = row.get('Page', '')
-              if not page:
+              if not page or page in games:
                   continue
-              app_id = row.get('AppID', '')
-              if page not in games:
-                  games[page] = {
-                      'name': page,
-                      'appId': app_id,
-                      'status': 'active'
-                  }
+              app_ids = row.get('AppID', '')
+              first_id = app_ids.split(',')[0].strip() if app_ids else ''
+              games[page] = {
+                  'name': page,
+                  'appId': first_id,
+                  'status': 'active'
+              }
 
           for row in removed_rows:
               page = row.get('Page', '')
               if not page:
                   continue
-              app_id = row.get('AppID', '')
+              app_ids = row.get('AppID', '')
+              first_id = app_ids.split(',')[0].strip() if app_ids else ''
               if page not in games:
                   games[page] = {
                       'name': page,
-                      'appId': app_id,
+                      'appId': first_id,
                       'status': 'removed'
                   }
               else:
@@ -133,7 +136,7 @@ jobs:
 
           active = sum(1 for g in game_list if g['status'] == 'active')
           removed = sum(1 for g in game_list if g['status'] == 'removed')
-          print(f'\nDone — {len(game_list)} total, {active} active, {removed} removed')
+          print(f'Done — {len(game_list)} total, {active} active, {removed} removed')
           EOF
 
       - name: Commit and push
