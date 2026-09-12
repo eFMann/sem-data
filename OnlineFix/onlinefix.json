@@ -12,6 +12,11 @@
       "appId": "1221480"
     },
     {
+      "title": "Submerge",
+      "platform": "Steam",
+      "appId": "4180620"
+    },
+    {
       "title": "Dragons Dogma 2",
       "platform": "Steam",
       "appId": "2054970"
@@ -52,6 +57,16 @@
       "appId": "4429930"
     },
     {
+      "title": "Vacation Cafe Simulator",
+      "platform": "Steam",
+      "appId": "3196440"
+    },
+    {
+      "title": "The Lantern of the Laughless Saint",
+      "platform": "Steam",
+      "appId": "3849000"
+    },
+    {
       "title": "How to Fish",
       "platform": "Steam",
       "appId": "4001890"
@@ -77,6 +92,21 @@
       "appId": "2507980"
     },
     {
+      "title": "Bookshop Simulator",
+      "platform": "Steam",
+      "appId": "3467040"
+    },
+    {
+      "title": "Dig, Dig, Die",
+      "platform": "Steam",
+      "appId": "4074010"
+    },
+    {
+      "title": "Project Breakout",
+      "platform": "Steam",
+      "appId": "2665100"
+    },
+    {
       "title": "Approximately Up",
       "platform": "Steam",
       "appId": "3904850"
@@ -97,6 +127,11 @@
       "appId": "3561220"
     },
     {
+      "title": "Halo Campaign Evolved",
+      "platform": "Microsoft Store",
+      "appId": "2806050"
+    },
+    {
       "title": "DragonSword Awakening",
       "platform": "Steam",
       "appId": "4570720"
@@ -109,6 +144,11 @@
       "title": "The Mound Omen of Cthulhu",
       "platform": "Steam",
       "appId": "2569760"
+    },
+    {
+      "title": "Pyramidion",
+      "platform": "Steam",
+      "appId": "4024600"
     },
     {
       "title": "MARVEL Tokon Fighting Souls",
@@ -145,6 +185,11 @@
       "appId": "2406770"
     },
     {
+      "title": "Halloween The Game",
+      "platform": "Steam",
+      "appId": "3219630"
+    },
+    {
       "title": "Mimic Party",
       "platform": "Steam",
       "appId": "5053820"
@@ -165,6 +210,11 @@
       "appId": "2868840"
     },
     {
+      "title": "Sineus Arena Survivors",
+      "platform": "Steam",
+      "appId": "4227400"
+    },
+    {
       "title": "Trail & Error",
       "platform": "Steam",
       "appId": "4322960"
@@ -180,6 +230,11 @@
       "appId": "1627720"
     },
     {
+      "title": "Blade and Sorcery",
+      "platform": "Steam",
+      "appId": "629730"
+    },
+    {
       "title": "STARSEEKER Astroneer Expeditions",
       "platform": "Microsoft Store",
       "appId": "1454370"
@@ -188,6 +243,16 @@
       "title": "Goblin Company",
       "platform": "Steam",
       "appId": "3864450"
+    },
+    {
+      "title": "Witchspire",
+      "platform": "Steam",
+      "appId": "2679100"
+    },
+    {
+      "title": "Fears to Fathom Scratch Creek",
+      "platform": "Steam",
+      "appId": "4121170"
     },
     {
       "title": "Meccha Chameleon",
@@ -230,6 +295,16 @@
       "appId": "4037180"
     },
     {
+      "title": "Dollhouse of Dead",
+      "platform": "Steam",
+      "appId": "2977810"
+    },
+    {
+      "title": "PIT OF GOBLIN",
+      "platform": "Steam",
+      "appId": "3253530"
+    },
+    {
       "title": "No Time",
       "platform": "Steam",
       "appId": "1043340"
@@ -245,6 +320,36 @@
       "appId": "2681030"
     },
     {
+      "title": "Golf Gambit",
+      "platform": "Steam + Epic",
+      "appId": "2761350"
+    },
+    {
+      "title": "Aliens Vs. Ghosts",
+      "platform": "Steam",
+      "appId": "1609730"
+    },
+    {
+      "title": "Sledding Game",
+      "platform": "Steam",
+      "appId": "3438850"
+    },
+    {
+      "title": "Task Time",
+      "platform": "Steam + Epic",
+      "appId": "2182680"
+    },
+    {
+      "title": "Rosalie",
+      "platform": "Steam",
+      "appId": "4268470"
+    },
+    {
+      "title": "Gamble With Your Friends",
+      "platform": "Steam",
+      "appId": "3892270"
+    },
+    {
       "title": "Far Far West",
       "platform": "Steam",
       "appId": "3124540"
@@ -258,6 +363,11 @@
       "title": "Pratfall",
       "platform": "Steam",
       "appId": "4244510"
+    },
+    {
+      "title": "Last Man Sitting",
+      "platform": "Steam",
+      "appId": "774291"
     },
     {
       "title": "Knights End",
@@ -2998,6 +3108,11 @@
       "appId": "673950"
     },
     {
+      "title": "the cabin game",
+      "platform": "Steam",
+      "appId": "4406280"
+    },
+    {
       "title": "Inferno Protocol",
       "platform": "Steam",
       "appId": "3908940"
@@ -3006,6 +3121,11 @@
       "title": "Clawed",
       "platform": "Steam",
       "appId": "3394840"
+    },
+    {
+      "title": "Halloween The Game",
+      "platform": "Epic",
+      "appId": "3219630"
     },
     {
       "title": "Last Pirates Die Together",
@@ -3021,6 +3141,16 @@
       "title": "Grain Rot",
       "platform": "Steam",
       "appId": "4450620"
+    },
+    {
+      "title": "Shift At Midnight",
+      "platform": "Steam",
+      "appId": "3722330"
+    },
+    {
+      "title": "Happys Humble Burger Cult",
+      "platform": "Steam",
+      "appId": "3453910"
     },
     {
       "title": "Funnel Runners",
@@ -3041,6 +3171,11 @@
       "title": "The Backrooms Rescue Expedition",
       "platform": "Steam",
       "appId": "3267550"
+    },
+    {
+      "title": "Backrooms Lost Runners",
+      "platform": "Steam",
+      "appId": "3072120"
     },
     {
       "title": "Project Mist",
@@ -3757,6 +3892,11 @@
       "appId": "671510"
     },
     {
+      "title": "Hell Let Loose Vietnam",
+      "platform": "Epic",
+      "appId": "3079210"
+    },
+    {
       "title": "SpeedRunners 2 King of Speed",
       "platform": "Steam",
       "appId": "3183760"
@@ -3787,9 +3927,19 @@
       "appId": "1920430"
     },
     {
+      "title": "Avatar Legends The Fighting Game",
+      "platform": "Steam",
+      "appId": "2424420"
+    },
+    {
       "title": "Tears of Metal",
       "platform": "Steam",
       "appId": "1913120"
+    },
+    {
+      "title": "Ticket to Ride",
+      "platform": "Steam",
+      "appId": "2477010"
     },
     {
       "title": "Dead or Alive 6 Last Round",
@@ -3815,6 +3965,11 @@
       "title": "Garfield Kart 2 - All You Can Drift",
       "platform": "Steam",
       "appId": "3239650"
+    },
+    {
+      "title": "Over The Top WWI",
+      "platform": "Steam",
+      "appId": "2778610"
     },
     {
       "title": "RoadCraft",
@@ -4941,6 +5096,19 @@
       "appId": "2605790"
     },
     {
+      "title": "Plants vs Zombies Battle for Neighborville",
+      "platform": "EA",
+      "appId": "1262240"
+    },
+    {
+      "title": "Plants vs Zombies Garden Warfare 2",
+      "platform": "EA"
+    },
+    {
+      "title": "Plants vs Zombies Garden Warfare",
+      "platform": "EA"
+    },
+    {
       "title": "Rogue Point",
       "platform": "Steam",
       "appId": "1843840"
@@ -6031,6 +6199,11 @@
       "appId": "2955840"
     },
     {
+      "title": "Boba Cafe Simulator",
+      "platform": "Steam",
+      "appId": "3683770"
+    },
+    {
       "title": "Data Center",
       "platform": "Steam",
       "appId": "4170200"
@@ -6044,6 +6217,11 @@
       "title": "The Ranchers",
       "platform": "Steam",
       "appId": "1501310"
+    },
+    {
+      "title": "IRON NEST Heavy Turret Simulator",
+      "platform": "Steam",
+      "appId": "2950790"
     },
     {
       "title": "Aquapark Tycoon",
@@ -6066,6 +6244,11 @@
       "appId": "4324480"
     },
     {
+      "title": "Ore Factory Squad",
+      "platform": "Steam",
+      "appId": "4210580"
+    },
+    {
       "title": "A Game About Chopping Trees",
       "platform": "Steam",
       "appId": "4512570"
@@ -6074,6 +6257,16 @@
       "title": "Cat Mail Co.",
       "platform": "Steam",
       "appId": "4380490"
+    },
+    {
+      "title": "Football Pitch Simulator",
+      "platform": "Steam",
+      "appId": "3154800"
+    },
+    {
+      "title": "Hardware Store Simulator",
+      "platform": "Steam",
+      "appId": "3358560"
     },
     {
       "title": "Airport Security Sucks!",
@@ -6090,6 +6283,16 @@
       "platform": "Steam"
     },
     {
+      "title": "Monster Mop Up",
+      "platform": "Steam",
+      "appId": "2451310"
+    },
+    {
+      "title": "Go-Go Town!",
+      "platform": "Steam",
+      "appId": "2195120"
+    },
+    {
       "title": "SnowRunner",
       "platform": "Microsoft Store",
       "appId": "1465360"
@@ -6103,6 +6306,11 @@
       "title": "Rest Area Simulator",
       "platform": "Steam",
       "appId": "3732960"
+    },
+    {
+      "title": "SimplePlanes 2",
+      "platform": "Steam",
+      "appId": "2840470"
     },
     {
       "title": "Rewind 99",
@@ -7065,6 +7273,11 @@
       "appId": "447020"
     },
     {
+      "title": "Spirit Island",
+      "platform": "Steam",
+      "appId": "1236720"
+    },
+    {
       "title": "Viractal Will You Trust Your Party",
       "platform": "Steam",
       "appId": "2909580"
@@ -7098,6 +7311,11 @@
       "title": "Dark Quest 4",
       "platform": "Steam",
       "appId": "2453840"
+    },
+    {
+      "title": "Spider Roulette",
+      "platform": "Steam",
+      "appId": "3900650"
     },
     {
       "title": "Slay the Spire 2",
