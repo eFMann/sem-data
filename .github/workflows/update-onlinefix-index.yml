@@ -67,6 +67,7 @@ jobs:
               has_ea = bool(re.search(r'Electronic Arts', entry_html, re.IGNORECASE))
               has_lan = bool(re.search(r'tags/(?:lan|vpn)', entry_html, re.IGNORECASE))
               has_gog = bool(re.search(r'GOG', entry_html, re.IGNORECASE))
+              has_steam_remote = bool(re.search(r'Steam Remote Play', entry_html, re.IGNORECASE))
               has_internet = bool(re.search(r'Интернет', entry_html))
 
               if has_steam and has_epic:
@@ -91,6 +92,8 @@ jobs:
                   return 'LAN'
               elif has_internet:
                   return 'Internet'
+              elif has_steam_remote:
+                  return 'Steam Remote Play'
               elif has_steam:
                   return 'Steam'
               else:
@@ -255,15 +258,14 @@ jobs:
                               seen.add(href)
                               found_any = True
 
-                              # Walk up to find the entry container
-                              parent = link.parent
-                              for _ in range(5):
-                                  if parent and parent.name in ['article', 'div', 'section', 'li']:
-                                      break
-                                  if parent:
-                                      parent = parent.parent
-
-                              entry_html = str(parent) if parent else ''
+                              # Find the nearest news-item or article container
+                              entry_container = (
+                                  link.find_parent('article') or
+                                  link.find_parent('div', class_=lambda c: c and 'news' in c.lower()) or
+                                  link.find_parent('div', class_=lambda c: c and 'item' in c.lower()) or
+                                  link.find_parent('div')
+                              )
+                              entry_html = str(entry_container) if entry_container else ''
 
                               platform = extract_platform_from_entry(entry_html)
                               release_date = extract_release_date(entry_html)
