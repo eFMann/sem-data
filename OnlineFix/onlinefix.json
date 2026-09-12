@@ -138,7 +138,8 @@
     },
     {
       "title": "RED FLAG",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2628060"
     },
     {
       "title": "The Mound Omen of Cthulhu",
@@ -457,7 +458,8 @@
     },
     {
       "title": "Hytale",
-      "platform": "LAN"
+      "platform": "LAN",
+      "appId": "1601580"
     },
     {
       "title": "Raiders of Blackveil",
@@ -701,7 +703,8 @@
     },
     {
       "title": "Dying Light The Beast Restored Land",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "2802790"
     },
     {
       "title": "Voyagers of Nera",
@@ -870,7 +873,8 @@
     },
     {
       "title": "ENDLESS Dungeon",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1485590"
     },
     {
       "title": "FANTASY LIFE i The Girl Who Steals Time",
@@ -879,7 +883,8 @@
     },
     {
       "title": "Star Trek",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "364830"
     },
     {
       "title": "Worlds of Aria",
@@ -1162,11 +1167,13 @@
     },
     {
       "title": "Ale and Tale Tavern",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2683150"
     },
     {
       "title": "Dale and Dawson Stationery Supplies",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2920570"
     },
     {
       "title": "Dawn of Defiance",
@@ -1305,7 +1312,8 @@
     },
     {
       "title": "BOKURA",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1686840"
     },
     {
       "title": "Palworld",
@@ -1324,7 +1332,8 @@
     },
     {
       "title": "Hood Outlaws Legends",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "927350"
     },
     {
       "title": "DAVIGO VR vs PC",
@@ -1368,7 +1377,8 @@
     },
     {
       "title": "Atlas Fallen",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1230530"
     },
     {
       "title": "Filthy Animals Heist Simulator",
@@ -1407,7 +1417,8 @@
     },
     {
       "title": "Among Us VR",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2160590"
     },
     {
       "title": "Ship of Fools",
@@ -1441,7 +1452,8 @@
     },
     {
       "title": "Demeo PC Edition",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1484280"
     },
     {
       "title": "The Last Hero of Nostalgaia",
@@ -1575,7 +1587,8 @@
     },
     {
       "title": "Trash Sailors",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1162330"
     },
     {
       "title": "Runbow",
@@ -1609,7 +1622,8 @@
     },
     {
       "title": "Breakwaters",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1203180"
     },
     {
       "title": "Tribes of Midgard",
@@ -1618,7 +1632,8 @@
     },
     {
       "title": "ANVIL",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1660240"
     },
     {
       "title": "Chronicon",
@@ -1692,11 +1707,13 @@
     },
     {
       "title": "Second Hand Frankies Revenge",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1097640"
     },
     {
       "title": "ReLegend",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "772300"
     },
     {
       "title": "Escape Simulator",
@@ -1705,7 +1722,8 @@
     },
     {
       "title": "Metaverse Keeper",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1088360"
     },
     {
       "title": "Trine Enchanted Edition",
@@ -1744,7 +1762,8 @@
     },
     {
       "title": "Osiris New Dawn",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "402710"
     },
     {
       "title": "Karnage Chronicles",
@@ -1758,7 +1777,8 @@
     },
     {
       "title": "Marvels Avengers",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "997070"
     },
     {
       "title": "Levelhead",
@@ -1897,7 +1917,8 @@
     },
     {
       "title": "Manual Samuel Anniversary Edition",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "504130"
     },
     {
       "title": "Rhythm Doctor",
@@ -1931,7 +1952,8 @@
     },
     {
       "title": "ReadySet Heroes",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1350640"
     },
     {
       "title": "Headsnatchers",
@@ -1960,7 +1982,8 @@
     },
     {
       "title": "LEGO Lord of the Rings",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "214510"
     },
     {
       "title": "30XX",
@@ -2029,7 +2052,8 @@
     },
     {
       "title": "Teenage Mutant Ninja Turtles Mutants in Manhattan",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "487380"
     },
     {
       "title": "LEGO DC Super-Villains",
@@ -2078,7 +2102,8 @@
     },
     {
       "title": "Godfall",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "928960"
     },
     {
       "title": "Havocado Ragdoll Fighter",
@@ -2092,7 +2117,8 @@
     },
     {
       "title": "Lost Castle",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "434650"
     },
     {
       "title": "Welcome to Princeland",
@@ -2156,7 +2182,8 @@
     },
     {
       "title": "MARVEL Tokon Fighting Souls",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "3208350"
     },
     {
       "title": "Heave Ho 2",
@@ -2384,7 +2411,8 @@
     },
     {
       "title": "Bread and Fred",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1812210"
     },
     {
       "title": "I will eat you",
@@ -2433,7 +2461,8 @@
     },
     {
       "title": "Drink More Gulp",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "1785570"
     },
     {
       "title": "Windjammers 2",
@@ -2457,7 +2486,8 @@
     },
     {
       "title": "Project Arrhythmia",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "440310"
     },
     {
       "title": "Teenage Mutant Ninja Turtles Shredders Revenge",
@@ -2466,7 +2496,8 @@
     },
     {
       "title": "Taiko no Tatsujin The Drum Master",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1994210"
     },
     {
       "title": "HyperBrawl Tournament",
@@ -2505,7 +2536,8 @@
     },
     {
       "title": "Geneshift",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "308600"
     },
     {
       "title": "20XX",
@@ -2514,7 +2546,8 @@
     },
     {
       "title": "SEGA Mega Drive and Genesis Classics",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "34270"
     },
     {
       "title": "The Crackpet Show",
@@ -2543,7 +2576,8 @@
     },
     {
       "title": "Jets n Guns 2",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "1098750"
     },
     {
       "title": "Final Exam",
@@ -2562,7 +2596,8 @@
     },
     {
       "title": "Warhammer Underworlds",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1022310"
     },
     {
       "title": "KILL la KILL IF",
@@ -2581,7 +2616,8 @@
     },
     {
       "title": "NASCAR 21 Ignition",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1545280"
     },
     {
       "title": "Catastronauts",
@@ -2610,7 +2646,8 @@
     },
     {
       "title": "Puyo Puyo Tetris",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "546050"
     },
     {
       "title": "Spitlings",
@@ -2684,7 +2721,8 @@
     },
     {
       "title": "N++",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "230270"
     },
     {
       "title": "Heave Ho",
@@ -2763,7 +2801,8 @@
     },
     {
       "title": "Rocket League",
-      "platform": "LAN"
+      "platform": "LAN",
+      "appId": "252950"
     },
     {
       "title": "LEGO MARVEL Super Heroes 2",
@@ -2972,7 +3011,8 @@
     },
     {
       "title": "Never Alone",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "295790"
     },
     {
       "title": "Cuphead",
@@ -3026,7 +3066,8 @@
     },
     {
       "title": "HELLDIVERS",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "394510"
     },
     {
       "title": "Ashen",
@@ -3095,7 +3136,8 @@
     },
     {
       "title": "MY HERO ACADEMIA Alls Justice",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "3060610"
     },
     {
       "title": "Ys vs. Trails in the Sky Alternative Saga",
@@ -3124,7 +3166,8 @@
     },
     {
       "title": "HUNTERxHUNTER NENxIMPACT",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2701010"
     },
     {
       "title": "Mage Arena",
@@ -3163,7 +3206,8 @@
     },
     {
       "title": "Virtua Fighter 5 R.E.V.O",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "3154910"
     },
     {
       "title": "Gladio Mori",
@@ -3207,7 +3251,8 @@
     },
     {
       "title": "Knock Em Out",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2339590"
     },
     {
       "title": "Ghost of Tsushima DIRECTORS CUT",
@@ -3241,7 +3286,8 @@
     },
     {
       "title": "UNDER NIGHT IN-BIRTH ExeLate clr",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "801630"
     },
     {
       "title": "Granblue Fantasy Versus Rising",
@@ -3265,11 +3311,13 @@
     },
     {
       "title": "Screaming Chicken Ultimate Showdown",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1844640"
     },
     {
       "title": "Divine Knockout",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1294160"
     },
     {
       "title": "Wo Long Fallen Dynasty",
@@ -3418,7 +3466,8 @@
     },
     {
       "title": "Street Warriors",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "555860"
     },
     {
       "title": "DRAGON BALL FighterZ",
@@ -3427,7 +3476,8 @@
     },
     {
       "title": "Mortal Kombat Komplete Edition",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "237110"
     },
     {
       "title": "Knockout Party",
@@ -3491,7 +3541,8 @@
     },
     {
       "title": "JUMP FORCE",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "816020"
     },
     {
       "title": "Samurai Shodown",
@@ -3505,7 +3556,8 @@
     },
     {
       "title": "WARRIORS OROCHI 4 Ultimate",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "831560"
     },
     {
       "title": "ONE PIECE PIRATE WARRIORS 4",
@@ -3674,7 +3726,8 @@
     },
     {
       "title": "C.A.S.T.",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2104760"
     },
     {
       "title": "Pizza Deathlivery",
@@ -3913,7 +3966,8 @@
     },
     {
       "title": "PARANOIA PLACE",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2610350"
     },
     {
       "title": "Observe and Report",
@@ -3972,7 +4026,8 @@
     },
     {
       "title": "Surrounded",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1914080"
     },
     {
       "title": "Deadly Broadcast",
@@ -3981,7 +4036,8 @@
     },
     {
       "title": "Inout",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2042290"
     },
     {
       "title": "The Outlast Trials",
@@ -4040,11 +4096,13 @@
     },
     {
       "title": "Ghostbusters Spirits Unleashed",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1708560"
     },
     {
       "title": "Soul at Stake",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "824520"
     },
     {
       "title": "Boo Men",
@@ -4078,11 +4136,13 @@
     },
     {
       "title": "Home Sweet Home Survive",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1562430"
     },
     {
       "title": "Forsake",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1628490"
     },
     {
       "title": "S.P.A.T.",
@@ -4091,7 +4151,8 @@
     },
     {
       "title": "Escape The Ayuwoki Horror Night",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1362760"
     },
     {
       "title": "Left 4 Dead",
@@ -4130,7 +4191,8 @@
     },
     {
       "title": "Propnight",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1549180"
     },
     {
       "title": "Obsideo",
@@ -4149,7 +4211,8 @@
     },
     {
       "title": "Obscure 2",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "7710"
     },
     {
       "title": "The Experiment Escape Room",
@@ -4188,11 +4251,13 @@
     },
     {
       "title": "Last Year The Nightmare",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1124980"
     },
     {
       "title": "Monstrum 2",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1261120"
     },
     {
       "title": "DEVOUR",
@@ -4271,11 +4336,13 @@
     },
     {
       "title": "Friday the 13th The Game",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "438740"
     },
     {
       "title": "Loco Parentis",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "891010"
     },
     {
       "title": "Beyond Senses",
@@ -4294,7 +4361,8 @@
     },
     {
       "title": "Dead Island Definitive Collection",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "383150"
     },
     {
       "title": "Desolate",
@@ -4378,7 +4446,8 @@
     },
     {
       "title": "MotoGP 26",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "3266170"
     },
     {
       "title": "Beyond Sandbox",
@@ -4472,7 +4541,8 @@
     },
     {
       "title": "Long Drive North",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2666430"
     },
     {
       "title": "Skopje 83",
@@ -4501,7 +4571,8 @@
     },
     {
       "title": "Supermarket Simulator",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2670630"
     },
     {
       "title": "SWORN",
@@ -4530,11 +4601,13 @@
     },
     {
       "title": "MotoGP 25",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "2591190"
     },
     {
       "title": "Prison Boss Prohibition",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2611690"
     },
     {
       "title": "Tony Hawk's Pro Skater 3 + 4",
@@ -4553,7 +4626,8 @@
     },
     {
       "title": "Warhammer 40000 Space Marine Master Crafted Edition",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "2952420"
     },
     {
       "title": "Fuel Harvest Together",
@@ -4662,7 +4736,8 @@
     },
     {
       "title": "Arizona Sunshine Remake",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2050420"
     },
     {
       "title": "Unrailed 2 Back on Track",
@@ -4686,7 +4761,8 @@
     },
     {
       "title": "Ara History Untold",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1985370"
     },
     {
       "title": "The Forever Winter",
@@ -4720,7 +4796,8 @@
     },
     {
       "title": "Prisoners",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1624740"
     },
     {
       "title": "Lost Castle 2",
@@ -4749,7 +4826,8 @@
     },
     {
       "title": "Contractors Showdown",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2434590"
     },
     {
       "title": "Men of War II",
@@ -4788,7 +4866,8 @@
     },
     {
       "title": "Microsoft Flight Simulator",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1250410"
     },
     {
       "title": "Dune Imperium",
@@ -4847,7 +4926,8 @@
     },
     {
       "title": "Minecraft for Windows",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1672970"
     },
     {
       "title": "Valheim",
@@ -4891,7 +4971,8 @@
     },
     {
       "title": "Don't Panic! It is Just a Turbulence",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2756020"
     },
     {
       "title": "Together Moon Escape",
@@ -4945,7 +5026,8 @@
     },
     {
       "title": "Brain Show Party Quiz",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2078710"
     },
     {
       "title": "Railroader",
@@ -4994,7 +5076,8 @@
     },
     {
       "title": "Mad Experiments 2 Escape Room",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1684590"
     },
     {
       "title": "The Jackbox Party Pack 9",
@@ -5023,7 +5106,8 @@
     },
     {
       "title": "Suspects Mystery Mansion",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1534190"
     },
     {
       "title": "First Class Escape 2 Head in the Clouds",
@@ -5127,7 +5211,8 @@
     },
     {
       "title": "Slip and Skid",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1866490"
     },
     {
       "title": "Drive Together",
@@ -5141,7 +5226,8 @@
     },
     {
       "title": "DiRT 4",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "421020"
     },
     {
       "title": "NASCAR 25",
@@ -5150,7 +5236,8 @@
     },
     {
       "title": "F1 2016",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "391040"
     },
     {
       "title": "Ultimate Monkey Race",
@@ -5164,11 +5251,13 @@
     },
     {
       "title": "Sonic and All-Stars Racing Transformed Collection",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "212480"
     },
     {
       "title": "Car For Sale Simulator 2023",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2126740"
     },
     {
       "title": "Make Way",
@@ -5187,7 +5276,8 @@
     },
     {
       "title": "LEGO 2K Drive",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1451800"
     },
     {
       "title": "HOT WHEELS UNLEASHED 2 Turbocharged",
@@ -5201,7 +5291,8 @@
     },
     {
       "title": "Horizon Chase 2",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1907450"
     },
     {
       "title": "RIDE 5",
@@ -5225,7 +5316,8 @@
     },
     {
       "title": "WRC Generations",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1449670"
     },
     {
       "title": "Dakar Desert Rally",
@@ -5249,15 +5341,18 @@
     },
     {
       "title": "You Suck at Parking",
-      "platform": "Steam + Microsoft"
+      "platform": "Steam + Microsoft",
+      "appId": "1948900"
     },
     {
       "title": "NASCAR Heat 5",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1265860"
     },
     {
       "title": "MotoGP 22",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1618610"
     },
     {
       "title": "Parkour Tag",
@@ -5291,7 +5386,8 @@
     },
     {
       "title": "F1 2019",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "928600"
     },
     {
       "title": "DIRT 5",
@@ -5300,11 +5396,13 @@
     },
     {
       "title": "Forza Motorsport 7",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "2368670"
     },
     {
       "title": "Forza Horizon 3",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1066890"
     },
     {
       "title": "Gear Club Unlimited 2 Ultimate Edition",
@@ -5328,7 +5426,8 @@
     },
     {
       "title": "F1 RACE STARS",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "203680"
     },
     {
       "title": "Mini Motor Racing X",
@@ -5337,7 +5436,8 @@
     },
     {
       "title": "Grid 2",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "44350"
     },
     {
       "title": "Kandagawa Jet Girls",
@@ -5346,7 +5446,8 @@
     },
     {
       "title": "Fast and Furious Spy Racers Rise of Shifter",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1339540"
     },
     {
       "title": "Forza Horizon 5",
@@ -5360,7 +5461,8 @@
     },
     {
       "title": "NASCAR Heat 4",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1127980"
     },
     {
       "title": "Circuit Superstars",
@@ -5414,7 +5516,8 @@
     },
     {
       "title": "Forza Horizon 4",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1293830"
     },
     {
       "title": "Automobilista 2",
@@ -5433,7 +5536,8 @@
     },
     {
       "title": "Project CARS 2",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "378860"
     },
     {
       "title": "The Long Drive",
@@ -5447,11 +5551,13 @@
     },
     {
       "title": "Blur",
-      "platform": "LAN"
+      "platform": "LAN",
+      "appId": "42640"
     },
     {
       "title": "Project CARS",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "234630"
     },
     {
       "title": "Assetto Corsa",
@@ -5490,15 +5596,18 @@
     },
     {
       "title": "OVERPASS",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1137880"
     },
     {
       "title": "Lightfield",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "759710"
     },
     {
       "title": "GRID 2019",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "703860"
     },
     {
       "title": "Cant Drive This",
@@ -5517,7 +5626,8 @@
     },
     {
       "title": "GRID Autosport",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "255220"
     },
     {
       "title": "Nested Lands",
@@ -5651,7 +5761,8 @@
     },
     {
       "title": "Arizona Sunshine 2",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1540040"
     },
     {
       "title": "Wartales",
@@ -5730,7 +5841,8 @@
     },
     {
       "title": "Bloody Spell",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1030590"
     },
     {
       "title": "Eville",
@@ -5739,7 +5851,8 @@
     },
     {
       "title": "EdgeOfTheAbyssAwaken",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1823690"
     },
     {
       "title": "Son of a Witch",
@@ -5853,7 +5966,8 @@
     },
     {
       "title": "BROKE PROTOCOL Online City RPG",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "696370"
     },
     {
       "title": "Crawl",
@@ -5872,7 +5986,8 @@
     },
     {
       "title": "Dungeons & Dragons Dark Alliance",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "623280"
     },
     {
       "title": "UnEpic",
@@ -5921,7 +6036,8 @@
     },
     {
       "title": "SpellForce 3",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "311290"
     },
     {
       "title": "Gloomhaven",
@@ -5960,7 +6076,8 @@
     },
     {
       "title": "Risk of Rain",
-      "platform": "Steam + LAN"
+      "platform": "Steam + LAN",
+      "appId": "248820"
     },
     {
       "title": "The Dark Eye Book of Heroes",
@@ -5984,11 +6101,13 @@
     },
     {
       "title": "Dark Souls Prepare to Die Edition",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "211420"
     },
     {
       "title": "Lord of the Rings War in the North",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "32800"
     },
     {
       "title": "Monster Hunter World",
@@ -5997,7 +6116,8 @@
     },
     {
       "title": "Outward",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "794260"
     },
     {
       "title": "Sacred 2 Gold",
@@ -6006,7 +6126,8 @@
     },
     {
       "title": "Hunted: The Demons Forge",
-      "platform": "LAN"
+      "platform": "LAN",
+      "appId": "22450"
     },
     {
       "title": "Vikings - Wolves of Midgard",
@@ -6025,7 +6146,8 @@
     },
     {
       "title": "Borderlands GOTY",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "729040"
     },
     {
       "title": "Borderlands 2",
@@ -6074,11 +6196,13 @@
     },
     {
       "title": "Plants vs Zombies Garden Warfare 2",
-      "platform": "EA"
+      "platform": "EA",
+      "appId": "726330"
     },
     {
       "title": "Plants vs Zombies Garden Warfare",
-      "platform": "EA"
+      "platform": "EA",
+      "appId": "590910"
     },
     {
       "title": "Rogue Point",
@@ -6262,11 +6386,13 @@
     },
     {
       "title": "Gears of War 4",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1158570"
     },
     {
       "title": "Gears of War Ultimate Edition",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1158570"
     },
     {
       "title": "Risk of Rain Returns",
@@ -6495,7 +6621,8 @@
     },
     {
       "title": "Muffled Warfare",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "999660"
     },
     {
       "title": "Contagion",
@@ -6519,11 +6646,13 @@
     },
     {
       "title": "Lemnis Gate",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "950180"
     },
     {
       "title": "Memories of Mars",
-      "platform": "Steam + LAN"
+      "platform": "Steam + LAN",
+      "appId": "644290"
     },
     {
       "title": "Arcadegeddon",
@@ -6547,7 +6676,8 @@
     },
     {
       "title": "Evil Dead The Game",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1440440"
     },
     {
       "title": "Battle Cry of Freedom",
@@ -6561,7 +6691,8 @@
     },
     {
       "title": "Warhammer 40000 Space Marine Anniversary Edition",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "55150"
     },
     {
       "title": "UpGun",
@@ -6570,7 +6701,8 @@
     },
     {
       "title": "Crackdown 3",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "2098500"
     },
     {
       "title": "RICO London",
@@ -6614,7 +6746,8 @@
     },
     {
       "title": "Guardians VR",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1098210"
     },
     {
       "title": "Worms Rumble",
@@ -6648,7 +6781,8 @@
     },
     {
       "title": "Nerf Legends",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1480980"
     },
     {
       "title": "Blood and Bacon",
@@ -6682,7 +6816,8 @@
     },
     {
       "title": "Serious Sam Fusion 2017",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "564310"
     },
     {
       "title": "Aliens Fireteam Elite",
@@ -6716,7 +6851,8 @@
     },
     {
       "title": "Crisis VRigade 2",
-      "platform": "Internet"
+      "platform": "Internet",
+      "appId": "1532080"
     },
     {
       "title": "Cannibal Crossing",
@@ -6760,15 +6896,18 @@
     },
     {
       "title": "Attack on Titan 2",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "601050"
     },
     {
       "title": "Aliens Colonial Marines",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "49540"
     },
     {
       "title": "S.T.A.L.K.E.R Clear Sky",
-      "platform": "Internet"
+      "platform": "Internet",
+      "appId": "20510"
     },
     {
       "title": "Zombie Army Trilogy",
@@ -6812,7 +6951,8 @@
     },
     {
       "title": "Resident Evil Resistance",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "952070"
     },
     {
       "title": "10 Miles to Safety",
@@ -6821,7 +6961,8 @@
     },
     {
       "title": "Second Extinction",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "817120"
     },
     {
       "title": "RICO",
@@ -6835,11 +6976,13 @@
     },
     {
       "title": "Spiritfarer",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "972660"
     },
     {
       "title": "BLADENET",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1415400"
     },
     {
       "title": "Planetoid Pioneers",
@@ -6903,7 +7046,8 @@
     },
     {
       "title": "Sekiro Shadows Die Twice",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "814380"
     },
     {
       "title": "Bloody Trapland 2 Curiosity",
@@ -6967,7 +7111,8 @@
     },
     {
       "title": "Sea of Thieves",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1172620"
     },
     {
       "title": "GIBZ",
@@ -7011,7 +7156,8 @@
     },
     {
       "title": "Spec Ops The Line",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "50300"
     },
     {
       "title": "Sniper Elite 4",
@@ -7040,7 +7186,8 @@
     },
     {
       "title": "Serious Sam Classic Revolution",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "227780"
     },
     {
       "title": "Arizona Sunshine",
@@ -7124,7 +7271,8 @@
     },
     {
       "title": "Dead Rising 3",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "265550"
     },
     {
       "title": "Saints Row: The Third",
@@ -7138,7 +7286,8 @@
     },
     {
       "title": "Saints Row 4",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "206420"
     },
     {
       "title": "Sniper Elite V2",
@@ -7247,7 +7396,8 @@
     },
     {
       "title": "TIEBREAK Official Game of the ATP and WTA",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1836630"
     },
     {
       "title": "Monster Mop Up",
@@ -7366,7 +7516,8 @@
     },
     {
       "title": "Paradise Beach Simulator",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2560000"
     },
     {
       "title": "Monster Care Simulator",
@@ -7445,7 +7596,8 @@
     },
     {
       "title": "Better Mart",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2655980"
     },
     {
       "title": "Wrap House Simulator",
@@ -7569,7 +7721,8 @@
     },
     {
       "title": "Only Up SKIBIDI TOGETHER",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2884380"
     },
     {
       "title": "Ship Graveyard Simulator 2",
@@ -7738,7 +7891,8 @@
     },
     {
       "title": "F1 2017",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "393600"
     },
     {
       "title": "IronWolf VR",
@@ -7797,7 +7951,8 @@
     },
     {
       "title": "Ball 3D Soccer",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "396040"
     },
     {
       "title": "Call of the Wild The Angler",
@@ -7881,7 +8036,8 @@
     },
     {
       "title": "NBA 2K21",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "1225140"
     },
     {
       "title": "Tropico 5",
@@ -7895,7 +8051,8 @@
     },
     {
       "title": "Pro Soccer",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2138200"
     },
     {
       "title": "Walkabout Mini Golf VR",
@@ -7914,11 +8071,13 @@
     },
     {
       "title": "Bus Simulator 21",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "1671930"
     },
     {
       "title": "London 2012 The Official Video Game of the Olympic Games",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "71380"
     },
     {
       "title": "CHESS CROWN",
@@ -7967,7 +8126,8 @@
     },
     {
       "title": "Railroads",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1817350"
     },
     {
       "title": "Winter Resort Simulator 2",
@@ -7976,7 +8136,8 @@
     },
     {
       "title": "Timeflow Time & Money Sim",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "545490"
     },
     {
       "title": "Police Simulator Patrol Officers",
@@ -7995,7 +8156,8 @@
     },
     {
       "title": "Olympic Games Tokyo 2020",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "981890"
     },
     {
       "title": "Twilight Struggle",
@@ -8004,7 +8166,8 @@
     },
     {
       "title": "DRIFT21",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "520950"
     },
     {
       "title": "Avorion",
@@ -8038,7 +8201,8 @@
     },
     {
       "title": "Ranch Simulator",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "1119730"
     },
     {
       "title": "The Guild 3",
@@ -8052,7 +8216,8 @@
     },
     {
       "title": "Eleven Table Tennis VR",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "488310"
     },
     {
       "title": "Hand Simulator",
@@ -8081,7 +8246,8 @@
     },
     {
       "title": "Spintires",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "263280"
     },
     {
       "title": "Surgeon Simulator 2",
@@ -8090,11 +8256,13 @@
     },
     {
       "title": "Flashing Lights",
-      "platform": "Internet"
+      "platform": "Internet",
+      "appId": "605740"
     },
     {
       "title": "Diesel Brothers Truck Building Simulator",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "508060"
     },
     {
       "title": "Keep Talking and Nobody Explodes",
@@ -8103,7 +8271,8 @@
     },
     {
       "title": "Truck and Logistics Simulator",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1466780"
     },
     {
       "title": "Stationeers",
@@ -8347,7 +8516,8 @@
     },
     {
       "title": "Stellaris Nexus",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "872790"
     },
     {
       "title": "Oxygen Not Included",
@@ -8356,7 +8526,8 @@
     },
     {
       "title": "ClueCluedo",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1225350"
     },
     {
       "title": "100% Orange Juice",
@@ -8385,7 +8556,8 @@
     },
     {
       "title": "Cosmoteer Starship Architect and Commander",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "799600"
     },
     {
       "title": "Desynced",
@@ -8399,7 +8571,8 @@
     },
     {
       "title": "Feudal Friends",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1552140"
     },
     {
       "title": "Extremely Realistic Siege Warfare Simulator",
@@ -8438,7 +8611,8 @@
     },
     {
       "title": "DwarfHeim",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "977650"
     },
     {
       "title": "Battlefleet Gothic Armada 2",
@@ -8457,7 +8631,8 @@
     },
     {
       "title": "Mount and Blade Warband",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "48700"
     },
     {
       "title": "From the Depths",
@@ -8466,7 +8641,8 @@
     },
     {
       "title": "Stronghold 2",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "40960"
     },
     {
       "title": "Turmoil",
@@ -8475,11 +8651,13 @@
     },
     {
       "title": "Superfuse",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "1858320"
     },
     {
       "title": "Legion TD 2",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "469600"
     },
     {
       "title": "Ozymandias Bronze Age Empire Sim",
@@ -8508,7 +8686,8 @@
     },
     {
       "title": "Blood Bowl 2",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "236690"
     },
     {
       "title": "Victoria 3",
@@ -8532,7 +8711,8 @@
     },
     {
       "title": "CRIMESIGHT",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1491630"
     },
     {
       "title": "Tooth and Tail",
@@ -8581,7 +8761,8 @@
     },
     {
       "title": "Halo Wars 2",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "459220"
     },
     {
       "title": "I Am Not a Monster First Contact",
@@ -8590,7 +8771,8 @@
     },
     {
       "title": "Filthy Lucre",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "527590"
     },
     {
       "title": "Frozenheim",
@@ -8604,7 +8786,8 @@
     },
     {
       "title": "Dungeons and Dragons Lords of Waterdeep",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "644390"
     },
     {
       "title": "Through the Ages",
@@ -8628,7 +8811,8 @@
     },
     {
       "title": "Stronghold Legends",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "40980"
     },
     {
       "title": "Creeper World 4",
@@ -8642,7 +8826,8 @@
     },
     {
       "title": "Age of Empires IV",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "1466860"
     },
     {
       "title": "Toy Soldiers HD",
@@ -8656,7 +8841,8 @@
     },
     {
       "title": "RichMan 10",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1408950"
     },
     {
       "title": "Medieval Kingdom Wars",
@@ -8670,7 +8856,8 @@
     },
     {
       "title": "SWINE HD Remaster",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "944010"
     },
     {
       "title": "Rising Lords",
@@ -8699,7 +8886,8 @@
     },
     {
       "title": "Talisman Digital Edition",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "247000"
     },
     {
       "title": "A House of Thieves",
@@ -8718,7 +8906,8 @@
     },
     {
       "title": "ClueCluedo The Classic Mystery Game",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1225350"
     },
     {
       "title": "Spacebase Startopia",
@@ -8807,7 +8996,8 @@
     },
     {
       "title": "Age of Empires II",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "813780"
     },
     {
       "title": "Worbital",
@@ -8836,7 +9026,8 @@
     },
     {
       "title": "Rome Total War Collection",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "4760"
     },
     {
       "title": "5D Chess With Multiverse Time Travel",
@@ -8850,7 +9041,8 @@
     },
     {
       "title": "Root",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "965580"
     },
     {
       "title": "Supreme Commander 2",
@@ -8889,7 +9081,8 @@
     },
     {
       "title": "Warhammer 40000 Gladius - Relics of War",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "489630"
     },
     {
       "title": "Door Kickers",
@@ -8963,7 +9156,8 @@
     },
     {
       "title": "Spaceland",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1069220"
     },
     {
       "title": "Circle Empires Rivals",
@@ -8982,7 +9176,8 @@
     },
     {
       "title": "Endless Legend Emperor Edition",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "289130"
     },
     {
       "title": "Tropico 6",
@@ -9011,7 +9206,8 @@
     },
     {
       "title": "Sid Meiers Civilization VI",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "289070"
     },
     {
       "title": "Plague Inc Evolved",
@@ -9025,7 +9221,8 @@
     },
     {
       "title": "DayZ (DayZavr)",
-      "platform": "Internet"
+      "platform": "Internet",
+      "appId": "221100"
     },
     {
       "title": "Sitting Ducks",
@@ -9054,7 +9251,8 @@
     },
     {
       "title": "SpyFall",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1108700"
     },
     {
       "title": "Forgotten Seas",
@@ -9098,7 +9296,8 @@
     },
     {
       "title": "Dungeon Done",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "2438060"
     },
     {
       "title": "Forever Skies",
@@ -9232,15 +9431,18 @@
     },
     {
       "title": "Zombie Survival Game",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1039570"
     },
     {
       "title": "Dread Hunger",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "1418630"
     },
     {
       "title": "Dont Die In The West",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1207590"
     },
     {
       "title": "RIPOUT",
@@ -9414,7 +9616,8 @@
     },
     {
       "title": "Conan Exiles",
-      "platform": "Steam + LAN"
+      "platform": "Steam + LAN",
+      "appId": "440900"
     },
     {
       "title": "Volcanoids",
@@ -9473,7 +9676,8 @@
     },
     {
       "title": "Secret Neighbor",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "859570"
     },
     {
       "title": "Dying Light",
@@ -9497,7 +9701,8 @@
     },
     {
       "title": "Overkills The Walking Dead",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "717690"
     },
     {
       "title": "Super Battle Golf",
@@ -9706,7 +9911,8 @@
     },
     {
       "title": "Nom Nom Galaxy",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "226100"
     },
     {
       "title": "Starbound",
@@ -9730,7 +9936,8 @@
     },
     {
       "title": "Trickster VR",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "512220"
     }
   ]
 }
