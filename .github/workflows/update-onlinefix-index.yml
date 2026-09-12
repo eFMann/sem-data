@@ -65,7 +65,7 @@ jobs:
               has_ubisoft = '16109' in program_links or bool(re.search(r'Ubisoft Connect', entry_html, re.IGNORECASE))
               has_ea = bool(re.search(r'Electronic Arts|EA App', entry_html, re.IGNORECASE))
               has_lan = bool(re.search(r'tags/(?:lan|vpn)', entry_html, re.IGNORECASE))
-              has_gog = bool(re.search(r'GOG\s*Galaxy|GOG', entry_html, re.IGNORECASE))
+              has_gog = '16339' in program_links or bool(re.search(r'GOG\s*Galaxy|GOG', entry_html, re.IGNORECASE))
               has_steam_remote = bool(re.search(r'Steam Remote Play', entry_html, re.IGNORECASE))
               has_internet = bool(re.search(r'Интернет', entry_html))
 
@@ -222,8 +222,9 @@ jobs:
           seen = set()
 
           categories = [
-              'adventures', 'arcade', 'horror', 'officialservers',
-              'rpg', 'shooter', 'simulator', 'strategy', 'survival',
+              'adventures', 'arcade', 'fighting', 'horror',
+              'officialservers', 'puzzles', 'racing', 'rpg',
+              'shooter', 'simulator', 'strategy', 'survival',
               'sandbox', 'sport', 'vr'
           ]
 
