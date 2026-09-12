@@ -51,94 +51,89 @@ jobs:
               raise Exception(f'Login failed: {result}')
           print('Authenticated with PCGamingWiki')
 
-          # Step 3: Discover schema — list all Cargo tables
-          r = session.get(API, params={
-              'action': 'cargotables',
-              'format': 'json'
-          })
-          tables = r.json()
-          print('Available Cargo tables:')
-          print(json.dumps(tables, indent=2))
+          # Step 3: Query games with active Denuvo
+          def query_denuvo(where_clause, label):
+              results = []
+              offset = 0
+              while True:
+                  r = session.get(API, params={
+                      'action': 'cargoquery',
+                      'tables': 'Availability,Game',
+                      'join_on': 'Availability._pageID=Game._pageID',
+                      'fields': 'Game._pageName=Page,Game.Steam_AppID=AppID,Availability.Uses_DRM=UsesDRM,Availability.Removed_DRM=RemovedDRM',
+                      'where': where_clause,
+                      'limit': '100',
+                      'offset': str(offset),
+                      'format': 'json'
+                  })
+                  data = r.json()
 
-          # Step 4: Get fields for Game table
-          r = session.get(API, params={
-              'action': 'cargofields',
-              'table': 'Game',
-              'format': 'json'
-          })
-          print('\nGame table fields:')
-          print(json.dumps(r.json(), indent=2))
+                  if 'error' in data:
+                      print(f'Query error: {data["error"]["info"]}')
+                      break
 
-          # Step 5: Get fields for Availability table
-          r = session.get(API, params={
-              'action': 'cargofields',
-              'table': 'Availability',
-              'format': 'json'
-          })
-          print('\nAvailability table fields:')
-          print(json.dumps(r.json(), indent=2))
+                  rows = data.get('cargoquery', [])
+                  if not rows:
+                      break
 
-          # Step 6: Test query — find Denuvo games
-          # Try the most likely column name first
-          games = []
-          offset = 0
-          while True:
-              r = session.get(API, params={
-                  'action': 'cargoquery',
-                  'tables': 'Availability,Game',
-                  'join_on': 'Availability._pageID=Game._pageID',
-                  'fields': 'Game._pageName=Page,Game.Steam_AppID=AppID,Availability.DRM=DRM',
-                  'where': 'Availability.DRM LIKE "%Denuvo Anti-Tamper%"',
-                  'limit': '100',
-                  'offset': str(offset),
-                  'format': 'json'
-              })
-              data = r.json()
+                  for row in rows:
+                      entry = row.get('title', {})
+                      results.append(entry)
 
-              if 'error' in data:
-                  print(f'\nCargo query error: {json.dumps(data["error"], indent=2)}')
-                  print('The table or column names may need adjusting.')
-                  print('Check the schema output above to find the correct names.')
-                  break
+                  print(f'{label}: fetched {len(results)} entries (offset {offset})')
+                  offset += 100
+                  time.sleep(2)
 
-              results = data.get('cargoquery', [])
-              if not results:
-                  break
+              return results
 
-              for row in results:
-                  entry = row.get('title', {})
-                  page = entry.get('Page', '')
-                  app_id = entry.get('AppID', '')
-                  drm = entry.get('DRM', '')
+          active_rows = query_denuvo(
+              'Availability.Uses_DRM LIKE "%Denuvo Anti-Tamper%"',
+              'Active Denuvo'
+          )
 
-                  if not page:
-                      continue
+          removed_rows = query_denuvo(
+              'Availability.Removed_DRM LIKE "%Denuvo Anti-Tamper%"',
+              'Removed Denuvo'
+          )
 
-                  # Skip duplicates (multiple Availability rows per game)
-                  if any(g['name'] == page for g in games):
-                      continue
+          # Step 4: Deduplicate and build index
+          games = {}
 
-                  has_denuvo = 'Denuvo Anti-Tamper' in drm
-                  games.append({
+          for row in active_rows:
+              page = row.get('Page', '')
+              if not page:
+                  continue
+              app_id = row.get('AppID', '')
+              if page not in games:
+                  games[page] = {
                       'name': page,
                       'appId': app_id,
-                      'denuvoActive': has_denuvo,
-                      'drm': drm
-                  })
+                      'status': 'active'
+                  }
 
-              print(f'Fetched {len(games)} Denuvo games so far (offset {offset})')
-              offset += 100
-              time.sleep(2)
+          for row in removed_rows:
+              page = row.get('Page', '')
+              if not page:
+                  continue
+              app_id = row.get('AppID', '')
+              if page not in games:
+                  games[page] = {
+                      'name': page,
+                      'appId': app_id,
+                      'status': 'removed'
+                  }
+              else:
+                  games[page]['status'] = 'removed'
 
-          if games:
-              os.makedirs('Denuvo', exist_ok=True)
-              with open('Denuvo/denuvo.json', 'w', encoding='utf-8') as f:
-                  json.dump(games, f, ensure_ascii=False, indent=2)
-              active = sum(1 for g in games if g['denuvoActive'])
-              removed = len(games) - active
-              print(f'\nDone — {len(games)} total, {active} active, {removed} removed')
-          else:
-              print('\nNo games found. Check schema output and adjust query.')
+          game_list = sorted(games.values(), key=lambda g: g['name'])
+
+          os.makedirs('Denuvo', exist_ok=True)
+          with open('Denuvo/denuvo.json', 'w', encoding='utf-8') as f:
+              json.dump(game_list, f, ensure_ascii=False, indent=2)
+
+          active = sum(1 for g in game_list if g['status'] == 'active')
+          removed = sum(1 for g in game_list if g['status'] == 'removed')
+          print(f'\nDone — {len(game_list)} total, {active} active, {removed} removed')
           EOF
 
       - name: Commit and push
