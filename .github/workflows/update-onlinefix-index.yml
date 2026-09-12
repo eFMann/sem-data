@@ -51,32 +51,16 @@ jobs:
               s = re.sub(r'\s+', ' ', s).strip()
               return s
 
-          # Platform ID map — programs/XXXXX maps to platform name
-          PLATFORM_IDS = {
-              '16108': 'Steam',
-              '16106': 'Epic',
-              '16760': 'Microsoft Store',
-              '16107': 'Battle.net',
-              '16109': 'Ubisoft',
-          }
-
           def extract_platform_from_entry(entry_html):
-              """
-              Extract platform from a single game entry block.
-              Platform link always points to programs/XXXXX-platform.html
-              We match the program ID to determine platform.
-              Also handles combined platforms like Steam + Epic.
-              """
-              # Find all program links in this entry
+              # Match both /programs/XXXXX and /files/progs/XXXXX
               program_links = re.findall(
-                  r'programs/(\d+)-[^"]+\.html',
+                  r'(?:programs|files/progs)/(\d+)-[^"]+\.html',
                   entry_html,
                   re.IGNORECASE
               )
 
-              # Also check for combined text patterns
-              has_epic = '16106' in program_links or bool(re.search(r'Epic\s+Games?\s+Store', entry_html, re.IGNORECASE))
               has_steam = '16108' in program_links
+              has_epic = '16106' in program_links or bool(re.search(r'Epic\s+Games?\s+Store', entry_html, re.IGNORECASE))
               has_microsoft = '16760' in program_links or bool(re.search(r'Microsoft Store', entry_html, re.IGNORECASE))
               has_battlenet = '16107' in program_links or bool(re.search(r'Battle\.net', entry_html, re.IGNORECASE))
               has_ubisoft = '16109' in program_links or bool(re.search(r'Ubisoft Connect', entry_html, re.IGNORECASE))
@@ -108,7 +92,6 @@ jobs:
                   return 'Steam'
 
           def extract_release_date(entry_html):
-              """Extract release date from entry HTML."""
               match = re.search(r'(\d{2}\.\d{2}\.\d{4})', entry_html)
               if match:
                   try:
@@ -165,20 +148,15 @@ jobs:
               return None
 
           def resolve_appid(title, release_date):
-              # Check manual overrides first
               if title in manual_appids:
                   return manual_appids[title]
 
               key = normalise(title)
-
-              # Primary — JSON lookup
               matches = steam_lookup.get(key, [])
 
               if matches:
                   if len(matches) == 1:
                       return str(matches[0]['id'])
-
-                  # Multiple matches — use release date
                   if release_date is None:
                       return None
                   for match in matches:
@@ -188,7 +166,6 @@ jobs:
                           return str(match['id'])
                   return None
 
-              # Fallback — Steam API search
               words = [w for w in title.split() if len(w) > 2]
               for num_words in range(2, min(4, len(words) + 1)):
                   search_term = ' '.join(words[:num_words])
@@ -256,8 +233,6 @@ jobs:
                       soup = BeautifulSoup(content, 'html.parser')
                       found_any = False
 
-                      # Find all game entry blocks
-                      # Each game is wrapped in an article or div with a link to the game page
                       links = soup.find_all('a', href=True)
 
                       for link in links:
@@ -274,10 +249,8 @@ jobs:
                               seen.add(href)
                               found_any = True
 
-                              # Get the parent container of this link to extract
-                              # release date and platform from same entry block
+                              # Walk up to find the entry container
                               parent = link.parent
-                              # Walk up to find the article/section containing this entry
                               for _ in range(5):
                                   if parent and parent.name in ['article', 'div', 'section', 'li']:
                                       break
