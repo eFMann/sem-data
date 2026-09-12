@@ -1,0 +1,150 @@
+name: Update Denuvo Index
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+
+      - name: Query PCGamingWiki for Denuvo data
+        env:
+          PCGW_BOT_USER: ${{ secrets.PCGW_BOT_USER }}
+          PCGW_BOT_PASS: ${{ secrets.PCGW_BOT_PASS }}
+        run: |
+          python3 << 'EOF'
+          import requests, json, os, time
+
+          API = 'https://www.pcgamingwiki.com/w/api.php'
+          session = requests.Session()
+          session.headers['User-Agent'] = 'DenuvoDB/1.0 (github.com/Efmann)'
+
+          # Step 1: Get login token
+          r = session.get(API, params={
+              'action': 'query',
+              'meta': 'tokens',
+              'type': 'login',
+              'format': 'json'
+          })
+          token = r.json()['query']['tokens']['logintoken']
+
+          # Step 2: Authenticate
+          r = session.post(API, data={
+              'action': 'login',
+              'lgname': os.environ['PCGW_BOT_USER'],
+              'lgpassword': os.environ['PCGW_BOT_PASS'],
+              'lgtoken': token,
+              'format': 'json'
+          })
+          result = r.json()['login']['result']
+          if result != 'Success':
+              raise Exception(f'Login failed: {result}')
+          print('Authenticated with PCGamingWiki')
+
+          # Step 3: Discover schema — list all Cargo tables
+          r = session.get(API, params={
+              'action': 'cargotables',
+              'format': 'json'
+          })
+          tables = r.json()
+          print('Available Cargo tables:')
+          print(json.dumps(tables, indent=2))
+
+          # Step 4: Get fields for Game table
+          r = session.get(API, params={
+              'action': 'cargofields',
+              'table': 'Game',
+              'format': 'json'
+          })
+          print('\nGame table fields:')
+          print(json.dumps(r.json(), indent=2))
+
+          # Step 5: Get fields for Availability table
+          r = session.get(API, params={
+              'action': 'cargofields',
+              'table': 'Availability',
+              'format': 'json'
+          })
+          print('\nAvailability table fields:')
+          print(json.dumps(r.json(), indent=2))
+
+          # Step 6: Test query — find Denuvo games
+          # Try the most likely column name first
+          games = []
+          offset = 0
+          while True:
+              r = session.get(API, params={
+                  'action': 'cargoquery',
+                  'tables': 'Availability,Game',
+                  'join_on': 'Availability._pageID=Game._pageID',
+                  'fields': 'Game._pageName=Page,Game.Steam_AppID=AppID,Availability.DRM=DRM',
+                  'where': 'Availability.DRM LIKE "%Denuvo Anti-Tamper%"',
+                  'limit': '100',
+                  'offset': str(offset),
+                  'format': 'json'
+              })
+              data = r.json()
+
+              if 'error' in data:
+                  print(f'\nCargo query error: {json.dumps(data["error"], indent=2)}')
+                  print('The table or column names may need adjusting.')
+                  print('Check the schema output above to find the correct names.')
+                  break
+
+              results = data.get('cargoquery', [])
+              if not results:
+                  break
+
+              for row in results:
+                  entry = row.get('title', {})
+                  page = entry.get('Page', '')
+                  app_id = entry.get('AppID', '')
+                  drm = entry.get('DRM', '')
+
+                  if not page:
+                      continue
+
+                  # Skip duplicates (multiple Availability rows per game)
+                  if any(g['name'] == page for g in games):
+                      continue
+
+                  has_denuvo = 'Denuvo Anti-Tamper' in drm
+                  games.append({
+                      'name': page,
+                      'appId': app_id,
+                      'denuvoActive': has_denuvo,
+                      'drm': drm
+                  })
+
+              print(f'Fetched {len(games)} Denuvo games so far (offset {offset})')
+              offset += 100
+              time.sleep(2)
+
+          if games:
+              os.makedirs('Denuvo', exist_ok=True)
+              with open('Denuvo/denuvo.json', 'w', encoding='utf-8') as f:
+                  json.dump(games, f, ensure_ascii=False, indent=2)
+              active = sum(1 for g in games if g['denuvoActive'])
+              removed = len(games) - active
+              print(f'\nDone — {len(games)} total, {active} active, {removed} removed')
+          else:
+              print('\nNo games found. Check schema output and adjust query.')
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Denuvo/
+          git diff --staged --quiet || git commit -m "Update Denuvo index"
+          git push
