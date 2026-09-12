@@ -64,6 +64,7 @@ jobs:
               has_microsoft = '16760' in program_links or bool(re.search(r'Microsoft Store', entry_html, re.IGNORECASE))
               has_battlenet = '16107' in program_links or bool(re.search(r'Battle\.net', entry_html, re.IGNORECASE))
               has_ubisoft = '16109' in program_links or bool(re.search(r'Ubisoft Connect', entry_html, re.IGNORECASE))
+              has_ea = bool(re.search(r'Electronic Arts', entry_html, re.IGNORECASE))
               has_lan = bool(re.search(r'tags/(?:lan|vpn)', entry_html, re.IGNORECASE))
               has_gog = bool(re.search(r'GOG', entry_html, re.IGNORECASE))
               has_internet = bool(re.search(r'Интернет', entry_html))
@@ -72,10 +73,14 @@ jobs:
                   return 'Steam + Epic'
               elif has_steam and has_microsoft:
                   return 'Steam + Microsoft'
+              elif has_steam and has_lan:
+                  return 'Steam + LAN'
               elif has_epic:
                   return 'Epic'
               elif has_microsoft:
                   return 'Microsoft Store'
+              elif has_ea:
+                  return 'EA'
               elif has_battlenet:
                   return 'Battle.net'
               elif has_ubisoft:
