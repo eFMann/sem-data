@@ -174,10 +174,10 @@ jobs:
           print(f'\nFetching removal details for {len(removed_games)} games...')
 
           date_patterns = [
-              # "was removed on February 6, 2020" (most common)
-              r'removed on\s+(\w+\s+\d{1,2},?\s+\d{4})',
-              # "was removed on 6 February 2020"
-              r'removed on\s+(\d{1,2}\s+\w+\s+\d{4})',
+              # "removed [from the Steam version] on February 6, 2020"
+              r'removed\b.{0,60}\bon\s+(\w+\s+\d{1,2},?\s+\d{4})',
+              # "removed [from the Steam version] on 6 February 2020"
+              r'removed\b.{0,60}\bon\s+(\d{1,2}\s+\w+\s+\d{4})',
               # "1 October 2020 – 02:25:05 UTC"
               r'(\d{1,2}\s+\w+\s+\d{4})\s*[–—-]\s*\d{2}:\d{2}',
               # "last accessed on 2020-10-01"
@@ -185,7 +185,7 @@ jobs:
               # "update for 2 June 2020"
               r'update for\s+(\d{1,2}\s+\w+\s+\d{4})',
           ]
-
+          
           def parse_date(date_str):
               for fmt in ['%B %d, %Y', '%B %d %Y', '%d %B %Y', '%Y-%m-%d']:
                   try:
