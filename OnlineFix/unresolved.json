@@ -1,10 +1,50 @@
 [
   {
+    "title": "Star Trek",
+    "platform": "Steam"
+  },
+  {
     "title": "Marvel Ultimate Alliance 2",
     "platform": "Steam"
   },
   {
+    "title": "Teenage Mutant Ninja Turtles Mutants in Manhattan",
+    "platform": "Steam"
+  },
+  {
     "title": "Marvel Ultimate Alliance",
+    "platform": "Steam"
+  },
+  {
+    "title": "MotoGP 26",
+    "platform": "Epic"
+  },
+  {
+    "title": "Minecraft for Windows",
+    "platform": "Microsoft Store"
+  },
+  {
+    "title": "Slip and Skid",
+    "platform": "Steam"
+  },
+  {
+    "title": "Forza Motorsport 7",
+    "platform": "Microsoft Store"
+  },
+  {
+    "title": "Gears of War 4",
+    "platform": "Microsoft Store"
+  },
+  {
+    "title": "Gears of War Ultimate Edition",
+    "platform": "Microsoft Store"
+  },
+  {
+    "title": "Pro Soccer",
+    "platform": "Steam"
+  },
+  {
+    "title": "Dont Die In The West",
     "platform": "Steam"
   }
 ]
