@@ -241,7 +241,8 @@ jobs:
                       soup = BeautifulSoup(content, 'html.parser')
                       found_any = False
 
-                      links = soup.find_all('a', href=True)
+                      main = soup.find('div', id='dle-content') or soup
+                      links = main.find_all('a', href=True)
 
                       for link in links:
                           href = link['href']
