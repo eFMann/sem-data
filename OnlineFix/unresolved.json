@@ -1,42 +1,26 @@
 [
   {
-    "title": "Crimson Moon",
-    "platform": "Steam"
-  },
-  {
     "title": "RED FLAG",
     "platform": "Steam"
   },
   {
     "title": "MARVEL Tokon Fighting Souls",
-    "platform": "Steam"
-  },
-  {
-    "title": "Deadly Delivery",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Hytale",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "Dying Light The Beast Restored Land",
-    "platform": "Steam"
-  },
-  {
-    "title": "PEAK",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "ENDLESS Dungeon",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Star Trek",
-    "platform": "Steam"
-  },
-  {
-    "title": "SENTRY",
     "platform": "Steam"
   },
   {
@@ -57,7 +41,7 @@
   },
   {
     "title": "Hood Outlaws Legends",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Atlas Fallen",
@@ -108,12 +92,8 @@
     "platform": "Steam"
   },
   {
-    "title": "Haven",
-    "platform": "Steam"
-  },
-  {
     "title": "ReadySet Heroes",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "LEGO Lord of the Rings",
@@ -125,7 +105,7 @@
   },
   {
     "title": "Godfall",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Lost Castle",
@@ -133,15 +113,7 @@
   },
   {
     "title": "MARVEL Tokon Fighting Souls",
-    "platform": "Steam"
-  },
-  {
-    "title": "AFTERBLAST",
-    "platform": "Steam"
-  },
-  {
-    "title": "REMATCH",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Marvel Ultimate Alliance",
@@ -149,10 +121,6 @@
   },
   {
     "title": "Bread and Fred",
-    "platform": "Steam"
-  },
-  {
-    "title": "Collapsed",
     "platform": "Steam"
   },
   {
@@ -192,23 +160,15 @@
     "platform": "Steam"
   },
   {
-    "title": "Distance",
-    "platform": "Steam"
-  },
-  {
     "title": "N++",
     "platform": "Steam"
   },
   {
     "title": "Rocket League",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "Never Alone",
-    "platform": "Steam"
-  },
-  {
-    "title": "Journey",
     "platform": "Steam"
   },
   {
@@ -216,15 +176,7 @@
     "platform": "Steam"
   },
   {
-    "title": "Ashen",
-    "platform": "Steam"
-  },
-  {
     "title": "C.A.S.T.",
-    "platform": "Steam"
-  },
-  {
-    "title": "The Other Side",
     "platform": "Steam"
   },
   {
@@ -241,7 +193,7 @@
   },
   {
     "title": "Ghostbusters Spirits Unleashed",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Soul at Stake",
@@ -289,11 +241,7 @@
   },
   {
     "title": "MotoGP 26",
-    "platform": "Steam"
-  },
-  {
-    "title": "Screamer",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Long Drive North",
@@ -305,7 +253,7 @@
   },
   {
     "title": "MotoGP 25",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Prison Boss Prohibition",
@@ -313,7 +261,7 @@
   },
   {
     "title": "Warhammer 40000 Space Marine Master Crafted Edition",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Arizona Sunshine Remake",
@@ -344,16 +292,12 @@
     "platform": "Steam"
   },
   {
-    "title": "GRAVEN",
-    "platform": "Steam"
-  },
-  {
     "title": "Arizona Sunshine 2",
     "platform": "Steam"
   },
   {
     "title": "Bloody Spell",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "EdgeOfTheAbyssAwaken",
@@ -373,7 +317,7 @@
   },
   {
     "title": "Risk of Rain",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "Dark Souls Prepare to Die Edition",
@@ -393,14 +337,10 @@
   },
   {
     "title": "Hunted: The Demons Forge",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "Borderlands GOTY",
-    "platform": "Steam"
-  },
-  {
-    "title": "GUARDS",
     "platform": "Steam"
   },
   {
@@ -409,11 +349,7 @@
   },
   {
     "title": "Gears of War Ultimate Edition",
-    "platform": "Steam"
-  },
-  {
-    "title": "OPERATOR",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "Muffled Warfare",
@@ -425,11 +361,11 @@
   },
   {
     "title": "Memories of Mars",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "Evil Dead The Game",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Warhammer 40000 Space Marine Anniversary Edition",
@@ -493,11 +429,11 @@
   },
   {
     "title": "Spec Ops The Line",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "Serious Sam Classic Revolution",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "Dead Rising 3",
@@ -505,15 +441,7 @@
   },
   {
     "title": "Saints Row 4",
-    "platform": "Steam"
-  },
-  {
-    "title": "Waterpark Simulator",
-    "platform": "Steam"
-  },
-  {
-    "title": "The House Always Wins",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "TIEBREAK Official Game of the ATP and WTA",
@@ -532,19 +460,7 @@
     "platform": "Steam"
   },
   {
-    "title": "Fast Food Simulator",
-    "platform": "Steam"
-  },
-  {
     "title": "Only Up SKIBIDI TOGETHER",
-    "platform": "Steam"
-  },
-  {
-    "title": "Grocery Store Simulator",
-    "platform": "Steam"
-  },
-  {
-    "title": "ICARUS",
     "platform": "Steam"
   },
   {
@@ -557,7 +473,7 @@
   },
   {
     "title": "NBA 2K21",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Pro Soccer",
@@ -565,7 +481,7 @@
   },
   {
     "title": "Bus Simulator 21",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "London 2012 The Official Video Game of the Olympic Games",
@@ -589,7 +505,7 @@
   },
   {
     "title": "Ranch Simulator",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Eleven Table Tennis VR",
@@ -640,12 +556,8 @@
     "platform": "Steam"
   },
   {
-    "title": "Turmoil",
-    "platform": "Steam"
-  },
-  {
     "title": "Superfuse",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Legion TD 2",
@@ -669,10 +581,6 @@
   },
   {
     "title": "Dungeons and Dragons Lords of Waterdeep",
-    "platform": "Steam"
-  },
-  {
-    "title": "Through the Ages",
     "platform": "Steam"
   },
   {
@@ -725,7 +633,7 @@
   },
   {
     "title": "Sid Meiers Civilization VI",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "DayZ (DayZavr)",
@@ -737,7 +645,7 @@
   },
   {
     "title": "Dungeon Done",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Zombie Survival Game",
@@ -745,7 +653,7 @@
   },
   {
     "title": "Dread Hunger",
-    "platform": "Steam"
+    "platform": "Steam + Epic"
   },
   {
     "title": "Dont Die In The West",
@@ -753,7 +661,7 @@
   },
   {
     "title": "Conan Exiles",
-    "platform": "Steam"
+    "platform": "LAN"
   },
   {
     "title": "Secret Neighbor",
@@ -769,10 +677,6 @@
   },
   {
     "title": "Nom Nom Galaxy",
-    "platform": "Steam"
-  },
-  {
-    "title": "RUMBLE",
     "platform": "Steam"
   },
   {
