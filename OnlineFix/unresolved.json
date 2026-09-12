@@ -1,5 +1,9 @@
 [
   {
+    "title": "Hytale",
+    "platform": "LAN"
+  },
+  {
     "title": "Star Trek",
     "platform": "Steam"
   },
@@ -8,12 +12,20 @@
     "platform": "Steam"
   },
   {
+    "title": "ReadySet Heroes",
+    "platform": "Epic"
+  },
+  {
     "title": "Teenage Mutant Ninja Turtles Mutants in Manhattan",
     "platform": "Steam"
   },
   {
     "title": "Marvel Ultimate Alliance",
     "platform": "Steam"
+  },
+  {
+    "title": "Taiko no Tatsujin The Drum Master",
+    "platform": "Microsoft Store"
   },
   {
     "title": "MotoGP 26",
@@ -28,8 +40,20 @@
     "platform": "Steam"
   },
   {
+    "title": "Horizon Chase 2",
+    "platform": "Epic"
+  },
+  {
     "title": "Forza Motorsport 7",
     "platform": "Microsoft Store"
+  },
+  {
+    "title": "Forza Horizon 3",
+    "platform": "Microsoft Store"
+  },
+  {
+    "title": "Plants vs Zombies Garden Warfare",
+    "platform": "EA"
   },
   {
     "title": "Gears of War 4",
@@ -40,8 +64,16 @@
     "platform": "Microsoft Store"
   },
   {
+    "title": "Crackdown 3",
+    "platform": "Microsoft Store"
+  },
+  {
     "title": "Pro Soccer",
     "platform": "Steam"
+  },
+  {
+    "title": "Halo Wars 2",
+    "platform": "Microsoft Store"
   },
   {
     "title": "Dont Die In The West",
