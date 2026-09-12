@@ -108,8 +108,11 @@ jobs:
                       result['platform'] = 'Battle.net'
                   elif re.search(r'Ubisoft Connect', content, re.IGNORECASE):
                       result['platform'] = 'Ubisoft'
+                  elif re.search(r'Microsoft Store', content, re.IGNORECASE):
+                      result['platform'] = 'Microsoft Store'
                   else:
                       result['platform'] = 'Steam'
+
 
 
                   # Extract release date
