@@ -51,7 +51,73 @@ jobs:
               s = re.sub(r'\s+', ' ', s).strip()
               return s
 
-          # Load manual overrides if they exist
+          # Platform ID map — programs/XXXXX maps to platform name
+          PLATFORM_IDS = {
+              '16108': 'Steam',
+              '16106': 'Epic',
+              '16760': 'Microsoft Store',
+              '16107': 'Battle.net',
+              '16109': 'Ubisoft',
+          }
+
+          def extract_platform_from_entry(entry_html):
+              """
+              Extract platform from a single game entry block.
+              Platform link always points to programs/XXXXX-platform.html
+              We match the program ID to determine platform.
+              Also handles combined platforms like Steam + Epic.
+              """
+              # Find all program links in this entry
+              program_links = re.findall(
+                  r'programs/(\d+)-[^"]+\.html',
+                  entry_html,
+                  re.IGNORECASE
+              )
+
+              # Also check for combined text patterns
+              has_epic = '16106' in program_links or bool(re.search(r'Epic\s+Games?\s+Store', entry_html, re.IGNORECASE))
+              has_steam = '16108' in program_links
+              has_microsoft = '16760' in program_links or bool(re.search(r'Microsoft Store', entry_html, re.IGNORECASE))
+              has_battlenet = '16107' in program_links or bool(re.search(r'Battle\.net', entry_html, re.IGNORECASE))
+              has_ubisoft = '16109' in program_links or bool(re.search(r'Ubisoft Connect', entry_html, re.IGNORECASE))
+              has_lan = bool(re.search(r'tags/(?:lan|vpn)', entry_html, re.IGNORECASE))
+              has_gog = bool(re.search(r'GOG', entry_html, re.IGNORECASE))
+              has_internet = bool(re.search(r'Интернет', entry_html))
+
+              if has_steam and has_epic:
+                  return 'Steam + Epic'
+              elif has_steam and has_microsoft:
+                  return 'Steam + Microsoft'
+              elif has_epic:
+                  return 'Epic'
+              elif has_microsoft:
+                  return 'Microsoft Store'
+              elif has_battlenet:
+                  return 'Battle.net'
+              elif has_ubisoft:
+                  return 'Ubisoft'
+              elif has_gog:
+                  return 'GOG'
+              elif has_lan:
+                  return 'LAN'
+              elif has_internet:
+                  return 'Internet'
+              elif has_steam:
+                  return 'Steam'
+              else:
+                  return 'Steam'
+
+          def extract_release_date(entry_html):
+              """Extract release date from entry HTML."""
+              match = re.search(r'(\d{2}\.\d{2}\.\d{4})', entry_html)
+              if match:
+                  try:
+                      return datetime.strptime(match.group(1), '%d.%m.%Y').date()
+                  except:
+                      pass
+              return None
+
+          # Load manual overrides
           manual_path = 'OnlineFix/manual_appids.json'
           manual_appids = {}
           if os.path.exists(manual_path):
@@ -79,65 +145,6 @@ jobs:
 
           print(f'Steam app list loaded: {len(steam_apps)} apps')
 
-          # Cache for game page info
-          page_info_cache = {}
-
-          def get_game_page_info(page_url):
-              if not page_url.startswith('http'):
-                  page_url = f'https://online-fix.me{page_url}'
-              if page_url in page_info_cache:
-                  return page_info_cache[page_url]
-
-              result = {'platform': 'Steam', 'release_date': None}
-
-              try:
-                  r = requests.get(page_url, headers=headers, timeout=15)
-                  content = r.content.decode('windows-1251', errors='replace')
-
-                  # Detect platform
-                  has_epic = bool(re.search(r'Epic\s+Games?\s+Store', content, re.IGNORECASE))
-                  has_microsoft = bool(re.search(r'Microsoft Store', content, re.IGNORECASE))
-                  has_steam = bool(re.search(r'\bSteam\b', content, re.IGNORECASE))
-                  has_lan = bool(re.search(r'\bLAN\b', content))
-                  has_battlenet = bool(re.search(r'Battle\.net', content, re.IGNORECASE))
-                  has_ubisoft = bool(re.search(r'Ubisoft Connect', content, re.IGNORECASE))
-                  has_internet = bool(re.search(r'Интернет', content, re.IGNORECASE))
-
-                  if has_epic and has_steam:
-                      result['platform'] = 'Steam + Epic'
-                  elif has_microsoft and has_steam:
-                      result['platform'] = 'Steam + Microsoft'
-                  elif has_epic:
-                      result['platform'] = 'Epic'
-                  elif has_microsoft:
-                      result['platform'] = 'Microsoft Store'
-                  elif has_battlenet:
-                      result['platform'] = 'Battle.net'
-                  elif has_ubisoft:
-                      result['platform'] = 'Ubisoft'
-                  elif has_lan:
-                      result['platform'] = 'LAN'
-                  elif has_internet:
-                      result['platform'] = 'Internet'
-                  else:
-                      result['platform'] = 'Steam'
-
-                  # Extract release date
-                  date_match = re.search(
-                      r'(\d{2}\.\d{2}\.\d{4})',
-                      content
-                  )
-                  if date_match:
-                      result['release_date'] = datetime.strptime(
-                          date_match.group(1), '%d.%m.%Y'
-                      ).date()
-
-              except Exception as e:
-                  print(f'  Page fetch error for {page_url}: {e}')
-
-              page_info_cache[page_url] = result
-              return result
-
           def get_steam_release_date(app_id):
               try:
                   url = f'https://store.steampowered.com/api/appdetails?appids={app_id}&l=english'
@@ -157,10 +164,9 @@ jobs:
                   pass
               return None
 
-          def resolve_appid(title, page_url):
+          def resolve_appid(title, release_date):
               # Check manual overrides first
               if title in manual_appids:
-                  print(f'  Manual override: {title} → {manual_appids[title]}')
                   return manual_appids[title]
 
               key = normalise(title)
@@ -173,26 +179,19 @@ jobs:
                       return str(matches[0]['id'])
 
                   # Multiple matches — use release date
-                  print(f'  Multiple matches for "{title}" — fetching release dates...')
-                  info = get_game_page_info(page_url)
-                  of_date = info['release_date']
-                  if of_date is None:
+                  if release_date is None:
                       return None
-                  time.sleep(0.3)
                   for match in matches:
                       steam_date = get_steam_release_date(match['id'])
                       time.sleep(0.3)
-                      if steam_date and steam_date == of_date:
-                          print(f'  Matched by date {of_date} → {match["id"]}')
+                      if steam_date and steam_date == release_date:
                           return str(match['id'])
                   return None
 
               # Fallback — Steam API search
               words = [w for w in title.split() if len(w) > 2]
-
               for num_words in range(2, min(4, len(words) + 1)):
                   search_term = ' '.join(words[:num_words])
-
                   try:
                       url = f'https://store.steampowered.com/api/storesearch?term={requests.utils.quote(search_term)}&l=english&cc=US'
                       r = requests.get(url, timeout=10)
@@ -218,17 +217,12 @@ jobs:
                           return str(json_matches[0]['id'])
                       return str(exact_matches[0]['id'])
 
-                  # Multiple API matches — use release date
-                  info = get_game_page_info(page_url)
-                  of_date = info['release_date']
-                  if of_date is None:
+                  if release_date is None:
                       return None
-                  time.sleep(0.3)
                   for match in exact_matches:
                       steam_date = get_steam_release_date(match['id'])
                       time.sleep(0.3)
-                      if steam_date and steam_date == of_date:
-                          print(f'  Matched by date {of_date} → {match["id"]}')
+                      if steam_date and steam_date == release_date:
                           return str(match['id'])
 
                   return None
@@ -258,9 +252,13 @@ jobs:
                       if r.status_code == 404:
                           break
 
-                      soup = BeautifulSoup(r.content.decode('windows-1251', errors='replace'), 'html.parser')
-                      links = soup.find_all('a', href=True)
+                      content = r.content.decode('windows-1251', errors='replace')
+                      soup = BeautifulSoup(content, 'html.parser')
                       found_any = False
+
+                      # Find all game entry blocks
+                      # Each game is wrapped in an article or div with a link to the game page
+                      links = soup.find_all('a', href=True)
 
                       for link in links:
                           href = link['href']
@@ -270,29 +268,39 @@ jobs:
                                   if title.endswith(suffix):
                                       title = title[:-len(suffix)].strip()
 
-                              if title and not title.strip().isdigit():
-                                  seen.add(href)
-                                  found_any = True
+                              if not title or title.strip().isdigit():
+                                  continue
 
-                                  full_href = href if href.startswith('http') else f'https://online-fix.me{href}'
+                              seen.add(href)
+                              found_any = True
 
-                                  # Fetch game page info (platform + release date)
-                                  page_info = get_game_page_info(full_href)
-                                  platform = page_info['platform']
-                                  time.sleep(0.3)
+                              # Get the parent container of this link to extract
+                              # release date and platform from same entry block
+                              parent = link.parent
+                              # Walk up to find the article/section containing this entry
+                              for _ in range(5):
+                                  if parent and parent.name in ['article', 'div', 'section', 'li']:
+                                      break
+                                  if parent:
+                                      parent = parent.parent
 
-                                  app_id = resolve_appid(title, full_href)
-                                  time.sleep(0.3)
+                              entry_html = str(parent) if parent else ''
 
-                                  entry = {'title': title, 'platform': platform}
-                                  if app_id:
-                                      entry['appId'] = app_id
-                                      print(f'✓ {title} [{platform}] → {app_id}')
-                                  else:
-                                      print(f'✗ {title} [{platform}] → no match')
-                                      unresolved.append({'title': title, 'platform': platform})
+                              platform = extract_platform_from_entry(entry_html)
+                              release_date = extract_release_date(entry_html)
 
-                                  games.append(entry)
+                              app_id = resolve_appid(title, release_date)
+                              time.sleep(0.3)
+
+                              entry = {'title': title, 'platform': platform}
+                              if app_id:
+                                  entry['appId'] = app_id
+                                  print(f'✓ {title} [{platform}] → {app_id}')
+                              else:
+                                  print(f'✗ {title} [{platform}] → no match')
+                                  unresolved.append({'title': title, 'platform': platform})
+
+                              games.append(entry)
 
                       if not found_any:
                           break
@@ -316,7 +324,6 @@ jobs:
           if not os.path.exists(manual_path):
               with open(manual_path, 'w', encoding='utf-8') as f:
                   json.dump({}, f, ensure_ascii=False, indent=2)
-              print('Created empty manual_appids.json')
 
           matched = sum(1 for g in games if 'appId' in g)
           print(f'Done - {len(games)} games, {matched} with AppID, {len(unresolved)} unresolved')
