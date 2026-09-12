@@ -90,10 +90,10 @@ jobs:
                   return 'GOG'
               elif has_lan:
                   return 'LAN'
-              elif has_internet:
-                  return 'Internet'
               elif has_steam_remote:
                   return 'Steam Remote Play'
+              elif has_internet:
+                  return 'Internet'
               elif has_steam:
                   return 'Steam'
               else:
@@ -246,7 +246,6 @@ jobs:
                       for link in links:
                           href = link['href']
                           if '/games/' in href and ('-po-seti' in href or href.endswith('-online.html')) and '#' not in href and href not in seen:
-
                               title = link.get('title', '') or link.get_text(strip=True)
                               for suffix in [' по сети', ' По Сети', ' Online', ' online']:
                                   if title.endswith(suffix):
