@@ -79,11 +79,12 @@ jobs:
 
           print(f'Steam app list loaded: {len(steam_apps)} apps')
 
-          # Cache for game page info to avoid double fetching
+          # Cache for game page info
           page_info_cache = {}
 
           def get_game_page_info(page_url):
-              """Fetch game page once and extract both platform and release date."""
+              if not page_url.startswith('http'):
+                  page_url = f'https://online-fix.me{page_url}'
               if page_url in page_info_cache:
                   return page_info_cache[page_url]
 
@@ -93,33 +94,24 @@ jobs:
                   r = requests.get(page_url, headers=headers, timeout=15)
                   content = r.content.decode('windows-1251', errors='replace')
 
-                  # Extract platform — "Игра через: Steam" or "Игра через: Epic" etc
-                  platform_match = re.search(
-                      r'через[:\s]*<a[^>]*>([^<]+)</a>',
-                      content,
-                      re.IGNORECASE
-                  )
-                  if platform_match:
-                      platform_raw = platform_match.group(1).strip()
-
-                      # Normalise platform name
-                      p = platform_raw.lower()
-                      if 'epic' in p:
-                          result['platform'] = 'Epic'
-                      elif 'steam' in p:
-                          result['platform'] = 'Steam'
-                      elif 'battle' in p or 'blizzard' in p:
-                          result['platform'] = 'Battle.net'
-                      elif 'xbox' in p or 'microsoft' in p:
-                          result['platform'] = 'Xbox'
-                      elif 'ubisoft' in p or 'uplay' in p:
-                          result['platform'] = 'Ubisoft'
+                  # Detect platform using English platform names
+                  if re.search(r'Epic Games Store', content, re.IGNORECASE):
+                      if re.search(r'Steam\s*\+', content, re.IGNORECASE):
+                          result['platform'] = 'Steam + Epic'
                       else:
-                          result['platform'] = platform_raw
+                          result['platform'] = 'Epic'
+                  elif re.search(r'\bLAN\b', content):
+                      result['platform'] = 'LAN'
+                  elif re.search(r'Battle\.net', content, re.IGNORECASE):
+                      result['platform'] = 'Battle.net'
+                  elif re.search(r'Ubisoft Connect', content, re.IGNORECASE):
+                      result['platform'] = 'Ubisoft'
+                  else:
+                      result['platform'] = 'Steam'
 
-                  # Extract release date — "Релиз игры: 25.02.2022"
+                  # Extract release date
                   date_match = re.search(
-                      r'[Рр]елиз\s+игры[:\s]+(\d{2}\.\d{2}\.\d{4})',
+                      r'(\d{2}\.\d{2}\.\d{4})',
                       content
                   )
                   if date_match:
@@ -273,7 +265,6 @@ jobs:
 
                                   # Fetch game page info (platform + release date)
                                   page_info = get_game_page_info(full_href)
-
                                   platform = page_info['platform']
                                   time.sleep(0.3)
 
@@ -301,7 +292,6 @@ jobs:
                       print(f'Error on {url}: {e}')
                       break
 
-          # Write output files to OnlineFix folder
           os.makedirs('OnlineFix', exist_ok=True)
 
           with open('OnlineFix/onlinefix.json', 'w', encoding='utf-8') as f:
