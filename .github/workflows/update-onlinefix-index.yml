@@ -95,25 +95,32 @@ jobs:
                   content = r.content.decode('windows-1251', errors='replace')
 
                   # Detect platform
-                  has_epic = re.search(r'Epic\s+Games?\s+Store', content, re.IGNORECASE)
-                  has_steam = re.search(r'\bSteam\b', content, re.IGNORECASE)
+                  has_epic = bool(re.search(r'Epic\s+Games?\s+Store', content, re.IGNORECASE))
+                  has_microsoft = bool(re.search(r'Microsoft Store', content, re.IGNORECASE))
+                  has_steam = bool(re.search(r'\bSteam\b', content, re.IGNORECASE))
+                  has_lan = bool(re.search(r'\bLAN\b', content))
+                  has_battlenet = bool(re.search(r'Battle\.net', content, re.IGNORECASE))
+                  has_ubisoft = bool(re.search(r'Ubisoft Connect', content, re.IGNORECASE))
+                  has_internet = bool(re.search(r'Интернет', content, re.IGNORECASE))
 
                   if has_epic and has_steam:
                       result['platform'] = 'Steam + Epic'
+                  elif has_microsoft and has_steam:
+                      result['platform'] = 'Steam + Microsoft'
                   elif has_epic:
                       result['platform'] = 'Epic'
-                  elif re.search(r'\bLAN\b', content):
-                      result['platform'] = 'LAN'
-                  elif re.search(r'Battle\.net', content, re.IGNORECASE):
-                      result['platform'] = 'Battle.net'
-                  elif re.search(r'Ubisoft Connect', content, re.IGNORECASE):
-                      result['platform'] = 'Ubisoft'
-                  elif re.search(r'Microsoft Store', content, re.IGNORECASE):
+                  elif has_microsoft:
                       result['platform'] = 'Microsoft Store'
+                  elif has_battlenet:
+                      result['platform'] = 'Battle.net'
+                  elif has_ubisoft:
+                      result['platform'] = 'Ubisoft'
+                  elif has_lan:
+                      result['platform'] = 'LAN'
+                  elif has_internet:
+                      result['platform'] = 'Internet'
                   else:
                       result['platform'] = 'Steam'
-
-
 
                   # Extract release date
                   date_match = re.search(
