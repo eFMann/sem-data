@@ -258,6 +258,17 @@ jobs:
 
               time.sleep(1)
 
+          # Step 8: Apply manual overrides
+          overrides_path = 'Denuvo/manual_overrides.json'
+          if os.path.exists(overrides_path):
+              with open(overrides_path, encoding='utf-8') as f:
+                  overrides = json.load(f)
+              for game in game_list:
+                  if game['name'] in overrides:
+                      for key, value in overrides[game['name']].items():
+                          game[key] = value
+              print(f'\nApplied {len(overrides)} manual overrides')
+
           os.makedirs('Denuvo', exist_ok=True)
           with open('Denuvo/denuvo.json', 'w', encoding='utf-8') as f:
               json.dump(game_list, f, ensure_ascii=False, indent=2)
