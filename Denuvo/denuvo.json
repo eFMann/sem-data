@@ -35,7 +35,8 @@
   {
     "name": "Abzû",
     "appId": "384190",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2020-01-02"
   },
   {
     "name": "Ace Attorney Investigations Collection",
@@ -59,7 +60,8 @@
     "name": "Agents of Mayhem",
     "appId": "304530",
     "status": "removed",
-    "removalRef": "http://www.dsogaming.com/news/volition-removes-denuvo-anti-tamper-tech-agents-mayhem/"
+    "removalRef": "http://www.dsogaming.com/news/volition-removes-denuvo-anti-tamper-tech-agents-mayhem/",
+    "removalDate": "2017-11-11"
   },
   {
     "name": "Anno 117: Pax Romana",
@@ -146,7 +148,7 @@
     "appId": "1341050",
     "status": "removed",
     "removalRef": "https://steamdb.info/app/1341050/history/?changeid=U:25716510",
-    "removalDate": "2021-09-22"
+    "removalDate": "2021-06-02"
   },
   {
     "name": "Batman: Arkham Knight",
@@ -286,7 +288,8 @@
     "name": "Conan Unconquered",
     "appId": "989690",
     "status": "removed",
-    "removalRef": "https://steamdb.info/app/989690/history/?changeid=U:13017802/"
+    "removalRef": "https://steamdb.info/app/989690/history/?changeid=U:13017802/",
+    "removalDate": "2019-09-19"
   },
   {
     "name": "Construction Simulator",
@@ -372,7 +375,7 @@
     "appId": "1190460",
     "status": "removed",
     "removalRef": "https://store.steampowered.com/app/1190460/DEATH_STRANDING/",
-    "removalDate": "2020-12-17"
+    "removalDate": "2020-07-15"
   },
   {
     "name": "Deathloop",
@@ -446,7 +449,7 @@
     "appId": "782330",
     "status": "removed",
     "removalRef": "https://store.steampowered.com/news/app/782330/view/3657540278470182248",
-    "removalDate": "2023-09-05"
+    "removalDate": "2020-05-18"
   },
   {
     "name": "Doom: The Dark Ages",
@@ -654,7 +657,8 @@
     "name": "F1 2020",
     "appId": "1080110",
     "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1084203/history/"
+    "removalRef": "https://steamdb.info/depot/1084203/history/",
+    "removalDate": "2021-09-30"
   },
   {
     "name": "F1 2021",
@@ -796,7 +800,8 @@
     "name": "Final Fantasy XII: The Zodiac Age",
     "appId": "595520",
     "status": "removed",
-    "removalRef": "https://steamdb.info/app/595520/history/?changeid=U:15947547"
+    "removalRef": "https://steamdb.info/app/595520/history/?changeid=U:15947547",
+    "removalDate": "2025-07-22"
   },
   {
     "name": "Final Fantasy XV",
@@ -1094,7 +1099,8 @@
     "name": "Legend of Mana",
     "appId": "1175830",
     "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/7861397/"
+    "removalRef": "https://steamdb.info/patchnotes/7861397/",
+    "removalDate": "2026-05-26"
   },
   {
     "name": "Lego 2K Drive",
@@ -1124,7 +1130,8 @@
     "name": "Life Is Strange: Before the Storm",
     "appId": "554620",
     "status": "removed",
-    "removalRef": "https://www.pcgamesn.com/life-is-strange-before-the-storm/life-is-strange-denuvo-protection"
+    "removalRef": "https://www.pcgamesn.com/life-is-strange-before-the-storm/life-is-strange-denuvo-protection",
+    "removalDate": "2017-09-04"
   },
   {
     "name": "Life Is Strange: Double Exposure",
@@ -1268,7 +1275,8 @@
     "name": "Mass Effect: Andromeda",
     "appId": "1238000",
     "status": "removed",
-    "removalRef": "http://www.dsogaming.com/news/bioware-has-removed-denuvo-from-mass-effect-andromeda/"
+    "removalRef": "http://www.dsogaming.com/news/bioware-has-removed-denuvo-from-mass-effect-andromeda/",
+    "removalDate": "2017-07-30"
   },
   {
     "name": "Mega Man 11",
@@ -1372,7 +1380,8 @@
     "name": "Monster Hunter Stories 2: Wings of Ruin",
     "appId": "1277400",
     "status": "removed",
-    "removalRef": "https://steamdb.info/app/1277400/history/?changeid=U:31229572"
+    "removalRef": "https://steamdb.info/app/1277400/history/?changeid=U:31229572",
+    "removalDate": "2024-07-04"
   },
   {
     "name": "Monster Hunter Stories 3: Twisted Reflection",
@@ -1493,7 +1502,7 @@
     "appId": "524220",
     "status": "removed",
     "removalRef": "https://steamdb.info/depot/524221/history/?changeid=M:4633942970953135000",
-    "removalDate": "2021-07-15"
+    "removalDate": "2017-09-24"
   },
   {
     "name": "Nikoderiko: The Magical World",
@@ -1633,7 +1642,7 @@
     "name": "Prey: Typhon Hunter",
     "appId": "741820",
     "status": "removed",
-    "removalDate": "2020-07-16"
+    "removalDate": "2020-07-31"
   },
   {
     "name": "Prince of Persia: The Lost Crown",
@@ -1807,13 +1816,14 @@
     "appId": "750920",
     "status": "removed",
     "removalRef": "https://store.steampowered.com/news/app/750920/view/5630057400396673638",
-    "removalDate": "2021-10-18"
+    "removalDate": "2022-08-15"
   },
   {
     "name": "Sherlock Holmes: The Devil's Daughter",
     "appId": "350640",
     "status": "removed",
-    "removalRef": "https://steamdb.info/depot/350641/history/?changeid=M:7966217916078695193"
+    "removalRef": "https://steamdb.info/depot/350641/history/?changeid=M:7966217916078695193",
+    "removalDate": "2025-08-16"
   },
   {
     "name": "Shin Megami Tensei III Nocturne HD Remaster",
@@ -2037,7 +2047,8 @@
   {
     "name": "Syberia 3",
     "appId": "464340",
-    "status": "removed"
+    "status": "removed",
+    "removalDate": "2025-08-21"
   },
   {
     "name": "Tales of Berseria",
@@ -2077,7 +2088,8 @@
     "name": "The Climb",
     "appId": "3881540",
     "status": "removed",
-    "removalRef": "https://support.codefusion.technology/TheClimb"
+    "removalRef": "https://support.codefusion.technology/TheClimb",
+    "removalDate": "2019-07-30"
   },
   {
     "name": "The DioField Chronicle",
@@ -2119,7 +2131,7 @@
     "appId": "750130",
     "status": "removed",
     "removalRef": "https://steamdb.info/patchnotes/13083473/",
-    "removalDate": "2024-01-16"
+    "removalDate": "2021-02-28"
   },
   {
     "name": "Tiny Tina's Wonderlands",
@@ -2131,7 +2143,8 @@
     "name": "Titanfall 2",
     "appId": "1237970",
     "status": "removed",
-    "removalRef": "http://www.dsogaming.com/news/titanfall-2-developer-hopes-that-pirates-will-enjoy-the-sp-and-buy-the-game-for-its-mp-mode/"
+    "removalRef": "http://www.dsogaming.com/news/titanfall-2-developer-hopes-that-pirates-will-enjoy-the-sp-and-buy-the-game-for-its-mp-mode/",
+    "removalDate": "2017-07-21"
   },
   {
     "name": "Tom Clancy's Ghost Recon Breakpoint",
