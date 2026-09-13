@@ -211,14 +211,24 @@ jobs:
 
                   wikitext = data.get('parse', {}).get('wikitext', {}).get('*', '')
 
-                  # Find SteamDB changelist URLs
-                  steamdb_match = re.search(
-                      r'https?://steamdb\.info/app/\d+/(?:history/?\?changeid=U:\d+|patchnotes/\d+/?)',
-                      wikitext
+                  # Find reference URL near Denuvo removal mention
+                  # Look for ref tags near "removed" + "Denuvo"
+                  ref_match = re.search(
+                      r'[Dd]enuvo.{0,100}removed.{0,200}(?:url=|<ref>[\s]*\[?)(https?://[^\s|\]}<]+)',
+                      wikitext,
+                      re.DOTALL
                   )
+                  if not ref_match:
+                      # Try reverse order: removed...Denuvo...ref
+                      ref_match = re.search(
+                          r'removed.{0,100}[Dd]enuvo.{0,200}(?:url=|<ref>[\s]*\[?)(https?://[^\s|\]}<]+)',
+                          wikitext,
+                          re.DOTALL
+                      )
 
-                  if steamdb_match:
-                      game['removalRef'] = steamdb_match.group(0)
+                  if ref_match:
+                      game['removalRef'] = ref_match.group(1)
+
 
                   # Find removal date from references near Denuvo mentions
                   denuvo_sections = re.findall(
