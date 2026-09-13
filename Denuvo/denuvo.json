@@ -442,7 +442,8 @@
     "name": "Doom (2016)",
     "appId": "379720",
     "status": "removed",
-    "removalRef": "http://kotaku.com/denuvo-explains-why-doom-dropped-their-anti-piracy-tech-1790192362"
+    "removalRef": "https://kotaku.com/denuvo-explains-why-doom-dropped-their-anti-piracy-tech-1790192362",
+    "removalDate": "2016-12-11"
   },
   {
     "name": "Doom Eternal",
