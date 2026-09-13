@@ -180,12 +180,12 @@ jobs:
               r'removed\b.{0,60}\bon\s+(\d{1,2}\s+\w+\s+\d{4})',
               # "1 October 2020 – 02:25:05 UTC"
               r'(\d{1,2}\s+\w+\s+\d{4})\s*[–—-]\s*\d{2}:\d{2}',
-              # "last accessed on 2020-10-01"
-              r'last accessed on\s+(\d{4}-\d{2}-\d{2})',
+              # "|date=2019-09-19" or "last accessed on 2019-09-19"
+              r'(?:last accessed on|\|date=)\s*(\d{4}-\d{2}-\d{2})',
               # "update for 2 June 2020"
               r'update for\s+(\d{1,2}\s+\w+\s+\d{4})',
           ]
-          
+
           def parse_date(date_str):
               for fmt in ['%B %d, %Y', '%B %d %Y', '%d %B %Y', '%Y-%m-%d']:
                   try:
@@ -212,14 +212,12 @@ jobs:
                   wikitext = data.get('parse', {}).get('wikitext', {}).get('*', '')
 
                   # Find reference URL near Denuvo removal mention
-                  # Look for ref tags near "removed" + "Denuvo"
                   ref_match = re.search(
                       r'[Dd]enuvo.{0,100}removed.{0,200}(?:url=|<ref>[\s]*\[?)(https?://[^\s|\]}<]+)',
                       wikitext,
                       re.DOTALL
                   )
                   if not ref_match:
-                      # Try reverse order: removed...Denuvo...ref
                       ref_match = re.search(
                           r'removed.{0,100}[Dd]enuvo.{0,200}(?:url=|<ref>[\s]*\[?)(https?://[^\s|\]}<]+)',
                           wikitext,
@@ -229,10 +227,9 @@ jobs:
                   if ref_match:
                       game['removalRef'] = ref_match.group(1)
 
-
                   # Find removal date from references near Denuvo mentions
                   denuvo_sections = re.findall(
-                      r'.{0,500}(?:Denuvo|Anti-Tamper|steamdb\.info).{0,500}',
+                      r'.{0,1000}(?:Denuvo|Anti-Tamper|steamdb\.info).{0,1000}',
                       wikitext,
                       re.IGNORECASE | re.DOTALL
                   )
