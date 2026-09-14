@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-14T07:14:29Z",
+  "lastChecked": "2026-09-14T13:48:29Z",
   "games": [
     {
       "name": "007 First Light",
@@ -132,6 +132,11 @@
       "status": "removed",
       "removalRef": "https://steamdb.info/patchnotes/24534183/",
       "removalDate": "2026-08-03"
+    },
+    {
+      "name": "Atomic Heart 2",
+      "appId": "3788800",
+      "status": "active"
     },
     {
       "name": "Avatar: Frontiers of Pandora",
