@@ -271,7 +271,11 @@ jobs:
 
           os.makedirs('Denuvo', exist_ok=True)
           with open('Denuvo/denuvo.json', 'w', encoding='utf-8') as f:
-              json.dump(game_list, f, ensure_ascii=False, indent=2)
+              json.dump({
+                  'lastChecked': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+                  'games': game_list
+              }, f, ensure_ascii=False, indent=2)
+   
 
           active = sum(1 for g in game_list if g['status'] == 'active')
           removed = sum(1 for g in game_list if g['status'] == 'removed')
