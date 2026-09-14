@@ -335,4 +335,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add OnlineFix/
           git diff --staged --quiet || git commit -m "Update onlinefix index"
+          git pull --rebase
           git push
