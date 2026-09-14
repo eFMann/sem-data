@@ -1,2426 +1,2429 @@
-[
-  {
-    "name": "007 First Light",
-    "appId": "3768760",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/3768760/history/?changeid=U:81332012",
-    "removalDate": "2026-07-24"
-  },
-  {
-    "name": "2Dark",
-    "appId": "435100",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/app/435100/discussions/0/135514823817689839",
-    "removalDate": "2017-04-19"
-  },
-  {
-    "name": "A Total War Saga: Troy",
-    "appId": "1099410",
-    "status": "active"
-  },
-  {
-    "name": "A Way Out",
-    "appId": "1222700",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/13095794/",
-    "removalDate": "2024-01-11"
-  },
-  {
-    "name": "ADR1FT",
-    "appId": "300060",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/app/300060/discussions/0/3223871682610139847",
-    "removalDate": "2017-09-14"
-  },
-  {
-    "name": "Abzû",
-    "appId": "384190",
-    "status": "removed",
-    "removalDate": "2020-01-02"
-  },
-  {
-    "name": "Ace Attorney Investigations Collection",
-    "appId": "2401970",
-    "status": "removed",
-    "removalDate": "2025-01-27"
-  },
-  {
-    "name": "Ace Combat 7: Skies Unknown",
-    "appId": "502500",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/7451509/",
-    "removalDate": "2021-10-19"
-  },
-  {
-    "name": "Ace Combat 8: Wings of Theve",
-    "appId": "2288340",
-    "status": "active"
-  },
-  {
-    "name": "Agents of Mayhem",
-    "appId": "304530",
-    "status": "removed",
-    "removalRef": "http://www.dsogaming.com/news/volition-removes-denuvo-anti-tamper-tech-agents-mayhem/",
-    "removalDate": "2017-11-11"
-  },
-  {
-    "name": "Anno 117: Pax Romana",
-    "appId": "3274580",
-    "status": "active"
-  },
-  {
-    "name": "Anno 1800",
-    "appId": "916440",
-    "status": "active"
-  },
-  {
-    "name": "Anno 2205",
-    "appId": "375910",
-    "status": "active"
-  },
-  {
-    "name": "Anthem",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "Apollo Justice: Ace Attorney Trilogy",
-    "appId": "2187220",
-    "status": "removed",
-    "removalDate": "2024-07-16"
-  },
-  {
-    "name": "Assassin's Creed Mirage",
-    "appId": "3035570",
-    "status": "active"
-  },
-  {
-    "name": "Assassin's Creed Odyssey",
-    "appId": "812140",
-    "status": "active"
-  },
-  {
-    "name": "Assassin's Creed Origins",
-    "appId": "582160",
-    "status": "active"
-  },
-  {
-    "name": "Assassin's Creed Shadows",
-    "appId": "3159330",
-    "status": "active"
-  },
-  {
-    "name": "Assassin's Creed Valhalla",
-    "appId": "2208920",
-    "status": "active"
-  },
-  {
-    "name": "Assassin's Creed: Black Flag Resynced",
-    "appId": "3751950",
-    "status": "active"
-  },
-  {
-    "name": "Atomfall",
-    "appId": "801800",
-    "status": "active"
-  },
-  {
-    "name": "Atomic Heart",
-    "appId": "668580",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/24534183/",
-    "removalDate": "2026-08-03"
-  },
-  {
-    "name": "Avatar: Frontiers of Pandora",
-    "appId": "2840770",
-    "status": "active"
-  },
-  {
-    "name": "Back 4 Blood",
-    "appId": "924970",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/14216215/",
-    "removalDate": "2021-12-16"
-  },
-  {
-    "name": "Balan Wonderworld",
-    "appId": "1341050",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1341050/history/?changeid=U:25716510",
-    "removalDate": "2021-06-02"
-  },
-  {
-    "name": "Batman: Arkham Knight",
-    "appId": "208650",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/208651/history/?changeid=M:5300142995515379449",
-    "removalDate": "2020-12-03"
-  },
-  {
-    "name": "Battlefield 1",
-    "appId": "1238840",
-    "status": "active"
-  },
-  {
-    "name": "Battlefield 2042",
-    "appId": "1517290",
-    "status": "active"
-  },
-  {
-    "name": "Battlefield Hardline",
-    "appId": "1238880",
-    "status": "active"
-  },
-  {
-    "name": "Battlefield V",
-    "appId": "1238810",
-    "status": "active"
-  },
-  {
-    "name": "Battlezone (2017)",
-    "appId": "312650",
-    "status": "active"
-  },
-  {
-    "name": "Beyond Good & Evil: 20th Anniversary Edition",
-    "appId": "2556990",
-    "status": "active"
-  },
-  {
-    "name": "Beyond: Two Souls",
-    "appId": "960990",
-    "status": "removed",
-    "removalDate": "2020-06-24"
-  },
-  {
-    "name": "Black Myth: Wukong",
-    "appId": "2358720",
-    "status": "active"
-  },
-  {
-    "name": "Borderlands 3",
-    "appId": "397540",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/397542/history/?changeid=M:5810392720910730831",
-    "removalDate": "2021-01-21"
-  },
-  {
-    "name": "Borderlands 4",
-    "appId": "1285190",
-    "status": "active"
-  },
-  {
-    "name": "Bravely Default Flying Fairy HD Remaster",
-    "appId": "2833580",
-    "status": "removed",
-    "removalDate": "2026-09-08"
-  },
-  {
-    "name": "Bravely Default II",
-    "appId": "1446650",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1446650/history/?changeid=U:28515475",
-    "removalDate": "2022-02-25"
-  },
-  {
-    "name": "Bulletstorm: Full Clip Edition",
-    "appId": "501590",
-    "status": "removed",
-    "removalDate": "2017-12-05"
-  },
-  {
-    "name": "Burnout Paradise Remastered",
-    "appId": "1238080",
-    "status": "active"
-  },
-  {
-    "name": "Bus Simulator 18",
-    "appId": "515180",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/515180/history/?changeid=U:15409392",
-    "removalDate": "2020-03-19"
-  },
-  {
-    "name": "Bus Simulator 21",
-    "appId": "976590",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/11097407/",
-    "removalDate": "2023-05-16"
-  },
-  {
-    "name": "Champions of Anteria",
-    "appId": "374520",
-    "status": "active"
-  },
-  {
-    "name": "City Transport Simulator 2026",
-    "appId": "4148530",
-    "status": "active"
-  },
-  {
-    "name": "Code Vein",
-    "appId": "678960",
-    "status": "active"
-  },
-  {
-    "name": "Code Vein II",
-    "appId": "2362060",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/24974566/",
-    "removalDate": "2026-09-08"
-  },
-  {
-    "name": "Company of Heroes 3",
-    "appId": "1677280",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/20899187/",
-    "removalDate": "2025-11-28"
-  },
-  {
-    "name": "Conan Exiles",
-    "appId": "440900",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/games/440900/announcements/detail/2393048143819456187",
-    "removalDate": "2020-06-16"
-  },
-  {
-    "name": "Conan Unconquered",
-    "appId": "989690",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/989690/history/?changeid=U:13017802/",
-    "removalDate": "2019-09-19"
-  },
-  {
-    "name": "Construction Simulator",
-    "appId": "1273400",
-    "status": "active"
-  },
-  {
-    "name": "Constructor HD",
-    "appId": "579020",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/games/579020/announcements/detail/2752157127117100529",
-    "removalDate": "2018-11-23"
-  },
-  {
-    "name": "Crazy Taxi: World Tour",
-    "appId": "2924540",
-    "status": "active"
-  },
-  {
-    "name": "Crime Boss: Rockay City",
-    "appId": "2933080",
-    "status": "removed",
-    "removalDate": "2024-06-18"
-  },
-  {
-    "name": "Crimson Desert",
-    "appId": "3321460",
-    "status": "active"
-  },
-  {
-    "name": "Crysis 2 Remastered",
-    "appId": "2096600",
-    "status": "active"
-  },
-  {
-    "name": "Crysis 3 Remastered",
-    "appId": "2096610",
-    "status": "active"
-  },
-  {
-    "name": "Crysis Remastered",
-    "appId": "1715130",
-    "status": "removed",
-    "removalRef": "https://www.reddit.com/r/Crysis/comments/qc3yck/crysis_remastered_trilogy_pc_hotfixes/",
-    "removalDate": "2021-10-20"
-  },
-  {
-    "name": "DIRT 5",
-    "appId": "1038250",
-    "status": "active"
-  },
-  {
-    "name": "Damaged Core",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "Dead Island 2",
-    "appId": "934700",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/20514355",
-    "removalDate": "2025-10-23"
-  },
-  {
-    "name": "Dead Rising 4",
-    "appId": "543460",
-    "status": "active"
-  },
-  {
-    "name": "Dead Rising Deluxe Remaster",
-    "appId": "2527390",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/2527391/history/?changeid=M:6456215729820951574",
-    "removalDate": "2025-09-01"
-  },
-  {
-    "name": "Dead Space (2023)",
-    "appId": "1693980",
-    "status": "active"
-  },
-  {
-    "name": "Death Stranding",
-    "appId": "1190460",
-    "status": "removed",
-    "removalRef": "https://store.steampowered.com/app/1190460/DEATH_STRANDING/",
-    "removalDate": "2020-07-15"
-  },
-  {
-    "name": "Deathloop",
-    "appId": "1252330",
-    "status": "active"
-  },
-  {
-    "name": "Deliver Us Mars",
-    "appId": "1345890",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1345891/history/?changeid=M:8640828234384242134",
-    "removalDate": "2025-01-31"
-  },
-  {
-    "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
-    "appId": "1490890",
-    "status": "active"
-  },
-  {
-    "name": "Detroit: Become Human",
-    "appId": "1222140",
-    "status": "removed",
-    "removalDate": "2020-06-19"
-  },
-  {
-    "name": "Deus Ex: Mankind Divided",
-    "appId": "337000",
-    "status": "active"
-  },
-  {
-    "name": "Devil May Cry 5",
-    "appId": "601150",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/601150/history/?changeid=U:14809473",
-    "removalDate": "2020-02-06"
-  },
-  {
-    "name": "Digimon Story: Time Stranger",
-    "appId": "1984270",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1984270/history/?changeid=U:80375435",
-    "removalDate": "2026-07-09"
-  },
-  {
-    "name": "Discovery Tour: Ancient Egypt",
-    "appId": "775430",
-    "status": "active"
-  },
-  {
-    "name": "Dishonored 2",
-    "appId": "403640",
-    "status": "removed",
-    "removalRef": "https://www.dsogaming.com/news/bethesda-and-arkane-studios-have-removed-the-denuvo-anti-tamper-tech-from-dishonored-2/",
-    "removalDate": "2018-12-14"
-  },
-  {
-    "name": "Dishonored: Death of the Outsider",
-    "appId": "614570",
-    "status": "removed",
-    "removalRef": "https://www.dsogaming.com/news/bethesda-and-arkane-studios-have-removed-the-denuvo-anti-tamper-tech-from-dishonored-2/",
-    "removalDate": "2018-12-14"
-  },
-  {
-    "name": "Doom (2016)",
-    "appId": "379720",
-    "status": "removed",
-    "removalRef": "https://kotaku.com/denuvo-explains-why-doom-dropped-their-anti-piracy-tech-1790192362",
-    "removalDate": "2016-12-11"
-  },
-  {
-    "name": "Doom Eternal",
-    "appId": "782330",
-    "status": "removed",
-    "removalRef": "https://store.steampowered.com/news/app/782330/view/3657540278470182248",
-    "removalDate": "2020-05-18"
-  },
-  {
-    "name": "Doom: The Dark Ages",
-    "appId": "3017860",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/23888600",
-    "removalDate": "2026-07-07"
-  },
-  {
-    "name": "Dragon Age: Inquisition",
-    "appId": "1222690",
-    "status": "active"
-  },
-  {
-    "name": "Dragon Ball FighterZ",
-    "appId": "678950",
-    "status": "active"
-  },
-  {
-    "name": "Dragon Quest Heroes II",
-    "appId": "574050",
-    "status": "active"
-  },
-  {
-    "name": "Dragon Quest I & II HD-2D Remake",
-    "appId": "2893570",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/21744054/",
-    "removalDate": "2026-03-09"
-  },
-  {
-    "name": "Dragon Quest III HD-2D Remake",
-    "appId": "2701660",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/2701660/history/?changeid=U:62583037",
-    "removalDate": "2025-05-23"
-  },
-  {
-    "name": "Dragon Quest Monsters: The Dark Prince",
-    "appId": "2175540",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/15884629/",
-    "removalDate": "2024-10-17"
-  },
-  {
-    "name": "Dragon Quest Monsters: The Withered World",
-    "appId": "3681610",
-    "status": "active"
-  },
-  {
-    "name": "Dragon Quest Treasures",
-    "appId": "2021210",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/2021210/history/?changeid=21846012",
-    "removalDate": "2024-01-11"
-  },
-  {
-    "name": "Dragon Quest VII Reimagined",
-    "appId": "2499860",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/2499860/history/?changeid=U:81659944",
-    "removalDate": "2026-07-31"
-  },
-  {
-    "name": "Dragon Quest X Offline",
-    "appId": "1358750",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1358750/history/?changeid=18054878",
-    "removalDate": "2023-03-13"
-  },
-  {
-    "name": "Dragon Quest XI",
-    "appId": "742120",
-    "status": "active"
-  },
-  {
-    "name": "Dragon Quest XI S - Definitive Edition",
-    "appId": "1295510",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/6291077/",
-    "removalDate": "2021-05-28"
-  },
-  {
-    "name": "Dragon's Dogma 2",
-    "appId": "2054970",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/2054974/history/?changeid=M:6839022010412597171",
-    "removalDate": "2026-09-01"
-  },
-  {
-    "name": "Drone Swarm",
-    "appId": "401760",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/401761/history/?changeid=M:4870355076636122263",
-    "removalDate": "2023-04-24"
-  },
-  {
-    "name": "Dying Light 2 Stay Human",
-    "appId": "534380",
-    "status": "removed",
-    "removalDate": "2023-01-31"
-  },
-  {
-    "name": "EA Sports FC 24",
-    "appId": "2195250",
-    "status": "active"
-  },
-  {
-    "name": "EA Sports FC 25",
-    "appId": "2669320",
-    "status": "active"
-  },
-  {
-    "name": "EA Sports FC 26",
-    "appId": "3405690",
-    "status": "active"
-  },
-  {
-    "name": "EA Sports PGA Tour",
-    "appId": "1677350",
-    "status": "active"
-  },
-  {
-    "name": "EA Sports WRC",
-    "appId": "1849250",
-    "status": "active"
-  },
-  {
-    "name": "EFootball PES 2020",
-    "appId": "996470",
-    "status": "active"
-  },
-  {
-    "name": "EFootball PES 2021 Season Update",
-    "appId": "1259970",
-    "status": "active"
-  },
-  {
-    "name": "EVE: Gunjack",
-    "appId": "410570",
-    "status": "active"
-  },
-  {
-    "name": "Ebaseball: Pro Spirit",
-    "appId": "4128400",
-    "status": "active"
-  },
-  {
-    "name": "Echoes of Aincrad",
-    "appId": "2244210",
-    "status": "active"
-  },
-  {
-    "name": "Edge of Nowhere",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "Endless Dungeon",
-    "appId": "1485590",
-    "status": "removed",
-    "removalDate": "2025-05-23"
-  },
-  {
-    "name": "Etrian Odyssey HD",
-    "appId": "1868180",
-    "status": "active"
-  },
-  {
-    "name": "Etrian Odyssey II HD",
-    "appId": "1868170",
-    "status": "active"
-  },
-  {
-    "name": "Etrian Odyssey III HD",
-    "appId": "1810820",
-    "status": "active"
-  },
-  {
-    "name": "Evil Genius 2: World Domination",
-    "appId": "700600",
-    "status": "active"
-  },
-  {
-    "name": "F1 2016",
-    "appId": "391040",
-    "status": "active"
-  },
-  {
-    "name": "F1 2017",
-    "appId": "515220",
-    "status": "active"
-  },
-  {
-    "name": "F1 2018",
-    "appId": "737800",
-    "status": "active"
-  },
-  {
-    "name": "F1 2019",
-    "appId": "928600",
-    "status": "active"
-  },
-  {
-    "name": "F1 2020",
-    "appId": "1080110",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1084203/history/",
-    "removalDate": "2021-09-30"
-  },
-  {
-    "name": "F1 2021",
-    "appId": "1134570",
-    "status": "active"
-  },
-  {
-    "name": "F1 22",
-    "appId": "1692250",
-    "status": "active"
-  },
-  {
-    "name": "F1 23",
-    "appId": "2108330",
-    "status": "active"
-  },
-  {
-    "name": "F1 24",
-    "appId": "2488620",
-    "status": "active"
-  },
-  {
-    "name": "F1 25",
-    "appId": "3059520",
-    "status": "active"
-  },
-  {
-    "name": "F1 Manager 2022",
-    "appId": "1708520",
-    "status": "active"
-  },
-  {
-    "name": "F1 Manager 2023",
-    "appId": "2287220",
-    "status": "active"
-  },
-  {
-    "name": "F1 Manager 2024",
-    "appId": "2591280",
-    "status": "active"
-  },
-  {
-    "name": "FAR: Changing Tides",
-    "appId": "1570010",
-    "status": "active"
-  },
-  {
-    "name": "FIFA 15",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "FIFA 16",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "FIFA 17",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "FIFA 18",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "FIFA 19",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "FIFA 20",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "FIFA 21",
-    "appId": "1313860",
-    "status": "active"
-  },
-  {
-    "name": "FIFA 23",
-    "appId": "1811260",
-    "status": "active"
-  },
-  {
-    "name": "Fantasian Neo Dimension",
-    "appId": "2844850",
-    "status": "removed",
-    "removalDate": "2025-05-21"
-  },
-  {
-    "name": "Far Cry 5",
-    "appId": "552520",
-    "status": "active"
-  },
-  {
-    "name": "Far Cry 6",
-    "appId": "2369390",
-    "status": "active"
-  },
-  {
-    "name": "Far Cry New Dawn",
-    "appId": "939960",
-    "status": "active"
-  },
-  {
-    "name": "Far Cry Primal",
-    "appId": "371660",
-    "status": "active"
-  },
-  {
-    "name": "Fe",
-    "appId": "1225580",
-    "status": "active"
-  },
-  {
-    "name": "Fernbus Simulator",
-    "appId": "427100",
-    "status": "active"
-  },
-  {
-    "name": "Final Fantasy Resonance",
-    "appId": "3259780",
-    "status": "active"
-  },
-  {
-    "name": "Final Fantasy Tactics - The Ivalice Chronicles",
-    "appId": "1004640",
-    "status": "active"
-  },
-  {
-    "name": "Final Fantasy VII Revelation",
-    "appId": "4354570",
-    "status": "active"
-  },
-  {
-    "name": "Final Fantasy XII: The Zodiac Age",
-    "appId": "595520",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/595520/history/?changeid=U:15947547",
-    "removalDate": "2025-07-22"
-  },
-  {
-    "name": "Final Fantasy XV",
-    "appId": "637650",
-    "status": "active"
-  },
-  {
-    "name": "Final Fantasy XVI",
-    "appId": "2515020",
-    "status": "removed",
-    "removalDate": "2025-03-04"
-  },
-  {
-    "name": "Firefighting Simulator - The Squad",
-    "appId": "420560",
-    "status": "active"
-  },
-  {
-    "name": "Fishing Sim World: Pro Tour",
-    "appId": "834280",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/9995607/",
-    "removalDate": "2023-01-09"
-  },
-  {
-    "name": "Football Manager 2017",
-    "appId": "482730",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager 2018",
-    "appId": "624090",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager 2019",
-    "appId": "872790",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager 2020",
-    "appId": "1100600",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager 2021",
-    "appId": "1263850",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager 2021 Touch",
-    "appId": "1263860",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager 2022",
-    "appId": "1569040",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager 2023",
-    "appId": "1904540",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager 2024",
-    "appId": "2252570",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager 26",
-    "appId": "3551340",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager Touch 2017",
-    "appId": "482750",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager Touch 2018",
-    "appId": "624120",
-    "status": "active"
-  },
-  {
-    "name": "Football Manager Touch 2019",
-    "appId": "872820",
-    "status": "active"
-  },
-  {
-    "name": "For Honor",
-    "appId": "304390",
-    "status": "active"
-  },
-  {
-    "name": "Forspoken",
-    "appId": "1680880",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1680881/history/?changeid=M:3798211609564658789",
-    "removalDate": "2023-07-25"
-  },
-  {
-    "name": "GRID Legends",
-    "appId": "1307710",
-    "status": "active"
-  },
-  {
-    "name": "Ghost Trick: Phantom Detective",
-    "appId": "1967430",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1967430/history/?changeid=21592507",
-    "removalDate": "2023-12-18"
-  },
-  {
-    "name": "Ghostwire: Tokyo",
-    "appId": "1475810",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1475810/history/?changeid=U:47536834",
-    "removalDate": "2024-04-17"
-  },
-  {
-    "name": "God Eater 2: Rage Burst",
-    "appId": "438490",
-    "status": "active"
-  },
-  {
-    "name": "God Eater: Resurrection",
-    "appId": "460870",
-    "status": "active"
-  },
-  {
-    "name": "Gotham Knights",
-    "appId": "1496790",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1496792/history/?changeid=M:6741199118717402024",
-    "removalDate": "2026-02-26"
-  },
-  {
-    "name": "Gundam Rogue Orbit",
-    "appId": "1963680",
-    "status": "active"
-  },
-  {
-    "name": "Handball 17",
-    "appId": "526980",
-    "status": "active"
-  },
-  {
-    "name": "Hatsune Miku: Project DIVA Mega Mix+",
-    "appId": "1761390",
-    "status": "active"
-  },
-  {
-    "name": "Heavy Rain",
-    "appId": "960910",
-    "status": "removed",
-    "removalDate": "2020-06-24"
-  },
-  {
-    "name": "Hello Kitty Island Adventure",
-    "appId": "2495100",
-    "status": "active"
-  },
-  {
-    "name": "Hi-Fi Rush",
-    "appId": "1817230",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/20567064/",
-    "removalDate": "2025-12-04"
-  },
-  {
-    "name": "Hitman",
-    "appId": "236870",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/games/236870/announcements/detail/2574219120186500379",
-    "removalDate": "2017-06-21"
-  },
-  {
-    "name": "Hitman 2",
-    "appId": "863550",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/863550/history/?changeid=U:9998491",
-    "removalDate": "2019-01-30"
-  },
-  {
-    "name": "Hogwarts Legacy",
-    "appId": "990080",
-    "status": "active"
-  },
-  {
-    "name": "Homefront: The Revolution",
-    "appId": "223100",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/app/223100/discussions/0/135510669600309971/?ctp=2#c135510669600732236",
-    "removalDate": "2017-03-06"
-  },
-  {
-    "name": "Homeworld 3",
-    "appId": "1840080",
-    "status": "removed",
-    "removalDate": "2024-10-25"
-  },
-  {
-    "name": "Hunting Simulator",
-    "appId": "585080",
-    "status": "active"
-  },
-  {
-    "name": "Immortals Fenyx Rising",
-    "appId": "2221920",
-    "status": "active"
-  },
-  {
-    "name": "Immortals of Aveum",
-    "appId": "2009100",
-    "status": "removed",
-    "removalDate": "2025-02-07"
-  },
-  {
-    "name": "InZOI",
-    "appId": "2456740",
-    "status": "removed",
-    "removalDate": "2025-03-26"
-  },
-  {
-    "name": "Injustice 2",
-    "appId": "627270",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/7433017/",
-    "removalDate": "2021-11-04"
-  },
-  {
-    "name": "Inside",
-    "appId": "304430",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/games/304430/announcements/detail/510426185159035029",
-    "removalDate": "2016-11-23"
-  },
-  {
-    "name": "Judgment",
-    "appId": "2058180",
-    "status": "active"
-  },
-  {
-    "name": "Jurassic World Evolution",
-    "appId": "648350",
-    "status": "active"
-  },
-  {
-    "name": "Jurassic World Evolution 2",
-    "appId": "1244460",
-    "status": "active"
-  },
-  {
-    "name": "Jurassic World Evolution 3",
-    "appId": "2958130",
-    "status": "active"
-  },
-  {
-    "name": "Just Cause 3",
-    "appId": "225540",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/225543/history/?changeid=M:3730640572082548617",
-    "removalDate": "2025-12-17"
-  },
-  {
-    "name": "Just Cause 4",
-    "appId": "517630",
-    "status": "active"
-  },
-  {
-    "name": "Just Dance 2017",
-    "appId": "446560",
-    "status": "active"
-  },
-  {
-    "name": "Kaku Ancient Seal / 卡库远古封印",
-    "appId": "1179580",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1179583/history/?changeid=M:1420946741270911558",
-    "removalDate": "2023-07-26"
-  },
-  {
-    "name": "King's Bounty II",
-    "appId": "1135300",
-    "status": "removed",
-    "removalDate": "2022-02-17"
-  },
-  {
-    "name": "Left Alive",
-    "appId": "714370",
-    "status": "active"
-  },
-  {
-    "name": "Legend of Mana",
-    "appId": "1175830",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/7861397/",
-    "removalDate": "2026-05-26"
-  },
-  {
-    "name": "Lego 2K Drive",
-    "appId": "1451810",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1451811/history/?changeid=M:6986786506279873175",
-    "removalDate": "2023-12-13"
-  },
-  {
-    "name": "Lego Batman: Legacy of the Dark Knight",
-    "appId": "2215200",
-    "status": "active"
-  },
-  {
-    "name": "Lies of P",
-    "appId": "1627720",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1627720/history/?changeid=U:45465881",
-    "removalDate": "2024-02-16"
-  },
-  {
-    "name": "Life Is Strange 2",
-    "appId": "532210",
-    "status": "active"
-  },
-  {
-    "name": "Life Is Strange: Before the Storm",
-    "appId": "554620",
-    "status": "removed",
-    "removalRef": "https://www.pcgamesn.com/life-is-strange-before-the-storm/life-is-strange-denuvo-protection",
-    "removalDate": "2017-09-04"
-  },
-  {
-    "name": "Life Is Strange: Double Exposure",
-    "appId": "1874000",
-    "status": "removed",
-    "removalRef": "https://store.steampowered.com/news/app/1874000/view/528720879111111050",
-    "removalDate": "2025-05-14"
-  },
-  {
-    "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
-    "appId": "2375550",
-    "status": "active"
-  },
-  {
-    "name": "Like a Dragon: Infinite Wealth",
-    "appId": "2072450",
-    "status": "active"
-  },
-  {
-    "name": "Like a Dragon: Ishin!",
-    "appId": "1805480",
-    "status": "active"
-  },
-  {
-    "name": "Like a Dragon: Pirate Yakuza in Hawaii",
-    "appId": "3061810",
-    "status": "active"
-  },
-  {
-    "name": "Live A Live",
-    "appId": "2014380",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/2014380/history/?changeid=U:41917119",
-    "removalDate": "2023-10-10"
-  },
-  {
-    "name": "Lone Echo",
-    "appId": "",
-    "status": "removed",
-    "removalDate": "2018-01-05"
-  },
-  {
-    "name": "Lords of the Fallen",
-    "appId": "265300",
-    "status": "active"
-  },
-  {
-    "name": "Lost Judgment",
-    "appId": "2058190",
-    "status": "active"
-  },
-  {
-    "name": "Lost in Random",
-    "appId": "1462570",
-    "status": "active"
-  },
-  {
-    "name": "Mad Max",
-    "appId": "234140",
-    "status": "active"
-  },
-  {
-    "name": "Madden NFL 19",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "Madden NFL 20",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "Madden NFL 21",
-    "appId": "1239520",
-    "status": "active"
-  },
-  {
-    "name": "Madden NFL 22",
-    "appId": "1519350",
-    "status": "active"
-  },
-  {
-    "name": "Madden NFL 25",
-    "appId": "2582560",
-    "status": "active"
-  },
-  {
-    "name": "Madden NFL 26",
-    "appId": "3230400",
-    "status": "active"
-  },
-  {
-    "name": "Mafia: Definitive Edition",
-    "appId": "1030840",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1030840/history/?changeid=U:25749192",
-    "removalDate": "2021-09-23"
-  },
-  {
-    "name": "Mafia: The Old Country",
-    "appId": "1941540",
-    "status": "active"
-  },
-  {
-    "name": "Maneater",
-    "appId": "629820",
-    "status": "active"
-  },
-  {
-    "name": "Marvel vs. Capcom: Infinite",
-    "appId": "493840",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/app/493840/discussions/0/2828702373012845056/",
-    "removalDate": "2018-05-15"
-  },
-  {
-    "name": "Marvel's Avengers",
-    "appId": "997070",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/997070/history/?changeid=U:25334043",
-    "removalDate": "2021-08-31"
-  },
-  {
-    "name": "Marvel's Guardians of the Galaxy",
-    "appId": "1088850",
-    "status": "active"
-  },
-  {
-    "name": "Marvel's Midnight Suns",
-    "appId": "368260",
-    "status": "active"
-  },
-  {
-    "name": "Mass Effect Legendary Edition",
-    "appId": "1328670",
-    "status": "removed",
-    "removalRef": "https://www.thegamer.com/denuvo-removed-mass-effect-legendary-edition/",
-    "removalDate": "2021-06-07"
-  },
-  {
-    "name": "Mass Effect: Andromeda",
-    "appId": "1238000",
-    "status": "removed",
-    "removalRef": "http://www.dsogaming.com/news/bioware-has-removed-denuvo-from-mass-effect-andromeda/",
-    "removalDate": "2017-07-30"
-  },
-  {
-    "name": "Mega Man 11",
-    "appId": "742300",
-    "status": "removed",
-    "removalDate": "2018-11-19"
-  },
-  {
-    "name": "Mega Man Battle Network Legacy Collection Vol. 1",
-    "appId": "1798010",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1798011/history/?changeid=M:6479892931656534289",
-    "removalDate": "2023-10-13"
-  },
-  {
-    "name": "Mega Man Battle Network Legacy Collection Vol. 2",
-    "appId": "1798020",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1798021/history/?changeid=M:6414382211667678232",
-    "removalDate": "2023-10-13"
-  },
-  {
-    "name": "Mega Man Star Force Legacy Collection",
-    "appId": "3500390",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/23297979/",
-    "removalDate": "2026-09-08"
-  },
-  {
-    "name": "Metal Gear Solid V: The Phantom Pain",
-    "appId": "287700",
-    "status": "active"
-  },
-  {
-    "name": "Metaphor: ReFantazio",
-    "appId": "2679460",
-    "status": "active"
-  },
-  {
-    "name": "Metro Exodus",
-    "appId": "412020",
-    "status": "removed",
-    "removalRef": "https://www.metrothegame.com/news/patch-notes-pc-hotfix/",
-    "removalDate": "2020-05-27"
-  },
-  {
-    "name": "Middle-earth: Shadow of War",
-    "appId": "356190",
-    "status": "active"
-  },
-  {
-    "name": "Might & Magic Heroes VII",
-    "appId": "321960",
-    "status": "active"
-  },
-  {
-    "name": "Might & Magic Heroes VII: Trial by Fire",
-    "appId": "445310",
-    "status": "active"
-  },
-  {
-    "name": "Mirror's Edge Catalyst",
-    "appId": "1233570",
-    "status": "active"
-  },
-  {
-    "name": "Monopoly (2024)",
-    "appId": "2929170",
-    "status": "active"
-  },
-  {
-    "name": "Monopoly Madness",
-    "appId": "2383760",
-    "status": "active"
-  },
-  {
-    "name": "Monopoly Plus",
-    "appId": "562810",
-    "status": "active"
-  },
-  {
-    "name": "Monopoly: Star Wars - Heroes vs. Villains",
-    "appId": "3936610",
-    "status": "active"
-  },
-  {
-    "name": "Monster Hunter Rise",
-    "appId": "1446780",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1446780/history/?changeid=U:44485024",
-    "removalDate": "2024-01-21"
-  },
-  {
-    "name": "Monster Hunter Stories",
-    "appId": "2356560",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/2356560/history/?changeid=U:55939719",
-    "removalDate": "2024-11-27"
-  },
-  {
-    "name": "Monster Hunter Stories 2: Wings of Ruin",
-    "appId": "1277400",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1277400/history/?changeid=U:31229572",
-    "removalDate": "2024-07-04"
-  },
-  {
-    "name": "Monster Hunter Stories 3: Twisted Reflection",
-    "appId": "2852190",
-    "status": "active"
-  },
-  {
-    "name": "Monster Hunter Wilds",
-    "appId": "2246340",
-    "status": "active"
-  },
-  {
-    "name": "Monster Hunter: World",
-    "appId": "582010",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/582010/history/?changeid=U:23483754",
-    "removalDate": "2021-06-02"
-  },
-  {
-    "name": "Moons of Madness",
-    "appId": "1012840",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1012840/history/?changeid=8091832",
-    "removalDate": "2020-04-01"
-  },
-  {
-    "name": "Mortal Kombat 1",
-    "appId": "1971870",
-    "status": "active"
-  },
-  {
-    "name": "Mortal Kombat 11",
-    "appId": "976310",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/976312/history/?changeid=M:4104529039430722411",
-    "removalDate": "2022-03-22"
-  },
-  {
-    "name": "Moto Racer 4",
-    "appId": "417430",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/app/417430/discussions/0/3377008022041361034/",
-    "removalDate": "2018-02-20"
-  },
-  {
-    "name": "Mutant Year Zero: Road to Eden",
-    "appId": "760060",
-    "status": "removed",
-    "removalDate": "2019-02-26"
-  },
-  {
-    "name": "NBA 2K24",
-    "appId": "2338770",
-    "status": "active"
-  },
-  {
-    "name": "NBA 2K25",
-    "appId": "2878980",
-    "status": "active"
-  },
-  {
-    "name": "NBA 2K26",
-    "appId": "3472040",
-    "status": "active"
-  },
-  {
-    "name": "Naruto to Boruto: Shinobi Striker",
-    "appId": "633230",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/11385633/",
-    "removalDate": "2023-06-29"
-  },
-  {
-    "name": "Need for Speed (2016)",
-    "appId": "1262540",
-    "status": "active"
-  },
-  {
-    "name": "Need for Speed Heat",
-    "appId": "1222680",
-    "status": "active"
-  },
-  {
-    "name": "Need for Speed Payback",
-    "appId": "1262580",
-    "status": "active"
-  },
-  {
-    "name": "Need for Speed Unbound",
-    "appId": "1846380",
-    "status": "active"
-  },
-  {
-    "name": "Need for Speed: Hot Pursuit Remastered",
-    "appId": "1328660",
-    "status": "active"
-  },
-  {
-    "name": "New Gundam Breaker",
-    "appId": "738530",
-    "status": "active"
-  },
-  {
-    "name": "New Tales from the Borderlands",
-    "appId": "1454970",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1454970/history/?changeid=U:37591449",
-    "removalDate": "2023-04-18"
-  },
-  {
-    "name": "NieR Replicant",
-    "appId": "1113560",
-    "status": "removed",
-    "removalDate": "2021-10-20"
-  },
-  {
-    "name": "NieR: Automata",
-    "appId": "524220",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/524221/history/?changeid=M:4633942970953135000",
-    "removalDate": "2017-09-24"
-  },
-  {
-    "name": "Nikoderiko: The Magical World",
-    "appId": "2374190",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/2374190/history/?changeid=U:60921599",
-    "removalDate": "2025-04-15"
-  },
-  {
-    "name": "Octopath Traveler",
-    "appId": "921570",
-    "status": "removed",
-    "removalRef": "https://www.dsogaming.com/news/square-enix-has-removed-the-denuvo-anti-tamper-tech-from-octopath-traveler/",
-    "removalDate": "2019-11-05"
-  },
-  {
-    "name": "Octopath Traveler 0",
-    "appId": "3014320",
-    "status": "removed",
-    "removalDate": "2026-05-27"
-  },
-  {
-    "name": "Octopath Traveler II",
-    "appId": "1971650",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1971650/history/?changeid=U:40419733",
-    "removalDate": "2023-08-09"
-  },
-  {
-    "name": "OddBallers",
-    "appId": "1064070",
-    "status": "active"
-  },
-  {
-    "name": "Onimusha 2: Samurai's Destiny",
-    "appId": "3046600",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/3046600/history/?changeid=U:69577101",
-    "removalDate": "2025-11-21"
-  },
-  {
-    "name": "Onimusha: Way of the Sword",
-    "appId": "2638890",
-    "status": "active"
-  },
-  {
-    "name": "Overturn",
-    "appId": "650070",
-    "status": "active"
-  },
-  {
-    "name": "PGA Tour 2K23",
-    "appId": "1588010",
-    "status": "removed",
-    "removalDate": "2025-07-23"
-  },
-  {
-    "name": "PGA Tour 2K25",
-    "appId": "2385530",
-    "status": "active"
-  },
-  {
-    "name": "Persona 3 Portable",
-    "appId": "1809700",
-    "status": "active"
-  },
-  {
-    "name": "Persona 4 Arena Ultimax",
-    "appId": "1602010",
-    "status": "active"
-  },
-  {
-    "name": "Persona 4 Golden",
-    "appId": "1113000",
-    "status": "active"
-  },
-  {
-    "name": "Persona 4 Revival",
-    "appId": "2963950",
-    "status": "active"
-  },
-  {
-    "name": "Persona 5 Royal",
-    "appId": "1687950",
-    "status": "active"
-  },
-  {
-    "name": "Persona 5 Strikers",
-    "appId": "1382330",
-    "status": "active"
-  },
-  {
-    "name": "Persona 5 Tactica",
-    "appId": "2254740",
-    "status": "active"
-  },
-  {
-    "name": "Phantom Blade Zero",
-    "appId": "4115450",
-    "status": "active"
-  },
-  {
-    "name": "Planet Coaster",
-    "appId": "493340",
-    "status": "active"
-  },
-  {
-    "name": "Planet Coaster 2",
-    "appId": "2688950",
-    "status": "active"
-  },
-  {
-    "name": "Planet Zoo",
-    "appId": "703080",
-    "status": "active"
-  },
-  {
-    "name": "Police Simulator: Patrol Duty",
-    "appId": "461870",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/4909107/",
-    "removalDate": "2021-01-20"
-  },
-  {
-    "name": "Pragmata",
-    "appId": "3357650",
-    "status": "active"
-  },
-  {
-    "name": "Prey (2017)",
-    "appId": "480490",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/app/480490/discussions/0/4150581887545710507/",
-    "removalDate": "2020-07-23"
-  },
-  {
-    "name": "Prey: Typhon Hunter",
-    "appId": "741820",
-    "status": "removed",
-    "removalDate": "2020-07-31"
-  },
-  {
-    "name": "Prince of Persia: The Lost Crown",
-    "appId": "2751000",
-    "status": "active"
-  },
-  {
-    "name": "Pro Evolution Soccer 2017",
-    "appId": "456610",
-    "status": "active"
-  },
-  {
-    "name": "Pro Evolution Soccer 2018",
-    "appId": "592580",
-    "status": "active"
-  },
-  {
-    "name": "Pro Evolution Soccer 2018 Lite",
-    "appId": "592600",
-    "status": "active"
-  },
-  {
-    "name": "Pro Evolution Soccer 2019",
-    "appId": "770240",
-    "status": "active"
-  },
-  {
-    "name": "Professional Baseball Spirits 2024-2025",
-    "appId": "2051010",
-    "status": "active"
-  },
-  {
-    "name": "Puyo Puyo Tetris",
-    "appId": "546050",
-    "status": "active"
-  },
-  {
-    "name": "Rabbids: Party of Legends",
-    "appId": "",
-    "status": "active"
-  },
-  {
-    "name": "Rage 2",
-    "appId": "548570",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/games/548570/announcements/detail/2565275416672419265",
-    "removalDate": "2019-05-16"
-  },
-  {
-    "name": "Raidou Remastered: The Mystery of the Soulless Army",
-    "appId": "2288350",
-    "status": "active"
-  },
-  {
-    "name": "Rayman Legends Retold",
-    "appId": "4084710",
-    "status": "active"
-  },
-  {
-    "name": "Redfall",
-    "appId": "1294810",
-    "status": "active"
-  },
-  {
-    "name": "Resident Evil 2 (2019)",
-    "appId": "883710",
-    "status": "removed",
-    "removalRef": "https://www.dsogaming.com/news/capcom-has-completely-removed-the-denuvo-anti-tamper-tech-from-resident-evil-2-remake/",
-    "removalDate": "2019-12-18"
-  },
-  {
-    "name": "Resident Evil 3 (2020)",
-    "appId": "952060",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/952060/history/?changeid=U:18917683",
-    "removalDate": "2020-10-01"
-  },
-  {
-    "name": "Resident Evil 4 (2023)",
-    "appId": "2050650",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/21521672/",
-    "removalDate": "2026-03-03"
-  },
-  {
-    "name": "Resident Evil 7: Biohazard",
-    "appId": "418370",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/418370/history/?changeid=U:9973659",
-    "removalDate": "2019-01-28"
-  },
-  {
-    "name": "Resident Evil Requiem",
-    "appId": "3764200",
-    "status": "active"
-  },
-  {
-    "name": "Resident Evil Resistance",
-    "appId": "952070",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/952070/history/?changeid=U:18919670",
-    "removalDate": "2020-10-01"
-  },
-  {
-    "name": "Resident Evil Veronica",
-    "appId": "4824610",
-    "status": "active"
-  },
-  {
-    "name": "Resident Evil Village",
-    "appId": "1196590",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/10415597/",
-    "removalDate": "2023-04-10"
-  },
-  {
-    "name": "Rime",
-    "appId": "493200",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/games/493200/announcements/detail/1262544621818429331",
-    "removalDate": "2017-06-01"
-  },
-  {
-    "name": "Rise of the Tomb Raider",
-    "appId": "391220",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/7763383/",
-    "removalDate": "2021-11-23"
-  },
-  {
-    "name": "Robinson: The Journey",
-    "appId": "579820",
-    "status": "active"
-  },
-  {
-    "name": "Rock Band VR",
-    "appId": "",
-    "status": "removed"
-  },
-  {
-    "name": "Rocksmith 2014",
-    "appId": "221680",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/9490970/",
-    "removalDate": "2022-09-10"
-  },
-  {
-    "name": "Romancing SaGa 2: Revenge of the Seven",
-    "appId": "2455640",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/2455640/history/?changeid=U:60971277",
-    "removalDate": "2025-04-16"
-  },
-  {
-    "name": "Salthe",
-    "appId": "1357840",
-    "status": "active"
-  },
-  {
-    "name": "Scott Pilgrim vs. The World: The Game",
-    "appId": "2215260",
-    "status": "active"
-  },
-  {
-    "name": "Sea of Solitude",
-    "appId": "1225590",
-    "status": "active"
-  },
-  {
-    "name": "Shadow of the Tomb Raider",
-    "appId": "750920",
-    "status": "removed",
-    "removalRef": "https://store.steampowered.com/news/app/750920/view/5630057400396673638",
-    "removalDate": "2022-08-15"
-  },
-  {
-    "name": "Sherlock Holmes: The Devil's Daughter",
-    "appId": "350640",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/350641/history/?changeid=M:7966217916078695193",
-    "removalDate": "2025-08-16"
-  },
-  {
-    "name": "Shin Megami Tensei III Nocturne HD Remaster",
-    "appId": "1413480",
-    "status": "active"
-  },
-  {
-    "name": "Shining Resonance Refrain",
-    "appId": "809890",
-    "status": "active"
-  },
-  {
-    "name": "Shinobi: Art of Vengeance",
-    "appId": "2361770",
-    "status": "active"
-  },
-  {
-    "name": "Sid Meier's Civilization VII",
-    "appId": "1295660",
-    "status": "active"
-  },
-  {
-    "name": "Slitterhead",
-    "appId": "2631250",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/2631250/history/?changeid=U:61926835",
-    "removalDate": "2025-05-07"
-  },
-  {
-    "name": "Sniper Elite 4",
-    "appId": "312660",
-    "status": "active"
-  },
-  {
-    "name": "Sniper Elite 5",
-    "appId": "1029690",
-    "status": "active"
-  },
-  {
-    "name": "Sniper Elite VR",
-    "appId": "752480",
-    "status": "active"
-  },
-  {
-    "name": "Sniper Elite: Resistance",
-    "appId": "2169200",
-    "status": "active"
-  },
-  {
-    "name": "Sniper: Ghost Warrior 3",
-    "appId": "368070",
-    "status": "removed",
-    "removalDate": "2018-01-26"
-  },
-  {
-    "name": "Sonic Colors: Ultimate",
-    "appId": "2055290",
-    "status": "active"
-  },
-  {
-    "name": "Sonic Forces",
-    "appId": "637100",
-    "status": "active"
-  },
-  {
-    "name": "Sonic Frontiers",
-    "appId": "1237320",
-    "status": "active"
-  },
-  {
-    "name": "Sonic Mania",
-    "appId": "584400",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/584400/history/?changeid=U:10928227",
-    "removalDate": "2019-03-12"
-  },
-  {
-    "name": "Sonic Origins",
-    "appId": "1794960",
-    "status": "active"
-  },
-  {
-    "name": "Sonic Racing: CrossWorlds",
-    "appId": "2486820",
-    "status": "active"
-  },
-  {
-    "name": "Sonic Superstars",
-    "appId": "2022670",
-    "status": "active"
-  },
-  {
-    "name": "Sonic X Shadow Generations",
-    "appId": "2513280",
-    "status": "active"
-  },
-  {
-    "name": "Soul Hackers 2",
-    "appId": "1777620",
-    "status": "active"
-  },
-  {
-    "name": "South Park: The Fractured but Whole",
-    "appId": "488790",
-    "status": "active"
-  },
-  {
-    "name": "Speedball (2026)",
-    "appId": "1795190",
-    "status": "active"
-  },
-  {
-    "name": "Star Ocean: The Divine Force",
-    "appId": "1776380",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1776380/history/?changeid=U:37658851",
-    "removalDate": "2023-04-21"
-  },
-  {
-    "name": "Star Ocean: The Last Hope 4K & Full HD Remaster",
-    "appId": "609150",
-    "status": "active"
-  },
-  {
-    "name": "Star Ocean: The Second Story R",
-    "appId": "2238900",
-    "status": "removed",
-    "removalDate": "2024-05-02"
-  },
-  {
-    "name": "Star Wars Battlefront (2015)",
-    "appId": "1237980",
-    "status": "active"
-  },
-  {
-    "name": "Star Wars Battlefront II (2017)",
-    "appId": "1237950",
-    "status": "active"
-  },
-  {
-    "name": "Star Wars Jedi: Fallen Order",
-    "appId": "1172380",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1172381/history/?changeid=M:8837119185510079035",
-    "removalDate": "2021-11-09"
-  },
-  {
-    "name": "Star Wars Jedi: Survivor",
-    "appId": "1774580",
-    "status": "removed",
-    "removalDate": "2024-09-12"
-  },
-  {
-    "name": "Star Wars Outlaws",
-    "appId": "2842040",
-    "status": "active"
-  },
-  {
-    "name": "Star Wars: Galactic Racer",
-    "appId": "4078430",
-    "status": "active"
-  },
-  {
-    "name": "Star Wars: Squadrons",
-    "appId": "1222730",
-    "status": "active"
-  },
-  {
-    "name": "Starlink: Battle for Atlas",
-    "appId": "950050",
-    "status": "active"
-  },
-  {
-    "name": "Stellar Blade",
-    "appId": "3489700",
-    "status": "active"
-  },
-  {
-    "name": "Stranded: Alien Dawn",
-    "appId": "1324130",
-    "status": "removed",
-    "removalDate": "2025-08-27"
-  },
-  {
-    "name": "Strange Brigade",
-    "appId": "312670",
-    "status": "active"
-  },
-  {
-    "name": "Stranger Than Heaven",
-    "appId": "4260840",
-    "status": "active"
-  },
-  {
-    "name": "Street Fighter 6",
-    "appId": "1364780",
-    "status": "active"
-  },
-  {
-    "name": "Suicide Squad: Kill the Justice League",
-    "appId": "315210",
-    "status": "active"
-  },
-  {
-    "name": "Super Mega Baseball 4",
-    "appId": "1487210",
-    "status": "active"
-  },
-  {
-    "name": "Super Robot Wars Y",
-    "appId": "1909950",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/depot/1909951/history/?changeid=M:1405394230871288212",
-    "removalDate": "2026-04-21"
-  },
-  {
-    "name": "Sword Art Online: Fatal Bullet",
-    "appId": "626690",
-    "status": "active"
-  },
-  {
-    "name": "Syberia 3",
-    "appId": "464340",
-    "status": "removed",
-    "removalDate": "2025-08-21"
-  },
-  {
-    "name": "Tales of Berseria",
-    "appId": "429660",
-    "status": "active"
-  },
-  {
-    "name": "Tales of Kenzera: ZAU",
-    "appId": "2316580",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/2316580/history/?changeid=U:51491255",
-    "removalDate": "2024-08-22"
-  },
-  {
-    "name": "Team Sonic Racing",
-    "appId": "785260",
-    "status": "active"
-  },
-  {
-    "name": "Tekken 7",
-    "appId": "389730",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/389730/history/?changeid=U:26327796",
-    "removalDate": "2021-10-26"
-  },
-  {
-    "name": "The Adventures of Elliot: The Millennium Tales",
-    "appId": "3483510",
-    "status": "active"
-  },
-  {
-    "name": "The Awesome Adventures of Captain Spirit",
-    "appId": "845070",
-    "status": "active"
-  },
-  {
-    "name": "The Climb",
-    "appId": "3881540",
-    "status": "removed",
-    "removalRef": "https://support.codefusion.technology/TheClimb",
-    "removalDate": "2019-07-30"
-  },
-  {
-    "name": "The DioField Chronicle",
-    "appId": "1399080",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/10501741/",
-    "removalDate": "2023-03-05"
-  },
-  {
-    "name": "The First Berserker: Khazan",
-    "appId": "2680010",
-    "status": "active"
-  },
-  {
-    "name": "The Great War: Western Front",
-    "appId": "2109370",
-    "status": "removed",
-    "removalDate": "2025-01-30"
-  },
-  {
-    "name": "The Quarry",
-    "appId": "1577120",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1577120/history/?changeid=U:35812792",
-    "removalDate": "2023-01-31"
-  },
-  {
-    "name": "The Quiet Man",
-    "appId": "790540",
-    "status": "active"
-  },
-  {
-    "name": "The Settlers: New Allies",
-    "appId": "2750080",
-    "status": "active"
-  },
-  {
-    "name": "The Sinking City",
-    "appId": "750130",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/13083473/",
-    "removalDate": "2021-02-28"
-  },
-  {
-    "name": "Tiny Tina's Wonderlands",
-    "appId": "1286680",
-    "status": "removed",
-    "removalDate": "2023-04-20"
-  },
-  {
-    "name": "Titanfall 2",
-    "appId": "1237970",
-    "status": "removed",
-    "removalRef": "http://www.dsogaming.com/news/titanfall-2-developer-hopes-that-pirates-will-enjoy-the-sp-and-buy-the-game-for-its-mp-mode/",
-    "removalDate": "2017-07-21"
-  },
-  {
-    "name": "Tom Clancy's Ghost Recon Breakpoint",
-    "appId": "2231380",
-    "status": "active"
-  },
-  {
-    "name": "Tom Clancy's Ghost Recon Wildlands",
-    "appId": "460930",
-    "status": "active"
-  },
-  {
-    "name": "Tom Clancy's Rainbow Six Extraction",
-    "appId": "2379390",
-    "status": "active"
-  },
-  {
-    "name": "Tomb Raider: Legacy of Atlantis",
-    "appId": "3558670",
-    "status": "active"
-  },
-  {
-    "name": "Tony Hawk's Pro Skater 1 + 2",
-    "appId": "2395210",
-    "status": "active"
-  },
-  {
-    "name": "TopSpin 2K25",
-    "appId": "1785650",
-    "status": "active"
-  },
-  {
-    "name": "Total War Saga: Thrones of Britannia",
-    "appId": "712100",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/11621285/",
-    "removalDate": "2023-07-04"
-  },
-  {
-    "name": "Total War: Pharaoh",
-    "appId": "1937780",
-    "status": "active"
-  },
-  {
-    "name": "Total War: Three Kingdoms",
-    "appId": "779340",
-    "status": "active"
-  },
-  {
-    "name": "Total War: Warhammer",
-    "appId": "364360",
-    "status": "active"
-  },
-  {
-    "name": "Total War: Warhammer II",
-    "appId": "594570",
-    "status": "active"
-  },
-  {
-    "name": "Total War: Warhammer III",
-    "appId": "1142710",
-    "status": "active"
-  },
-  {
-    "name": "Tourist Bus Simulator",
-    "appId": "953580",
-    "status": "active"
-  },
-  {
-    "name": "Train Sim World 2",
-    "appId": "1282590",
-    "status": "active"
-  },
-  {
-    "name": "TransRoad: USA",
-    "appId": "494670",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/app/494670/discussions/0/1480982971179585747/?ctp=7#c2747650363469321071",
-    "removalDate": "2018-08-31"
-  },
-  {
-    "name": "Trials Rising",
-    "appId": "641080",
-    "status": "active"
-  },
-  {
-    "name": "Trials of Mana",
-    "appId": "924980",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/5231250/",
-    "removalDate": "2020-08-26"
-  },
-  {
-    "name": "Triangle Strategy",
-    "appId": "1850510",
-    "status": "removed",
-    "removalRef": "https://www.dsogaming.com/news/square-enix-has-removed-denuvo-from-triangle-strategy/",
-    "removalDate": "2023-04-06"
-  },
-  {
-    "name": "Two Point Campus",
-    "appId": "1649080",
-    "status": "active"
-  },
-  {
-    "name": "Two Point Hospital",
-    "appId": "535930",
-    "status": "removed",
-    "removalRef": "https://steamcommunity.com/app/535930/discussions/0/1737715419912789209/",
-    "removalDate": "2018-09-04"
-  },
-  {
-    "name": "Two Point Museum",
-    "appId": "2185060",
-    "status": "active"
-  },
-  {
-    "name": "Undisputed",
-    "appId": "1451190",
-    "status": "active"
-  },
-  {
-    "name": "Uno (2016)",
-    "appId": "470220",
-    "status": "active"
-  },
-  {
-    "name": "Unravel",
-    "appId": "1225560",
-    "status": "active"
-  },
-  {
-    "name": "Unravel Two",
-    "appId": "1225570",
-    "status": "active"
-  },
-  {
-    "name": "Valiant Hearts: Coming Home",
-    "appId": "2741360",
-    "status": "active"
-  },
-  {
-    "name": "Valkyria Chronicles 4",
-    "appId": "790820",
-    "status": "active"
-  },
-  {
-    "name": "Valkyrie Elysium",
-    "appId": "1963210",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/app/1963210/history/?changeid=U%3A37187482",
-    "removalDate": "2023-03-30"
-  },
-  {
-    "name": "Visions of Mana",
-    "appId": "2490990",
-    "status": "removed",
-    "removalDate": "2025-02-25"
-  },
-  {
-    "name": "Voice of Cards: The Beasts of Burden",
-    "appId": "1890740",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/10152102/",
-    "removalDate": "2023-01-23"
-  },
-  {
-    "name": "Voice of Cards: The Forsaken Maiden",
-    "appId": "1748660",
-    "status": "removed",
-    "removalDate": "2023-03-15"
-  },
-  {
-    "name": "Voice of Cards: The Isle Dragon Roars",
-    "appId": "1113570",
-    "status": "removed",
-    "removalDate": "2022-04-28"
-  },
-  {
-    "name": "WRC 6: FIA World Rally Championship",
-    "appId": "458770",
-    "status": "active"
-  },
-  {
-    "name": "WRC 7: FIA World Rally Championship",
-    "appId": "621830",
-    "status": "active"
-  },
-  {
-    "name": "WWE 2K26",
-    "appId": "3717070",
-    "status": "active"
-  },
-  {
-    "name": "Warhammer 40,000: Chaos Gate - Daemonhunters",
-    "appId": "1611910",
-    "status": "active"
-  },
-  {
-    "name": "Warhammer 40,000: Dawn of War III",
-    "appId": "285190",
-    "status": "active"
-  },
-  {
-    "name": "Warhammer Age of Sigmar: Realms of Ruin",
-    "appId": "1844380",
-    "status": "active"
-  },
-  {
-    "name": "Watch Dogs 2",
-    "appId": "447040",
-    "status": "active"
-  },
-  {
-    "name": "Watch Dogs: Legion",
-    "appId": "2239550",
-    "status": "active"
-  },
-  {
-    "name": "White Day 2: The Flower That Tells Lies",
-    "appId": "2078040",
-    "status": "removed",
-    "removalRef": "https://steamdb.info/patchnotes/13976782/",
-    "removalDate": "2024-04-11"
-  },
-  {
-    "name": "White Day: A Labyrinth Named School (2017)",
-    "appId": "466130",
-    "status": "active"
-  },
-  {
-    "name": "Wild Hearts",
-    "appId": "1938010",
-    "status": "active"
-  },
-  {
-    "name": "Wolfenstein: Youngblood",
-    "appId": "1056960",
-    "status": "removed",
-    "removalDate": "2022-03-08"
-  },
-  {
-    "name": "Yakuza 0",
-    "appId": "638970",
-    "status": "removed",
-    "removalDate": "2019-03-11"
-  },
-  {
-    "name": "Yakuza Kiwami 3 & Dark Ties",
-    "appId": "3937550",
-    "status": "active"
-  },
-  {
-    "name": "Yakuza: Like a Dragon",
-    "appId": "1235140",
-    "status": "active"
-  },
-  {
-    "name": "Yesterday Origins",
-    "appId": "465280",
-    "status": "active"
-  },
-  {
-    "name": "Zombie Army 4: Dead War",
-    "appId": "694280",
-    "status": "active"
-  },
-  {
-    "name": "Zombie Army VR",
-    "appId": "2058030",
-    "status": "active"
-  },
-  {
-    "name": "Zone of the Enders: The 2nd Runner MARS",
-    "appId": "650510",
-    "status": "active"
-  }
-]
+{
+  "lastChecked": "2026-09-14T07:14:29Z",
+  "games": [
+    {
+      "name": "007 First Light",
+      "appId": "3768760",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/3768760/history/?changeid=U:81332012",
+      "removalDate": "2026-07-24"
+    },
+    {
+      "name": "2Dark",
+      "appId": "435100",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/app/435100/discussions/0/135514823817689839",
+      "removalDate": "2017-04-19"
+    },
+    {
+      "name": "A Total War Saga: Troy",
+      "appId": "1099410",
+      "status": "active"
+    },
+    {
+      "name": "A Way Out",
+      "appId": "1222700",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/13095794/",
+      "removalDate": "2024-01-11"
+    },
+    {
+      "name": "ADR1FT",
+      "appId": "300060",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/app/300060/discussions/0/3223871682610139847",
+      "removalDate": "2017-09-14"
+    },
+    {
+      "name": "Abzû",
+      "appId": "384190",
+      "status": "removed",
+      "removalDate": "2020-01-02"
+    },
+    {
+      "name": "Ace Attorney Investigations Collection",
+      "appId": "2401970",
+      "status": "removed",
+      "removalDate": "2025-01-27"
+    },
+    {
+      "name": "Ace Combat 7: Skies Unknown",
+      "appId": "502500",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/7451509/",
+      "removalDate": "2021-10-19"
+    },
+    {
+      "name": "Ace Combat 8: Wings of Theve",
+      "appId": "2288340",
+      "status": "active"
+    },
+    {
+      "name": "Agents of Mayhem",
+      "appId": "304530",
+      "status": "removed",
+      "removalRef": "http://www.dsogaming.com/news/volition-removes-denuvo-anti-tamper-tech-agents-mayhem/",
+      "removalDate": "2017-11-11"
+    },
+    {
+      "name": "Anno 117: Pax Romana",
+      "appId": "3274580",
+      "status": "active"
+    },
+    {
+      "name": "Anno 1800",
+      "appId": "916440",
+      "status": "active"
+    },
+    {
+      "name": "Anno 2205",
+      "appId": "375910",
+      "status": "active"
+    },
+    {
+      "name": "Anthem",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "Apollo Justice: Ace Attorney Trilogy",
+      "appId": "2187220",
+      "status": "removed",
+      "removalDate": "2024-07-16"
+    },
+    {
+      "name": "Assassin's Creed Mirage",
+      "appId": "3035570",
+      "status": "active"
+    },
+    {
+      "name": "Assassin's Creed Odyssey",
+      "appId": "812140",
+      "status": "active"
+    },
+    {
+      "name": "Assassin's Creed Origins",
+      "appId": "582160",
+      "status": "active"
+    },
+    {
+      "name": "Assassin's Creed Shadows",
+      "appId": "3159330",
+      "status": "active"
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "appId": "2208920",
+      "status": "active"
+    },
+    {
+      "name": "Assassin's Creed: Black Flag Resynced",
+      "appId": "3751950",
+      "status": "active"
+    },
+    {
+      "name": "Atomfall",
+      "appId": "801800",
+      "status": "active"
+    },
+    {
+      "name": "Atomic Heart",
+      "appId": "668580",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/24534183/",
+      "removalDate": "2026-08-03"
+    },
+    {
+      "name": "Avatar: Frontiers of Pandora",
+      "appId": "2840770",
+      "status": "active"
+    },
+    {
+      "name": "Back 4 Blood",
+      "appId": "924970",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/14216215/",
+      "removalDate": "2021-12-16"
+    },
+    {
+      "name": "Balan Wonderworld",
+      "appId": "1341050",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1341050/history/?changeid=U:25716510",
+      "removalDate": "2021-06-02"
+    },
+    {
+      "name": "Batman: Arkham Knight",
+      "appId": "208650",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/208651/history/?changeid=M:5300142995515379449",
+      "removalDate": "2020-12-03"
+    },
+    {
+      "name": "Battlefield 1",
+      "appId": "1238840",
+      "status": "active"
+    },
+    {
+      "name": "Battlefield 2042",
+      "appId": "1517290",
+      "status": "active"
+    },
+    {
+      "name": "Battlefield Hardline",
+      "appId": "1238880",
+      "status": "active"
+    },
+    {
+      "name": "Battlefield V",
+      "appId": "1238810",
+      "status": "active"
+    },
+    {
+      "name": "Battlezone (2017)",
+      "appId": "312650",
+      "status": "active"
+    },
+    {
+      "name": "Beyond Good & Evil: 20th Anniversary Edition",
+      "appId": "2556990",
+      "status": "active"
+    },
+    {
+      "name": "Beyond: Two Souls",
+      "appId": "960990",
+      "status": "removed",
+      "removalDate": "2020-06-24"
+    },
+    {
+      "name": "Black Myth: Wukong",
+      "appId": "2358720",
+      "status": "active"
+    },
+    {
+      "name": "Borderlands 3",
+      "appId": "397540",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/397542/history/?changeid=M:5810392720910730831",
+      "removalDate": "2021-01-21"
+    },
+    {
+      "name": "Borderlands 4",
+      "appId": "1285190",
+      "status": "active"
+    },
+    {
+      "name": "Bravely Default Flying Fairy HD Remaster",
+      "appId": "2833580",
+      "status": "removed",
+      "removalDate": "2026-09-08"
+    },
+    {
+      "name": "Bravely Default II",
+      "appId": "1446650",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1446650/history/?changeid=U:28515475",
+      "removalDate": "2022-02-25"
+    },
+    {
+      "name": "Bulletstorm: Full Clip Edition",
+      "appId": "501590",
+      "status": "removed",
+      "removalDate": "2017-12-05"
+    },
+    {
+      "name": "Burnout Paradise Remastered",
+      "appId": "1238080",
+      "status": "active"
+    },
+    {
+      "name": "Bus Simulator 18",
+      "appId": "515180",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/515180/history/?changeid=U:15409392",
+      "removalDate": "2020-03-19"
+    },
+    {
+      "name": "Bus Simulator 21",
+      "appId": "976590",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/11097407/",
+      "removalDate": "2023-05-16"
+    },
+    {
+      "name": "Champions of Anteria",
+      "appId": "374520",
+      "status": "active"
+    },
+    {
+      "name": "City Transport Simulator 2026",
+      "appId": "4148530",
+      "status": "active"
+    },
+    {
+      "name": "Code Vein",
+      "appId": "678960",
+      "status": "active"
+    },
+    {
+      "name": "Code Vein II",
+      "appId": "2362060",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/24974566/",
+      "removalDate": "2026-09-08"
+    },
+    {
+      "name": "Company of Heroes 3",
+      "appId": "1677280",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/20899187/",
+      "removalDate": "2025-11-28"
+    },
+    {
+      "name": "Conan Exiles",
+      "appId": "440900",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/games/440900/announcements/detail/2393048143819456187",
+      "removalDate": "2020-06-16"
+    },
+    {
+      "name": "Conan Unconquered",
+      "appId": "989690",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/989690/history/?changeid=U:13017802/",
+      "removalDate": "2019-09-19"
+    },
+    {
+      "name": "Construction Simulator",
+      "appId": "1273400",
+      "status": "active"
+    },
+    {
+      "name": "Constructor HD",
+      "appId": "579020",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/games/579020/announcements/detail/2752157127117100529",
+      "removalDate": "2018-11-23"
+    },
+    {
+      "name": "Crazy Taxi: World Tour",
+      "appId": "2924540",
+      "status": "active"
+    },
+    {
+      "name": "Crime Boss: Rockay City",
+      "appId": "2933080",
+      "status": "removed",
+      "removalDate": "2024-06-18"
+    },
+    {
+      "name": "Crimson Desert",
+      "appId": "3321460",
+      "status": "active"
+    },
+    {
+      "name": "Crysis 2 Remastered",
+      "appId": "2096600",
+      "status": "active"
+    },
+    {
+      "name": "Crysis 3 Remastered",
+      "appId": "2096610",
+      "status": "active"
+    },
+    {
+      "name": "Crysis Remastered",
+      "appId": "1715130",
+      "status": "removed",
+      "removalRef": "https://www.reddit.com/r/Crysis/comments/qc3yck/crysis_remastered_trilogy_pc_hotfixes/",
+      "removalDate": "2021-10-20"
+    },
+    {
+      "name": "DIRT 5",
+      "appId": "1038250",
+      "status": "active"
+    },
+    {
+      "name": "Damaged Core",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "Dead Island 2",
+      "appId": "934700",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/20514355",
+      "removalDate": "2025-10-23"
+    },
+    {
+      "name": "Dead Rising 4",
+      "appId": "543460",
+      "status": "active"
+    },
+    {
+      "name": "Dead Rising Deluxe Remaster",
+      "appId": "2527390",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/2527391/history/?changeid=M:6456215729820951574",
+      "removalDate": "2025-09-01"
+    },
+    {
+      "name": "Dead Space (2023)",
+      "appId": "1693980",
+      "status": "active"
+    },
+    {
+      "name": "Death Stranding",
+      "appId": "1190460",
+      "status": "removed",
+      "removalRef": "https://store.steampowered.com/app/1190460/DEATH_STRANDING/",
+      "removalDate": "2020-07-15"
+    },
+    {
+      "name": "Deathloop",
+      "appId": "1252330",
+      "status": "active"
+    },
+    {
+      "name": "Deliver Us Mars",
+      "appId": "1345890",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1345891/history/?changeid=M:8640828234384242134",
+      "removalDate": "2025-01-31"
+    },
+    {
+      "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "appId": "1490890",
+      "status": "active"
+    },
+    {
+      "name": "Detroit: Become Human",
+      "appId": "1222140",
+      "status": "removed",
+      "removalDate": "2020-06-19"
+    },
+    {
+      "name": "Deus Ex: Mankind Divided",
+      "appId": "337000",
+      "status": "active"
+    },
+    {
+      "name": "Devil May Cry 5",
+      "appId": "601150",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/601150/history/?changeid=U:14809473",
+      "removalDate": "2020-02-06"
+    },
+    {
+      "name": "Digimon Story: Time Stranger",
+      "appId": "1984270",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1984270/history/?changeid=U:80375435",
+      "removalDate": "2026-07-09"
+    },
+    {
+      "name": "Discovery Tour: Ancient Egypt",
+      "appId": "775430",
+      "status": "active"
+    },
+    {
+      "name": "Dishonored 2",
+      "appId": "403640",
+      "status": "removed",
+      "removalRef": "https://www.dsogaming.com/news/bethesda-and-arkane-studios-have-removed-the-denuvo-anti-tamper-tech-from-dishonored-2/",
+      "removalDate": "2018-12-14"
+    },
+    {
+      "name": "Dishonored: Death of the Outsider",
+      "appId": "614570",
+      "status": "removed",
+      "removalRef": "https://www.dsogaming.com/news/bethesda-and-arkane-studios-have-removed-the-denuvo-anti-tamper-tech-from-dishonored-2/",
+      "removalDate": "2018-12-14"
+    },
+    {
+      "name": "Doom (2016)",
+      "appId": "379720",
+      "status": "removed",
+      "removalRef": "https://kotaku.com/denuvo-explains-why-doom-dropped-their-anti-piracy-tech-1790192362",
+      "removalDate": "2016-12-11"
+    },
+    {
+      "name": "Doom Eternal",
+      "appId": "782330",
+      "status": "removed",
+      "removalRef": "https://store.steampowered.com/news/app/782330/view/3657540278470182248",
+      "removalDate": "2020-05-18"
+    },
+    {
+      "name": "Doom: The Dark Ages",
+      "appId": "3017860",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/23888600",
+      "removalDate": "2026-07-07"
+    },
+    {
+      "name": "Dragon Age: Inquisition",
+      "appId": "1222690",
+      "status": "active"
+    },
+    {
+      "name": "Dragon Ball FighterZ",
+      "appId": "678950",
+      "status": "active"
+    },
+    {
+      "name": "Dragon Quest Heroes II",
+      "appId": "574050",
+      "status": "active"
+    },
+    {
+      "name": "Dragon Quest I & II HD-2D Remake",
+      "appId": "2893570",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/21744054/",
+      "removalDate": "2026-03-09"
+    },
+    {
+      "name": "Dragon Quest III HD-2D Remake",
+      "appId": "2701660",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/2701660/history/?changeid=U:62583037",
+      "removalDate": "2025-05-23"
+    },
+    {
+      "name": "Dragon Quest Monsters: The Dark Prince",
+      "appId": "2175540",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/15884629/",
+      "removalDate": "2024-10-17"
+    },
+    {
+      "name": "Dragon Quest Monsters: The Withered World",
+      "appId": "3681610",
+      "status": "active"
+    },
+    {
+      "name": "Dragon Quest Treasures",
+      "appId": "2021210",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/2021210/history/?changeid=21846012",
+      "removalDate": "2024-01-11"
+    },
+    {
+      "name": "Dragon Quest VII Reimagined",
+      "appId": "2499860",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/2499860/history/?changeid=U:81659944",
+      "removalDate": "2026-07-31"
+    },
+    {
+      "name": "Dragon Quest X Offline",
+      "appId": "1358750",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1358750/history/?changeid=18054878",
+      "removalDate": "2023-03-13"
+    },
+    {
+      "name": "Dragon Quest XI",
+      "appId": "742120",
+      "status": "active"
+    },
+    {
+      "name": "Dragon Quest XI S - Definitive Edition",
+      "appId": "1295510",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/6291077/",
+      "removalDate": "2021-05-28"
+    },
+    {
+      "name": "Dragon's Dogma 2",
+      "appId": "2054970",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/2054974/history/?changeid=M:6839022010412597171",
+      "removalDate": "2026-09-01"
+    },
+    {
+      "name": "Drone Swarm",
+      "appId": "401760",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/401761/history/?changeid=M:4870355076636122263",
+      "removalDate": "2023-04-24"
+    },
+    {
+      "name": "Dying Light 2 Stay Human",
+      "appId": "534380",
+      "status": "removed",
+      "removalDate": "2023-01-31"
+    },
+    {
+      "name": "EA Sports FC 24",
+      "appId": "2195250",
+      "status": "active"
+    },
+    {
+      "name": "EA Sports FC 25",
+      "appId": "2669320",
+      "status": "active"
+    },
+    {
+      "name": "EA Sports FC 26",
+      "appId": "3405690",
+      "status": "active"
+    },
+    {
+      "name": "EA Sports PGA Tour",
+      "appId": "1677350",
+      "status": "active"
+    },
+    {
+      "name": "EA Sports WRC",
+      "appId": "1849250",
+      "status": "active"
+    },
+    {
+      "name": "EFootball PES 2020",
+      "appId": "996470",
+      "status": "active"
+    },
+    {
+      "name": "EFootball PES 2021 Season Update",
+      "appId": "1259970",
+      "status": "active"
+    },
+    {
+      "name": "EVE: Gunjack",
+      "appId": "410570",
+      "status": "active"
+    },
+    {
+      "name": "Ebaseball: Pro Spirit",
+      "appId": "4128400",
+      "status": "active"
+    },
+    {
+      "name": "Echoes of Aincrad",
+      "appId": "2244210",
+      "status": "active"
+    },
+    {
+      "name": "Edge of Nowhere",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "Endless Dungeon",
+      "appId": "1485590",
+      "status": "removed",
+      "removalDate": "2025-05-23"
+    },
+    {
+      "name": "Etrian Odyssey HD",
+      "appId": "1868180",
+      "status": "active"
+    },
+    {
+      "name": "Etrian Odyssey II HD",
+      "appId": "1868170",
+      "status": "active"
+    },
+    {
+      "name": "Etrian Odyssey III HD",
+      "appId": "1810820",
+      "status": "active"
+    },
+    {
+      "name": "Evil Genius 2: World Domination",
+      "appId": "700600",
+      "status": "active"
+    },
+    {
+      "name": "F1 2016",
+      "appId": "391040",
+      "status": "active"
+    },
+    {
+      "name": "F1 2017",
+      "appId": "515220",
+      "status": "active"
+    },
+    {
+      "name": "F1 2018",
+      "appId": "737800",
+      "status": "active"
+    },
+    {
+      "name": "F1 2019",
+      "appId": "928600",
+      "status": "active"
+    },
+    {
+      "name": "F1 2020",
+      "appId": "1080110",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1084203/history/",
+      "removalDate": "2021-09-30"
+    },
+    {
+      "name": "F1 2021",
+      "appId": "1134570",
+      "status": "active"
+    },
+    {
+      "name": "F1 22",
+      "appId": "1692250",
+      "status": "active"
+    },
+    {
+      "name": "F1 23",
+      "appId": "2108330",
+      "status": "active"
+    },
+    {
+      "name": "F1 24",
+      "appId": "2488620",
+      "status": "active"
+    },
+    {
+      "name": "F1 25",
+      "appId": "3059520",
+      "status": "active"
+    },
+    {
+      "name": "F1 Manager 2022",
+      "appId": "1708520",
+      "status": "active"
+    },
+    {
+      "name": "F1 Manager 2023",
+      "appId": "2287220",
+      "status": "active"
+    },
+    {
+      "name": "F1 Manager 2024",
+      "appId": "2591280",
+      "status": "active"
+    },
+    {
+      "name": "FAR: Changing Tides",
+      "appId": "1570010",
+      "status": "active"
+    },
+    {
+      "name": "FIFA 15",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "FIFA 16",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "FIFA 17",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "FIFA 18",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "FIFA 19",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "FIFA 20",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "FIFA 21",
+      "appId": "1313860",
+      "status": "active"
+    },
+    {
+      "name": "FIFA 23",
+      "appId": "1811260",
+      "status": "active"
+    },
+    {
+      "name": "Fantasian Neo Dimension",
+      "appId": "2844850",
+      "status": "removed",
+      "removalDate": "2025-05-21"
+    },
+    {
+      "name": "Far Cry 5",
+      "appId": "552520",
+      "status": "active"
+    },
+    {
+      "name": "Far Cry 6",
+      "appId": "2369390",
+      "status": "active"
+    },
+    {
+      "name": "Far Cry New Dawn",
+      "appId": "939960",
+      "status": "active"
+    },
+    {
+      "name": "Far Cry Primal",
+      "appId": "371660",
+      "status": "active"
+    },
+    {
+      "name": "Fe",
+      "appId": "1225580",
+      "status": "active"
+    },
+    {
+      "name": "Fernbus Simulator",
+      "appId": "427100",
+      "status": "active"
+    },
+    {
+      "name": "Final Fantasy Resonance",
+      "appId": "3259780",
+      "status": "active"
+    },
+    {
+      "name": "Final Fantasy Tactics - The Ivalice Chronicles",
+      "appId": "1004640",
+      "status": "active"
+    },
+    {
+      "name": "Final Fantasy VII Revelation",
+      "appId": "4354570",
+      "status": "active"
+    },
+    {
+      "name": "Final Fantasy XII: The Zodiac Age",
+      "appId": "595520",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/595520/history/?changeid=U:15947547",
+      "removalDate": "2025-07-22"
+    },
+    {
+      "name": "Final Fantasy XV",
+      "appId": "637650",
+      "status": "active"
+    },
+    {
+      "name": "Final Fantasy XVI",
+      "appId": "2515020",
+      "status": "removed",
+      "removalDate": "2025-03-04"
+    },
+    {
+      "name": "Firefighting Simulator - The Squad",
+      "appId": "420560",
+      "status": "active"
+    },
+    {
+      "name": "Fishing Sim World: Pro Tour",
+      "appId": "834280",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/9995607/",
+      "removalDate": "2023-01-09"
+    },
+    {
+      "name": "Football Manager 2017",
+      "appId": "482730",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 2018",
+      "appId": "624090",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 2019",
+      "appId": "872790",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 2020",
+      "appId": "1100600",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 2021",
+      "appId": "1263850",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 2021 Touch",
+      "appId": "1263860",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 2022",
+      "appId": "1569040",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 2023",
+      "appId": "1904540",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 2024",
+      "appId": "2252570",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 26",
+      "appId": "3551340",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager Touch 2017",
+      "appId": "482750",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager Touch 2018",
+      "appId": "624120",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager Touch 2019",
+      "appId": "872820",
+      "status": "active"
+    },
+    {
+      "name": "For Honor",
+      "appId": "304390",
+      "status": "active"
+    },
+    {
+      "name": "Forspoken",
+      "appId": "1680880",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1680881/history/?changeid=M:3798211609564658789",
+      "removalDate": "2023-07-25"
+    },
+    {
+      "name": "GRID Legends",
+      "appId": "1307710",
+      "status": "active"
+    },
+    {
+      "name": "Ghost Trick: Phantom Detective",
+      "appId": "1967430",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1967430/history/?changeid=21592507",
+      "removalDate": "2023-12-18"
+    },
+    {
+      "name": "Ghostwire: Tokyo",
+      "appId": "1475810",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1475810/history/?changeid=U:47536834",
+      "removalDate": "2024-04-17"
+    },
+    {
+      "name": "God Eater 2: Rage Burst",
+      "appId": "438490",
+      "status": "active"
+    },
+    {
+      "name": "God Eater: Resurrection",
+      "appId": "460870",
+      "status": "active"
+    },
+    {
+      "name": "Gotham Knights",
+      "appId": "1496790",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1496792/history/?changeid=M:6741199118717402024",
+      "removalDate": "2026-02-26"
+    },
+    {
+      "name": "Gundam Rogue Orbit",
+      "appId": "1963680",
+      "status": "active"
+    },
+    {
+      "name": "Handball 17",
+      "appId": "526980",
+      "status": "active"
+    },
+    {
+      "name": "Hatsune Miku: Project DIVA Mega Mix+",
+      "appId": "1761390",
+      "status": "active"
+    },
+    {
+      "name": "Heavy Rain",
+      "appId": "960910",
+      "status": "removed",
+      "removalDate": "2020-06-24"
+    },
+    {
+      "name": "Hello Kitty Island Adventure",
+      "appId": "2495100",
+      "status": "active"
+    },
+    {
+      "name": "Hi-Fi Rush",
+      "appId": "1817230",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/20567064/",
+      "removalDate": "2025-12-04"
+    },
+    {
+      "name": "Hitman",
+      "appId": "236870",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/games/236870/announcements/detail/2574219120186500379",
+      "removalDate": "2017-06-21"
+    },
+    {
+      "name": "Hitman 2",
+      "appId": "863550",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/863550/history/?changeid=U:9998491",
+      "removalDate": "2019-01-30"
+    },
+    {
+      "name": "Hogwarts Legacy",
+      "appId": "990080",
+      "status": "active"
+    },
+    {
+      "name": "Homefront: The Revolution",
+      "appId": "223100",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/app/223100/discussions/0/135510669600309971/?ctp=2#c135510669600732236",
+      "removalDate": "2017-03-06"
+    },
+    {
+      "name": "Homeworld 3",
+      "appId": "1840080",
+      "status": "removed",
+      "removalDate": "2024-10-25"
+    },
+    {
+      "name": "Hunting Simulator",
+      "appId": "585080",
+      "status": "active"
+    },
+    {
+      "name": "Immortals Fenyx Rising",
+      "appId": "2221920",
+      "status": "active"
+    },
+    {
+      "name": "Immortals of Aveum",
+      "appId": "2009100",
+      "status": "removed",
+      "removalDate": "2025-02-07"
+    },
+    {
+      "name": "InZOI",
+      "appId": "2456740",
+      "status": "removed",
+      "removalDate": "2025-03-26"
+    },
+    {
+      "name": "Injustice 2",
+      "appId": "627270",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/7433017/",
+      "removalDate": "2021-11-04"
+    },
+    {
+      "name": "Inside",
+      "appId": "304430",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/games/304430/announcements/detail/510426185159035029",
+      "removalDate": "2016-11-23"
+    },
+    {
+      "name": "Judgment",
+      "appId": "2058180",
+      "status": "active"
+    },
+    {
+      "name": "Jurassic World Evolution",
+      "appId": "648350",
+      "status": "active"
+    },
+    {
+      "name": "Jurassic World Evolution 2",
+      "appId": "1244460",
+      "status": "active"
+    },
+    {
+      "name": "Jurassic World Evolution 3",
+      "appId": "2958130",
+      "status": "active"
+    },
+    {
+      "name": "Just Cause 3",
+      "appId": "225540",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/225543/history/?changeid=M:3730640572082548617",
+      "removalDate": "2025-12-17"
+    },
+    {
+      "name": "Just Cause 4",
+      "appId": "517630",
+      "status": "active"
+    },
+    {
+      "name": "Just Dance 2017",
+      "appId": "446560",
+      "status": "active"
+    },
+    {
+      "name": "Kaku Ancient Seal / 卡库远古封印",
+      "appId": "1179580",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1179583/history/?changeid=M:1420946741270911558",
+      "removalDate": "2023-07-26"
+    },
+    {
+      "name": "King's Bounty II",
+      "appId": "1135300",
+      "status": "removed",
+      "removalDate": "2022-02-17"
+    },
+    {
+      "name": "Left Alive",
+      "appId": "714370",
+      "status": "active"
+    },
+    {
+      "name": "Legend of Mana",
+      "appId": "1175830",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/7861397/",
+      "removalDate": "2026-05-26"
+    },
+    {
+      "name": "Lego 2K Drive",
+      "appId": "1451810",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1451811/history/?changeid=M:6986786506279873175",
+      "removalDate": "2023-12-13"
+    },
+    {
+      "name": "Lego Batman: Legacy of the Dark Knight",
+      "appId": "2215200",
+      "status": "active"
+    },
+    {
+      "name": "Lies of P",
+      "appId": "1627720",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1627720/history/?changeid=U:45465881",
+      "removalDate": "2024-02-16"
+    },
+    {
+      "name": "Life Is Strange 2",
+      "appId": "532210",
+      "status": "active"
+    },
+    {
+      "name": "Life Is Strange: Before the Storm",
+      "appId": "554620",
+      "status": "removed",
+      "removalRef": "https://www.pcgamesn.com/life-is-strange-before-the-storm/life-is-strange-denuvo-protection",
+      "removalDate": "2017-09-04"
+    },
+    {
+      "name": "Life Is Strange: Double Exposure",
+      "appId": "1874000",
+      "status": "removed",
+      "removalRef": "https://store.steampowered.com/news/app/1874000/view/528720879111111050",
+      "removalDate": "2025-05-14"
+    },
+    {
+      "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+      "appId": "2375550",
+      "status": "active"
+    },
+    {
+      "name": "Like a Dragon: Infinite Wealth",
+      "appId": "2072450",
+      "status": "active"
+    },
+    {
+      "name": "Like a Dragon: Ishin!",
+      "appId": "1805480",
+      "status": "active"
+    },
+    {
+      "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "appId": "3061810",
+      "status": "active"
+    },
+    {
+      "name": "Live A Live",
+      "appId": "2014380",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/2014380/history/?changeid=U:41917119",
+      "removalDate": "2023-10-10"
+    },
+    {
+      "name": "Lone Echo",
+      "appId": "",
+      "status": "removed",
+      "removalDate": "2018-01-05"
+    },
+    {
+      "name": "Lords of the Fallen",
+      "appId": "265300",
+      "status": "active"
+    },
+    {
+      "name": "Lost Judgment",
+      "appId": "2058190",
+      "status": "active"
+    },
+    {
+      "name": "Lost in Random",
+      "appId": "1462570",
+      "status": "active"
+    },
+    {
+      "name": "Mad Max",
+      "appId": "234140",
+      "status": "active"
+    },
+    {
+      "name": "Madden NFL 19",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "Madden NFL 20",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "Madden NFL 21",
+      "appId": "1239520",
+      "status": "active"
+    },
+    {
+      "name": "Madden NFL 22",
+      "appId": "1519350",
+      "status": "active"
+    },
+    {
+      "name": "Madden NFL 25",
+      "appId": "2582560",
+      "status": "active"
+    },
+    {
+      "name": "Madden NFL 26",
+      "appId": "3230400",
+      "status": "active"
+    },
+    {
+      "name": "Mafia: Definitive Edition",
+      "appId": "1030840",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1030840/history/?changeid=U:25749192",
+      "removalDate": "2021-09-23"
+    },
+    {
+      "name": "Mafia: The Old Country",
+      "appId": "1941540",
+      "status": "active"
+    },
+    {
+      "name": "Maneater",
+      "appId": "629820",
+      "status": "active"
+    },
+    {
+      "name": "Marvel vs. Capcom: Infinite",
+      "appId": "493840",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/app/493840/discussions/0/2828702373012845056/",
+      "removalDate": "2018-05-15"
+    },
+    {
+      "name": "Marvel's Avengers",
+      "appId": "997070",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/997070/history/?changeid=U:25334043",
+      "removalDate": "2021-08-31"
+    },
+    {
+      "name": "Marvel's Guardians of the Galaxy",
+      "appId": "1088850",
+      "status": "active"
+    },
+    {
+      "name": "Marvel's Midnight Suns",
+      "appId": "368260",
+      "status": "active"
+    },
+    {
+      "name": "Mass Effect Legendary Edition",
+      "appId": "1328670",
+      "status": "removed",
+      "removalRef": "https://www.thegamer.com/denuvo-removed-mass-effect-legendary-edition/",
+      "removalDate": "2021-06-07"
+    },
+    {
+      "name": "Mass Effect: Andromeda",
+      "appId": "1238000",
+      "status": "removed",
+      "removalRef": "http://www.dsogaming.com/news/bioware-has-removed-denuvo-from-mass-effect-andromeda/",
+      "removalDate": "2017-07-30"
+    },
+    {
+      "name": "Mega Man 11",
+      "appId": "742300",
+      "status": "removed",
+      "removalDate": "2018-11-19"
+    },
+    {
+      "name": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "appId": "1798010",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1798011/history/?changeid=M:6479892931656534289",
+      "removalDate": "2023-10-13"
+    },
+    {
+      "name": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "appId": "1798020",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1798021/history/?changeid=M:6414382211667678232",
+      "removalDate": "2023-10-13"
+    },
+    {
+      "name": "Mega Man Star Force Legacy Collection",
+      "appId": "3500390",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/23297979/",
+      "removalDate": "2026-09-08"
+    },
+    {
+      "name": "Metal Gear Solid V: The Phantom Pain",
+      "appId": "287700",
+      "status": "active"
+    },
+    {
+      "name": "Metaphor: ReFantazio",
+      "appId": "2679460",
+      "status": "active"
+    },
+    {
+      "name": "Metro Exodus",
+      "appId": "412020",
+      "status": "removed",
+      "removalRef": "https://www.metrothegame.com/news/patch-notes-pc-hotfix/",
+      "removalDate": "2020-05-27"
+    },
+    {
+      "name": "Middle-earth: Shadow of War",
+      "appId": "356190",
+      "status": "active"
+    },
+    {
+      "name": "Might & Magic Heroes VII",
+      "appId": "321960",
+      "status": "active"
+    },
+    {
+      "name": "Might & Magic Heroes VII: Trial by Fire",
+      "appId": "445310",
+      "status": "active"
+    },
+    {
+      "name": "Mirror's Edge Catalyst",
+      "appId": "1233570",
+      "status": "active"
+    },
+    {
+      "name": "Monopoly (2024)",
+      "appId": "2929170",
+      "status": "active"
+    },
+    {
+      "name": "Monopoly Madness",
+      "appId": "2383760",
+      "status": "active"
+    },
+    {
+      "name": "Monopoly Plus",
+      "appId": "562810",
+      "status": "active"
+    },
+    {
+      "name": "Monopoly: Star Wars - Heroes vs. Villains",
+      "appId": "3936610",
+      "status": "active"
+    },
+    {
+      "name": "Monster Hunter Rise",
+      "appId": "1446780",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1446780/history/?changeid=U:44485024",
+      "removalDate": "2024-01-21"
+    },
+    {
+      "name": "Monster Hunter Stories",
+      "appId": "2356560",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/2356560/history/?changeid=U:55939719",
+      "removalDate": "2024-11-27"
+    },
+    {
+      "name": "Monster Hunter Stories 2: Wings of Ruin",
+      "appId": "1277400",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1277400/history/?changeid=U:31229572",
+      "removalDate": "2024-07-04"
+    },
+    {
+      "name": "Monster Hunter Stories 3: Twisted Reflection",
+      "appId": "2852190",
+      "status": "active"
+    },
+    {
+      "name": "Monster Hunter Wilds",
+      "appId": "2246340",
+      "status": "active"
+    },
+    {
+      "name": "Monster Hunter: World",
+      "appId": "582010",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/582010/history/?changeid=U:23483754",
+      "removalDate": "2021-06-02"
+    },
+    {
+      "name": "Moons of Madness",
+      "appId": "1012840",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1012840/history/?changeid=8091832",
+      "removalDate": "2020-04-01"
+    },
+    {
+      "name": "Mortal Kombat 1",
+      "appId": "1971870",
+      "status": "active"
+    },
+    {
+      "name": "Mortal Kombat 11",
+      "appId": "976310",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/976312/history/?changeid=M:4104529039430722411",
+      "removalDate": "2022-03-22"
+    },
+    {
+      "name": "Moto Racer 4",
+      "appId": "417430",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/app/417430/discussions/0/3377008022041361034/",
+      "removalDate": "2018-02-20"
+    },
+    {
+      "name": "Mutant Year Zero: Road to Eden",
+      "appId": "760060",
+      "status": "removed",
+      "removalDate": "2019-02-26"
+    },
+    {
+      "name": "NBA 2K24",
+      "appId": "2338770",
+      "status": "active"
+    },
+    {
+      "name": "NBA 2K25",
+      "appId": "2878980",
+      "status": "active"
+    },
+    {
+      "name": "NBA 2K26",
+      "appId": "3472040",
+      "status": "active"
+    },
+    {
+      "name": "Naruto to Boruto: Shinobi Striker",
+      "appId": "633230",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/11385633/",
+      "removalDate": "2023-06-29"
+    },
+    {
+      "name": "Need for Speed (2016)",
+      "appId": "1262540",
+      "status": "active"
+    },
+    {
+      "name": "Need for Speed Heat",
+      "appId": "1222680",
+      "status": "active"
+    },
+    {
+      "name": "Need for Speed Payback",
+      "appId": "1262580",
+      "status": "active"
+    },
+    {
+      "name": "Need for Speed Unbound",
+      "appId": "1846380",
+      "status": "active"
+    },
+    {
+      "name": "Need for Speed: Hot Pursuit Remastered",
+      "appId": "1328660",
+      "status": "active"
+    },
+    {
+      "name": "New Gundam Breaker",
+      "appId": "738530",
+      "status": "active"
+    },
+    {
+      "name": "New Tales from the Borderlands",
+      "appId": "1454970",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1454970/history/?changeid=U:37591449",
+      "removalDate": "2023-04-18"
+    },
+    {
+      "name": "NieR Replicant",
+      "appId": "1113560",
+      "status": "removed",
+      "removalDate": "2021-10-20"
+    },
+    {
+      "name": "NieR: Automata",
+      "appId": "524220",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/524221/history/?changeid=M:4633942970953135000",
+      "removalDate": "2017-09-24"
+    },
+    {
+      "name": "Nikoderiko: The Magical World",
+      "appId": "2374190",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/2374190/history/?changeid=U:60921599",
+      "removalDate": "2025-04-15"
+    },
+    {
+      "name": "Octopath Traveler",
+      "appId": "921570",
+      "status": "removed",
+      "removalRef": "https://www.dsogaming.com/news/square-enix-has-removed-the-denuvo-anti-tamper-tech-from-octopath-traveler/",
+      "removalDate": "2019-11-05"
+    },
+    {
+      "name": "Octopath Traveler 0",
+      "appId": "3014320",
+      "status": "removed",
+      "removalDate": "2026-05-27"
+    },
+    {
+      "name": "Octopath Traveler II",
+      "appId": "1971650",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1971650/history/?changeid=U:40419733",
+      "removalDate": "2023-08-09"
+    },
+    {
+      "name": "OddBallers",
+      "appId": "1064070",
+      "status": "active"
+    },
+    {
+      "name": "Onimusha 2: Samurai's Destiny",
+      "appId": "3046600",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/3046600/history/?changeid=U:69577101",
+      "removalDate": "2025-11-21"
+    },
+    {
+      "name": "Onimusha: Way of the Sword",
+      "appId": "2638890",
+      "status": "active"
+    },
+    {
+      "name": "Overturn",
+      "appId": "650070",
+      "status": "active"
+    },
+    {
+      "name": "PGA Tour 2K23",
+      "appId": "1588010",
+      "status": "removed",
+      "removalDate": "2025-07-23"
+    },
+    {
+      "name": "PGA Tour 2K25",
+      "appId": "2385530",
+      "status": "active"
+    },
+    {
+      "name": "Persona 3 Portable",
+      "appId": "1809700",
+      "status": "active"
+    },
+    {
+      "name": "Persona 4 Arena Ultimax",
+      "appId": "1602010",
+      "status": "active"
+    },
+    {
+      "name": "Persona 4 Golden",
+      "appId": "1113000",
+      "status": "active"
+    },
+    {
+      "name": "Persona 4 Revival",
+      "appId": "2963950",
+      "status": "active"
+    },
+    {
+      "name": "Persona 5 Royal",
+      "appId": "1687950",
+      "status": "active"
+    },
+    {
+      "name": "Persona 5 Strikers",
+      "appId": "1382330",
+      "status": "active"
+    },
+    {
+      "name": "Persona 5 Tactica",
+      "appId": "2254740",
+      "status": "active"
+    },
+    {
+      "name": "Phantom Blade Zero",
+      "appId": "4115450",
+      "status": "active"
+    },
+    {
+      "name": "Planet Coaster",
+      "appId": "493340",
+      "status": "active"
+    },
+    {
+      "name": "Planet Coaster 2",
+      "appId": "2688950",
+      "status": "active"
+    },
+    {
+      "name": "Planet Zoo",
+      "appId": "703080",
+      "status": "active"
+    },
+    {
+      "name": "Police Simulator: Patrol Duty",
+      "appId": "461870",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/4909107/",
+      "removalDate": "2021-01-20"
+    },
+    {
+      "name": "Pragmata",
+      "appId": "3357650",
+      "status": "active"
+    },
+    {
+      "name": "Prey (2017)",
+      "appId": "480490",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/app/480490/discussions/0/4150581887545710507/",
+      "removalDate": "2020-07-23"
+    },
+    {
+      "name": "Prey: Typhon Hunter",
+      "appId": "741820",
+      "status": "removed",
+      "removalDate": "2020-07-31"
+    },
+    {
+      "name": "Prince of Persia: The Lost Crown",
+      "appId": "2751000",
+      "status": "active"
+    },
+    {
+      "name": "Pro Evolution Soccer 2017",
+      "appId": "456610",
+      "status": "active"
+    },
+    {
+      "name": "Pro Evolution Soccer 2018",
+      "appId": "592580",
+      "status": "active"
+    },
+    {
+      "name": "Pro Evolution Soccer 2018 Lite",
+      "appId": "592600",
+      "status": "active"
+    },
+    {
+      "name": "Pro Evolution Soccer 2019",
+      "appId": "770240",
+      "status": "active"
+    },
+    {
+      "name": "Professional Baseball Spirits 2024-2025",
+      "appId": "2051010",
+      "status": "active"
+    },
+    {
+      "name": "Puyo Puyo Tetris",
+      "appId": "546050",
+      "status": "active"
+    },
+    {
+      "name": "Rabbids: Party of Legends",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "Rage 2",
+      "appId": "548570",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/games/548570/announcements/detail/2565275416672419265",
+      "removalDate": "2019-05-16"
+    },
+    {
+      "name": "Raidou Remastered: The Mystery of the Soulless Army",
+      "appId": "2288350",
+      "status": "active"
+    },
+    {
+      "name": "Rayman Legends Retold",
+      "appId": "4084710",
+      "status": "active"
+    },
+    {
+      "name": "Redfall",
+      "appId": "1294810",
+      "status": "active"
+    },
+    {
+      "name": "Resident Evil 2 (2019)",
+      "appId": "883710",
+      "status": "removed",
+      "removalRef": "https://www.dsogaming.com/news/capcom-has-completely-removed-the-denuvo-anti-tamper-tech-from-resident-evil-2-remake/",
+      "removalDate": "2019-12-18"
+    },
+    {
+      "name": "Resident Evil 3 (2020)",
+      "appId": "952060",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/952060/history/?changeid=U:18917683",
+      "removalDate": "2020-10-01"
+    },
+    {
+      "name": "Resident Evil 4 (2023)",
+      "appId": "2050650",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/21521672/",
+      "removalDate": "2026-03-03"
+    },
+    {
+      "name": "Resident Evil 7: Biohazard",
+      "appId": "418370",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/418370/history/?changeid=U:9973659",
+      "removalDate": "2019-01-28"
+    },
+    {
+      "name": "Resident Evil Requiem",
+      "appId": "3764200",
+      "status": "active"
+    },
+    {
+      "name": "Resident Evil Resistance",
+      "appId": "952070",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/952070/history/?changeid=U:18919670",
+      "removalDate": "2020-10-01"
+    },
+    {
+      "name": "Resident Evil Veronica",
+      "appId": "4824610",
+      "status": "active"
+    },
+    {
+      "name": "Resident Evil Village",
+      "appId": "1196590",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/10415597/",
+      "removalDate": "2023-04-10"
+    },
+    {
+      "name": "Rime",
+      "appId": "493200",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/games/493200/announcements/detail/1262544621818429331",
+      "removalDate": "2017-06-01"
+    },
+    {
+      "name": "Rise of the Tomb Raider",
+      "appId": "391220",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/7763383/",
+      "removalDate": "2021-11-23"
+    },
+    {
+      "name": "Robinson: The Journey",
+      "appId": "579820",
+      "status": "active"
+    },
+    {
+      "name": "Rock Band VR",
+      "appId": "",
+      "status": "removed"
+    },
+    {
+      "name": "Rocksmith 2014",
+      "appId": "221680",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/9490970/",
+      "removalDate": "2022-09-10"
+    },
+    {
+      "name": "Romancing SaGa 2: Revenge of the Seven",
+      "appId": "2455640",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/2455640/history/?changeid=U:60971277",
+      "removalDate": "2025-04-16"
+    },
+    {
+      "name": "Salthe",
+      "appId": "1357840",
+      "status": "active"
+    },
+    {
+      "name": "Scott Pilgrim vs. The World: The Game",
+      "appId": "2215260",
+      "status": "active"
+    },
+    {
+      "name": "Sea of Solitude",
+      "appId": "1225590",
+      "status": "active"
+    },
+    {
+      "name": "Shadow of the Tomb Raider",
+      "appId": "750920",
+      "status": "removed",
+      "removalRef": "https://store.steampowered.com/news/app/750920/view/5630057400396673638",
+      "removalDate": "2022-08-15"
+    },
+    {
+      "name": "Sherlock Holmes: The Devil's Daughter",
+      "appId": "350640",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/350641/history/?changeid=M:7966217916078695193",
+      "removalDate": "2025-08-16"
+    },
+    {
+      "name": "Shin Megami Tensei III Nocturne HD Remaster",
+      "appId": "1413480",
+      "status": "active"
+    },
+    {
+      "name": "Shining Resonance Refrain",
+      "appId": "809890",
+      "status": "active"
+    },
+    {
+      "name": "Shinobi: Art of Vengeance",
+      "appId": "2361770",
+      "status": "active"
+    },
+    {
+      "name": "Sid Meier's Civilization VII",
+      "appId": "1295660",
+      "status": "active"
+    },
+    {
+      "name": "Slitterhead",
+      "appId": "2631250",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/2631250/history/?changeid=U:61926835",
+      "removalDate": "2025-05-07"
+    },
+    {
+      "name": "Sniper Elite 4",
+      "appId": "312660",
+      "status": "active"
+    },
+    {
+      "name": "Sniper Elite 5",
+      "appId": "1029690",
+      "status": "active"
+    },
+    {
+      "name": "Sniper Elite VR",
+      "appId": "752480",
+      "status": "active"
+    },
+    {
+      "name": "Sniper Elite: Resistance",
+      "appId": "2169200",
+      "status": "active"
+    },
+    {
+      "name": "Sniper: Ghost Warrior 3",
+      "appId": "368070",
+      "status": "removed",
+      "removalDate": "2018-01-26"
+    },
+    {
+      "name": "Sonic Colors: Ultimate",
+      "appId": "2055290",
+      "status": "active"
+    },
+    {
+      "name": "Sonic Forces",
+      "appId": "637100",
+      "status": "active"
+    },
+    {
+      "name": "Sonic Frontiers",
+      "appId": "1237320",
+      "status": "active"
+    },
+    {
+      "name": "Sonic Mania",
+      "appId": "584400",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/584400/history/?changeid=U:10928227",
+      "removalDate": "2019-03-12"
+    },
+    {
+      "name": "Sonic Origins",
+      "appId": "1794960",
+      "status": "active"
+    },
+    {
+      "name": "Sonic Racing: CrossWorlds",
+      "appId": "2486820",
+      "status": "active"
+    },
+    {
+      "name": "Sonic Superstars",
+      "appId": "2022670",
+      "status": "active"
+    },
+    {
+      "name": "Sonic X Shadow Generations",
+      "appId": "2513280",
+      "status": "active"
+    },
+    {
+      "name": "Soul Hackers 2",
+      "appId": "1777620",
+      "status": "active"
+    },
+    {
+      "name": "South Park: The Fractured but Whole",
+      "appId": "488790",
+      "status": "active"
+    },
+    {
+      "name": "Speedball (2026)",
+      "appId": "1795190",
+      "status": "active"
+    },
+    {
+      "name": "Star Ocean: The Divine Force",
+      "appId": "1776380",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1776380/history/?changeid=U:37658851",
+      "removalDate": "2023-04-21"
+    },
+    {
+      "name": "Star Ocean: The Last Hope 4K & Full HD Remaster",
+      "appId": "609150",
+      "status": "active"
+    },
+    {
+      "name": "Star Ocean: The Second Story R",
+      "appId": "2238900",
+      "status": "removed",
+      "removalDate": "2024-05-02"
+    },
+    {
+      "name": "Star Wars Battlefront (2015)",
+      "appId": "1237980",
+      "status": "active"
+    },
+    {
+      "name": "Star Wars Battlefront II (2017)",
+      "appId": "1237950",
+      "status": "active"
+    },
+    {
+      "name": "Star Wars Jedi: Fallen Order",
+      "appId": "1172380",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1172381/history/?changeid=M:8837119185510079035",
+      "removalDate": "2021-11-09"
+    },
+    {
+      "name": "Star Wars Jedi: Survivor",
+      "appId": "1774580",
+      "status": "removed",
+      "removalDate": "2024-09-12"
+    },
+    {
+      "name": "Star Wars Outlaws",
+      "appId": "2842040",
+      "status": "active"
+    },
+    {
+      "name": "Star Wars: Galactic Racer",
+      "appId": "4078430",
+      "status": "active"
+    },
+    {
+      "name": "Star Wars: Squadrons",
+      "appId": "1222730",
+      "status": "active"
+    },
+    {
+      "name": "Starlink: Battle for Atlas",
+      "appId": "950050",
+      "status": "active"
+    },
+    {
+      "name": "Stellar Blade",
+      "appId": "3489700",
+      "status": "active"
+    },
+    {
+      "name": "Stranded: Alien Dawn",
+      "appId": "1324130",
+      "status": "removed",
+      "removalDate": "2025-08-27"
+    },
+    {
+      "name": "Strange Brigade",
+      "appId": "312670",
+      "status": "active"
+    },
+    {
+      "name": "Stranger Than Heaven",
+      "appId": "4260840",
+      "status": "active"
+    },
+    {
+      "name": "Street Fighter 6",
+      "appId": "1364780",
+      "status": "active"
+    },
+    {
+      "name": "Suicide Squad: Kill the Justice League",
+      "appId": "315210",
+      "status": "active"
+    },
+    {
+      "name": "Super Mega Baseball 4",
+      "appId": "1487210",
+      "status": "active"
+    },
+    {
+      "name": "Super Robot Wars Y",
+      "appId": "1909950",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/1909951/history/?changeid=M:1405394230871288212",
+      "removalDate": "2026-04-21"
+    },
+    {
+      "name": "Sword Art Online: Fatal Bullet",
+      "appId": "626690",
+      "status": "active"
+    },
+    {
+      "name": "Syberia 3",
+      "appId": "464340",
+      "status": "removed",
+      "removalDate": "2025-08-21"
+    },
+    {
+      "name": "Tales of Berseria",
+      "appId": "429660",
+      "status": "active"
+    },
+    {
+      "name": "Tales of Kenzera: ZAU",
+      "appId": "2316580",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/2316580/history/?changeid=U:51491255",
+      "removalDate": "2024-08-22"
+    },
+    {
+      "name": "Team Sonic Racing",
+      "appId": "785260",
+      "status": "active"
+    },
+    {
+      "name": "Tekken 7",
+      "appId": "389730",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/389730/history/?changeid=U:26327796",
+      "removalDate": "2021-10-26"
+    },
+    {
+      "name": "The Adventures of Elliot: The Millennium Tales",
+      "appId": "3483510",
+      "status": "active"
+    },
+    {
+      "name": "The Awesome Adventures of Captain Spirit",
+      "appId": "845070",
+      "status": "active"
+    },
+    {
+      "name": "The Climb",
+      "appId": "3881540",
+      "status": "removed",
+      "removalRef": "https://support.codefusion.technology/TheClimb",
+      "removalDate": "2019-07-30"
+    },
+    {
+      "name": "The DioField Chronicle",
+      "appId": "1399080",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/10501741/",
+      "removalDate": "2023-03-05"
+    },
+    {
+      "name": "The First Berserker: Khazan",
+      "appId": "2680010",
+      "status": "active"
+    },
+    {
+      "name": "The Great War: Western Front",
+      "appId": "2109370",
+      "status": "removed",
+      "removalDate": "2025-01-30"
+    },
+    {
+      "name": "The Quarry",
+      "appId": "1577120",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1577120/history/?changeid=U:35812792",
+      "removalDate": "2023-01-31"
+    },
+    {
+      "name": "The Quiet Man",
+      "appId": "790540",
+      "status": "active"
+    },
+    {
+      "name": "The Settlers: New Allies",
+      "appId": "2750080",
+      "status": "active"
+    },
+    {
+      "name": "The Sinking City",
+      "appId": "750130",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/13083473/",
+      "removalDate": "2021-02-28"
+    },
+    {
+      "name": "Tiny Tina's Wonderlands",
+      "appId": "1286680",
+      "status": "removed",
+      "removalDate": "2023-04-20"
+    },
+    {
+      "name": "Titanfall 2",
+      "appId": "1237970",
+      "status": "removed",
+      "removalRef": "http://www.dsogaming.com/news/titanfall-2-developer-hopes-that-pirates-will-enjoy-the-sp-and-buy-the-game-for-its-mp-mode/",
+      "removalDate": "2017-07-21"
+    },
+    {
+      "name": "Tom Clancy's Ghost Recon Breakpoint",
+      "appId": "2231380",
+      "status": "active"
+    },
+    {
+      "name": "Tom Clancy's Ghost Recon Wildlands",
+      "appId": "460930",
+      "status": "active"
+    },
+    {
+      "name": "Tom Clancy's Rainbow Six Extraction",
+      "appId": "2379390",
+      "status": "active"
+    },
+    {
+      "name": "Tomb Raider: Legacy of Atlantis",
+      "appId": "3558670",
+      "status": "active"
+    },
+    {
+      "name": "Tony Hawk's Pro Skater 1 + 2",
+      "appId": "2395210",
+      "status": "active"
+    },
+    {
+      "name": "TopSpin 2K25",
+      "appId": "1785650",
+      "status": "active"
+    },
+    {
+      "name": "Total War Saga: Thrones of Britannia",
+      "appId": "712100",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/11621285/",
+      "removalDate": "2023-07-04"
+    },
+    {
+      "name": "Total War: Pharaoh",
+      "appId": "1937780",
+      "status": "active"
+    },
+    {
+      "name": "Total War: Three Kingdoms",
+      "appId": "779340",
+      "status": "active"
+    },
+    {
+      "name": "Total War: Warhammer",
+      "appId": "364360",
+      "status": "active"
+    },
+    {
+      "name": "Total War: Warhammer II",
+      "appId": "594570",
+      "status": "active"
+    },
+    {
+      "name": "Total War: Warhammer III",
+      "appId": "1142710",
+      "status": "active"
+    },
+    {
+      "name": "Tourist Bus Simulator",
+      "appId": "953580",
+      "status": "active"
+    },
+    {
+      "name": "Train Sim World 2",
+      "appId": "1282590",
+      "status": "active"
+    },
+    {
+      "name": "TransRoad: USA",
+      "appId": "494670",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/app/494670/discussions/0/1480982971179585747/?ctp=7#c2747650363469321071",
+      "removalDate": "2018-08-31"
+    },
+    {
+      "name": "Trials Rising",
+      "appId": "641080",
+      "status": "active"
+    },
+    {
+      "name": "Trials of Mana",
+      "appId": "924980",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/5231250/",
+      "removalDate": "2020-08-26"
+    },
+    {
+      "name": "Triangle Strategy",
+      "appId": "1850510",
+      "status": "removed",
+      "removalRef": "https://www.dsogaming.com/news/square-enix-has-removed-denuvo-from-triangle-strategy/",
+      "removalDate": "2023-04-06"
+    },
+    {
+      "name": "Two Point Campus",
+      "appId": "1649080",
+      "status": "active"
+    },
+    {
+      "name": "Two Point Hospital",
+      "appId": "535930",
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/app/535930/discussions/0/1737715419912789209/",
+      "removalDate": "2018-09-04"
+    },
+    {
+      "name": "Two Point Museum",
+      "appId": "2185060",
+      "status": "active"
+    },
+    {
+      "name": "Undisputed",
+      "appId": "1451190",
+      "status": "active"
+    },
+    {
+      "name": "Uno (2016)",
+      "appId": "470220",
+      "status": "active"
+    },
+    {
+      "name": "Unravel",
+      "appId": "1225560",
+      "status": "active"
+    },
+    {
+      "name": "Unravel Two",
+      "appId": "1225570",
+      "status": "active"
+    },
+    {
+      "name": "Valiant Hearts: Coming Home",
+      "appId": "2741360",
+      "status": "active"
+    },
+    {
+      "name": "Valkyria Chronicles 4",
+      "appId": "790820",
+      "status": "active"
+    },
+    {
+      "name": "Valkyrie Elysium",
+      "appId": "1963210",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1963210/history/?changeid=U%3A37187482",
+      "removalDate": "2023-03-30"
+    },
+    {
+      "name": "Visions of Mana",
+      "appId": "2490990",
+      "status": "removed",
+      "removalDate": "2025-02-25"
+    },
+    {
+      "name": "Voice of Cards: The Beasts of Burden",
+      "appId": "1890740",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/10152102/",
+      "removalDate": "2023-01-23"
+    },
+    {
+      "name": "Voice of Cards: The Forsaken Maiden",
+      "appId": "1748660",
+      "status": "removed",
+      "removalDate": "2023-03-15"
+    },
+    {
+      "name": "Voice of Cards: The Isle Dragon Roars",
+      "appId": "1113570",
+      "status": "removed",
+      "removalDate": "2022-04-28"
+    },
+    {
+      "name": "WRC 6: FIA World Rally Championship",
+      "appId": "458770",
+      "status": "active"
+    },
+    {
+      "name": "WRC 7: FIA World Rally Championship",
+      "appId": "621830",
+      "status": "active"
+    },
+    {
+      "name": "WWE 2K26",
+      "appId": "3717070",
+      "status": "active"
+    },
+    {
+      "name": "Warhammer 40,000: Chaos Gate - Daemonhunters",
+      "appId": "1611910",
+      "status": "active"
+    },
+    {
+      "name": "Warhammer 40,000: Dawn of War III",
+      "appId": "285190",
+      "status": "active"
+    },
+    {
+      "name": "Warhammer Age of Sigmar: Realms of Ruin",
+      "appId": "1844380",
+      "status": "active"
+    },
+    {
+      "name": "Watch Dogs 2",
+      "appId": "447040",
+      "status": "active"
+    },
+    {
+      "name": "Watch Dogs: Legion",
+      "appId": "2239550",
+      "status": "active"
+    },
+    {
+      "name": "White Day 2: The Flower That Tells Lies",
+      "appId": "2078040",
+      "status": "removed",
+      "removalRef": "https://steamdb.info/patchnotes/13976782/",
+      "removalDate": "2024-04-11"
+    },
+    {
+      "name": "White Day: A Labyrinth Named School (2017)",
+      "appId": "466130",
+      "status": "active"
+    },
+    {
+      "name": "Wild Hearts",
+      "appId": "1938010",
+      "status": "active"
+    },
+    {
+      "name": "Wolfenstein: Youngblood",
+      "appId": "1056960",
+      "status": "removed",
+      "removalDate": "2022-03-08"
+    },
+    {
+      "name": "Yakuza 0",
+      "appId": "638970",
+      "status": "removed",
+      "removalDate": "2019-03-11"
+    },
+    {
+      "name": "Yakuza Kiwami 3 & Dark Ties",
+      "appId": "3937550",
+      "status": "active"
+    },
+    {
+      "name": "Yakuza: Like a Dragon",
+      "appId": "1235140",
+      "status": "active"
+    },
+    {
+      "name": "Yesterday Origins",
+      "appId": "465280",
+      "status": "active"
+    },
+    {
+      "name": "Zombie Army 4: Dead War",
+      "appId": "694280",
+      "status": "active"
+    },
+    {
+      "name": "Zombie Army VR",
+      "appId": "2058030",
+      "status": "active"
+    },
+    {
+      "name": "Zone of the Enders: The 2nd Runner MARS",
+      "appId": "650510",
+      "status": "active"
+    }
+  ]
+}
