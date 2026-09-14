@@ -317,7 +317,12 @@ jobs:
 
           if not os.path.exists(manual_path):
               with open(manual_path, 'w', encoding='utf-8') as f:
-                  json.dump({}, f, ensure_ascii=False, indent=2)
+              json.dump({
+                  'name': 'onlinefix',
+                  'lastChecked': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
+                  'games': games
+              }, f, ensure_ascii=False, indent=2)
+
 
           matched = sum(1 for g in games if 'appId' in g)
           print(f'Done - {len(games)} games, {matched} with AppID, {len(unresolved)} unresolved')
