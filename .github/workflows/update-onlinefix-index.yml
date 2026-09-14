@@ -310,18 +310,19 @@ jobs:
           os.makedirs('OnlineFix', exist_ok=True)
 
           with open('OnlineFix/onlinefix.json', 'w', encoding='utf-8') as f:
-              json.dump({'name': 'onlinefix', 'games': games}, f, ensure_ascii=False, indent=2)
+              json.dump({
+                  'name': 'onlinefix',
+                  'lastChecked': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
+                  'games': games
+              }, f, ensure_ascii=False, indent=2)
 
           with open('OnlineFix/unresolved.json', 'w', encoding='utf-8') as f:
               json.dump(unresolved, f, ensure_ascii=False, indent=2)
 
           if not os.path.exists(manual_path):
               with open(manual_path, 'w', encoding='utf-8') as f:
-              json.dump({
-                  'name': 'onlinefix',
-                  'lastChecked': datetime.now().strftime('%Y-%m-%dT%H:%M:%SZ'),
-                  'games': games
-              }, f, ensure_ascii=False, indent=2)
+                  json.dump({}, f, ensure_ascii=False, indent=2)
+
 
 
           matched = sum(1 for g in games if 'appId' in g)
