@@ -88,12 +88,12 @@ jobs:
 
           # Step 4: Two queries — active and removed
           active_rows = query_denuvo(
-              'Availability.Uses_DRM HOLDS LIKE "%Denuvo Anti-Tamper%"',
+              'Availability.Uses_DRM HOLDS LIKE "%Denuvo Anti-Tamper%" OR Availability.Uses_DRM HOLDS LIKE "%Denuvo Anti-Piracy%"',
               'Active Denuvo'
           )
 
           removed_rows = query_denuvo(
-              'Availability.Removed_DRM HOLDS LIKE "%Denuvo Anti-Tamper%"',
+              'Availability.Removed_DRM HOLDS LIKE "%Denuvo Anti-Tamper%" OR Availability.Removed_DRM HOLDS LIKE "%Denuvo Anti-Piracy%"',
               'Removed Denuvo'
           )
 
