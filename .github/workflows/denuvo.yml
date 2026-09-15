@@ -131,6 +131,29 @@ jobs:
 
           game_list = sorted(games.values(), key=lambda g: g['name'])
 
+          # Step 5b: Merge with existing index — never remove games
+          index_path = 'Denuvo/denuvo.json'
+          if os.path.exists(index_path):
+              with open(index_path, encoding='utf-8') as f:
+                  try:
+                      existing = json.load(f)
+                      existing_games = existing.get('games', existing) if isinstance(existing, dict) else existing
+                  except:
+                      existing_games = []
+
+              fetched = {g['name']: g for g in game_list}
+
+              carried = 0
+              for old in existing_games:
+                  name = old.get('name', '')
+                  if name and name not in fetched:
+                      game_list.append(old)
+                      carried += 1
+
+              if carried > 0:
+                  game_list = sorted(game_list, key=lambda g: g['name'])
+                  print(f'Merged: carried forward {carried} games from previous index')
+
           # Step 6: Fill missing App IDs via Steam store search
           def normalise(s):
               if not s:
@@ -169,8 +192,8 @@ jobs:
 
               time.sleep(0.5)
 
-          # Step 7: Fetch removal dates and SteamDB links from wikitext
-          removed_games = [g for g in game_list if g['status'] == 'removed']
+          # Step 7: Fetch removal dates and SteamDB links from wikitext (only new removals)
+          removed_games = [g for g in game_list if g['status'] == 'removed' and 'removalDate' not in g]
           print(f'\nFetching removal details for {len(removed_games)} games...')
 
           date_patterns = [
@@ -275,7 +298,6 @@ jobs:
                   'lastChecked': datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
                   'games': game_list
               }, f, ensure_ascii=False, indent=2)
-   
 
           active = sum(1 for g in game_list if g['status'] == 'active')
           removed = sum(1 for g in game_list if g['status'] == 'removed')
