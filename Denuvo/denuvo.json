@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-15T17:09:21Z",
+  "lastChecked": "2026-09-15T17:28:12Z",
   "games": [
     {
       "name": "007 First Light",
@@ -94,6 +94,11 @@
     {
       "name": "Assassin's Creed Mirage",
       "appId": "3035570",
+      "status": "active"
+    },
+    {
+      "name": "Assassin's Creed Odyssey",
+      "appId": "812140",
       "status": "active"
     },
     {
@@ -1192,6 +1197,11 @@
       "status": "active"
     },
     {
+      "name": "Mad Max",
+      "appId": "234140",
+      "status": "active"
+    },
+    {
       "name": "Madden NFL 19",
       "appId": "",
       "status": "active"
@@ -1695,6 +1705,11 @@
       "status": "active"
     },
     {
+      "name": "Rayman Legends Retold",
+      "appId": "4084710",
+      "status": "active"
+    },
+    {
       "name": "Redfall",
       "appId": "1294810",
       "status": "active"
@@ -2115,6 +2130,11 @@
       "status": "active"
     },
     {
+      "name": "The Settlers: New Allies",
+      "appId": "2750080",
+      "status": "active"
+    },
+    {
       "name": "The Sinking City",
       "appId": "750130",
       "status": "removed",
@@ -2126,6 +2146,23 @@
       "appId": "1286680",
       "status": "removed",
       "removalDate": "2023-04-20"
+    },
+    {
+      "name": "Titanfall 2",
+      "appId": "1237970",
+      "status": "removed",
+      "removalRef": "http://www.dsogaming.com/news/titanfall-2-developer-hopes-that-pirates-will-enjoy-the-sp-and-buy-the-game-for-its-mp-mode/",
+      "removalDate": "2017-07-21"
+    },
+    {
+      "name": "Tom Clancy's Ghost Recon Breakpoint",
+      "appId": "2231380",
+      "status": "active"
+    },
+    {
+      "name": "Tom Clancy's Ghost Recon Wildlands",
+      "appId": "460930",
+      "status": "active"
     },
     {
       "name": "Tom Clancy's Rainbow Six Extraction",
@@ -2250,6 +2287,11 @@
     {
       "name": "Unravel Two",
       "appId": "1225570",
+      "status": "active"
+    },
+    {
+      "name": "Valiant Hearts: Coming Home",
+      "appId": "2741360",
       "status": "active"
     },
     {
