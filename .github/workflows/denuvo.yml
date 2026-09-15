@@ -99,26 +99,6 @@ jobs:
 
           print(f'\nRaw results: {len(active_rows)} active rows, {len(removed_rows)} removed rows')
 
-          # DEBUG: Check what the API returns for AC games
-          r = session.get(API, params={
-              'action': 'cargoquery',
-              'tables': 'Availability,Game',
-              'join_on': 'Availability._pageID=Game._pageID',
-              'fields': 'Game._pageName=Page,Availability.Uses_DRM=UsesDRM,Availability.Removed_DRM=RemovedDRM',
-              'where': 'Game._pageName LIKE "%Assassin%"',
-              'limit': '50',
-              'format': 'json'
-          })
-          debug = r.json()
-          print('\nDEBUG — Assassin entries on PCGamingWiki:')
-          for row in debug.get('cargoquery', []):
-              d = row.get('title', {})
-              print(f'  Page: {d.get("Page", "?")}')
-              print(f'    Uses_DRM: {d.get("UsesDRM", "")}')
-              print(f'    Removed_DRM: {d.get("RemovedDRM", "")}')
-              print()
-
-
           # Step 5: Deduplicate and build index
           games = {}
 
