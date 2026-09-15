@@ -132,9 +132,6 @@ jobs:
           game_list = sorted(games.values(), key=lambda g: g['name'])
 
           # Step 5b: Merge with existing index — never remove games
-          def norm_name(s):
-              return s.replace('\u2019', "'").replace('\u2018', "'").strip() if s else ''
-
           index_path = 'Denuvo/denuvo.json'
           if os.path.exists(index_path):
               with open(index_path, encoding='utf-8') as f:
@@ -144,20 +141,31 @@ jobs:
                   except:
                       existing_games = []
 
-              fetched = {norm_name(g['name']): g for g in game_list}
+              # Build lookups by both name and appId
+              fetched_names = set(g['name'] for g in game_list)
+              fetched_appids = set(g['appId'] for g in game_list if g.get('appId'))
 
               carried = 0
               for old in existing_games:
                   name = old.get('name', '')
-                  if name and norm_name(name) not in fetched:
-                      game_list.append(old)
-                      carried += 1
+                  app_id = old.get('appId', '')
+
+                  # Already in fresh results by exact name
+                  if name in fetched_names:
+                      continue
+
+                  # Already in fresh results by appId
+                  if app_id and app_id in fetched_appids:
+                      continue
+
+                  # Not in fresh results — carry forward
+                  game_list.append(old)
+                  carried += 1
+                  print(f'  Carried forward: {name} ({app_id})')
 
               if carried > 0:
                   game_list = sorted(game_list, key=lambda g: g['name'])
-                  print(f'Merged: carried forward {carried} games from previous index')
-              else:
-                  print('Merged: no games needed carrying forward')
+              print(f'Merged: {carried} games carried forward, {len(game_list)} total')
 
           # Step 6: Fill missing App IDs via Steam store search
           def normalise(s):
