@@ -132,6 +132,9 @@ jobs:
           game_list = sorted(games.values(), key=lambda g: g['name'])
 
           # Step 5b: Merge with existing index — never remove games
+          def norm_name(s):
+              return s.replace('\u2019', "'").replace('\u2018', "'").strip() if s else ''
+
           index_path = 'Denuvo/denuvo.json'
           if os.path.exists(index_path):
               with open(index_path, encoding='utf-8') as f:
@@ -141,18 +144,20 @@ jobs:
                   except:
                       existing_games = []
 
-              fetched = {g['name']: g for g in game_list}
+              fetched = {norm_name(g['name']): g for g in game_list}
 
               carried = 0
               for old in existing_games:
                   name = old.get('name', '')
-                  if name and name not in fetched:
+                  if name and norm_name(name) not in fetched:
                       game_list.append(old)
                       carried += 1
 
               if carried > 0:
                   game_list = sorted(game_list, key=lambda g: g['name'])
                   print(f'Merged: carried forward {carried} games from previous index')
+              else:
+                  print('Merged: no games needed carrying forward')
 
           # Step 6: Fill missing App IDs via Steam store search
           def normalise(s):
