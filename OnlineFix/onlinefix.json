@@ -1,7 +1,12 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-09-15T10:47:00Z",
+  "lastChecked": "2026-09-16T10:35:30Z",
   "games": [
+    {
+      "title": "Friendly Steps",
+      "platform": "Steam",
+      "appId": "4279630"
+    },
     {
       "title": "Dumb Ways to Build",
       "platform": "Steam",
@@ -4376,6 +4381,11 @@
       "appId": "671510"
     },
     {
+      "title": "Starsand Island",
+      "platform": "Microsoft Store",
+      "appId": "2966320"
+    },
+    {
       "title": "Hell Let Loose Vietnam",
       "platform": "Epic",
       "appId": "3079210"
@@ -7311,6 +7321,11 @@
       "appId": "550"
     },
     {
+      "title": "Supermarket Chaos",
+      "platform": "Steam",
+      "appId": "4800590"
+    },
+    {
       "title": "Kitchen Wars",
       "platform": "Steam",
       "appId": "2955840"
@@ -9696,6 +9711,11 @@
       "title": "Overkills The Walking Dead",
       "platform": "Steam",
       "appId": "717690"
+    },
+    {
+      "title": "Shady Job",
+      "platform": "Steam",
+      "appId": "4190710"
     },
     {
       "title": "Super Battle Golf",
