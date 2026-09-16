@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-15T17:28:12Z",
+  "lastChecked": "2026-09-16T12:34:08Z",
   "games": [
     {
       "name": "007 First Light",
@@ -1147,6 +1147,11 @@
       "status": "removed",
       "removalRef": "https://store.steampowered.com/news/app/1874000/view/528720879111111050",
       "removalDate": "2025-05-14"
+    },
+    {
+      "name": "Life Is Strange: Reunion",
+      "appId": "2624870",
+      "status": "active"
     },
     {
       "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
