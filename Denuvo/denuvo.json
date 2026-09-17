@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-16T12:34:08Z",
+  "lastChecked": "2026-09-17T12:34:01Z",
   "games": [
     {
       "name": "007 First Light",
@@ -797,7 +797,8 @@
     {
       "name": "Final Fantasy Tactics - The Ivalice Chronicles",
       "appId": "1004640",
-      "status": "active"
+      "status": "removed",
+      "removalDate": "2026-09-17"
     },
     {
       "name": "Final Fantasy VII Revelation",
