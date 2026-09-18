@@ -1,7 +1,17 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-09-17T10:44:55Z",
+  "lastChecked": "2026-09-18T10:21:00Z",
   "games": [
+    {
+      "title": "Dimraeth",
+      "platform": "Steam",
+      "appId": "2402680"
+    },
+    {
+      "title": "Endless Alice",
+      "platform": "Steam",
+      "appId": "1425000"
+    },
     {
       "title": "Friendly Steps",
       "platform": "Steam",
@@ -3096,6 +3106,11 @@
       "appId": "673950"
     },
     {
+      "title": "A Smithing Game",
+      "platform": "Steam",
+      "appId": "4541460"
+    },
+    {
       "title": "Soul Chained",
       "platform": "Steam",
       "appId": "3544130"
@@ -4379,6 +4394,11 @@
       "title": "Desolate",
       "platform": "Steam",
       "appId": "671510"
+    },
+    {
+      "title": "Bus Simulator 27",
+      "platform": "Steam",
+      "appId": "2397320"
     },
     {
       "title": "Starsand Island",
@@ -7321,6 +7341,16 @@
       "appId": "550"
     },
     {
+      "title": "Anime Shop Simulator",
+      "platform": "Steam",
+      "appId": "3393280"
+    },
+    {
+      "title": "Crazy Hotel Together",
+      "platform": "Steam",
+      "appId": "4244880"
+    },
+    {
       "title": "Supermarket Chaos",
       "platform": "Steam",
       "appId": "4800590"
@@ -8388,6 +8418,11 @@
       "title": "Farming Simulator 17",
       "platform": "Steam",
       "appId": "447020"
+    },
+    {
+      "title": "R.U.S.E.™",
+      "platform": "Steam",
+      "appId": "21970"
     },
     {
       "title": "Spirit Island",
