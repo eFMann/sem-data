@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-17T12:34:01Z",
+  "lastChecked": "2026-09-18T12:12:28Z",
   "games": [
     {
       "name": "007 First Light",
@@ -2200,12 +2200,16 @@
     {
       "name": "Total War: Pharaoh",
       "appId": "1937780",
-      "status": "active"
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/2951631/history/?changeid=M:4751638685327025982",
+      "removalDate": "2026-09-17"
     },
     {
       "name": "Total War: Three Kingdoms",
       "appId": "779340",
-      "status": "active"
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/779341/history/?changeid=M:8716874195928468173",
+      "removalDate": "2026-09-17"
     },
     {
       "name": "Total War: Warhammer",
