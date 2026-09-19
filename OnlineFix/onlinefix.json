@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-09-18T10:21:00Z",
+  "lastChecked": "2026-09-19T10:02:12Z",
   "games": [
     {
       "title": "Dimraeth",
@@ -858,8 +858,7 @@
     },
     {
       "title": "PEAK",
-      "platform": "Steam",
-      "appId": "3527290"
+      "platform": "Steam"
     },
     {
       "title": "Undercover Fools",
