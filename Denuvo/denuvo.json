@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-21T13:47:36Z",
+  "lastChecked": "2026-09-22T12:30:50Z",
   "games": [
     {
       "name": "007 First Light",
@@ -399,6 +399,11 @@
     {
       "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
       "appId": "1490890",
+      "status": "active"
+    },
+    {
+      "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles 2",
+      "appId": "2928600",
       "status": "active"
     },
     {
