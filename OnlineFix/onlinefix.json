@@ -1,7 +1,12 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-09-22T10:39:12Z",
+  "lastChecked": "2026-09-23T10:34:09Z",
   "games": [
+    {
+      "title": "Bar After Bar",
+      "platform": "Steam",
+      "appId": "4596010"
+    },
     {
       "title": "Dimraeth",
       "platform": "Steam",
@@ -858,7 +863,8 @@
     },
     {
       "title": "PEAK",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "3527290"
     },
     {
       "title": "Undercover Fools",
@@ -5662,6 +5668,11 @@
       "title": "GRID Autosport",
       "platform": "Steam",
       "appId": "255220"
+    },
+    {
+      "title": "Dawson Oaks Trailer Park",
+      "platform": "Steam",
+      "appId": "3640200"
     },
     {
       "title": "Nested Lands",
