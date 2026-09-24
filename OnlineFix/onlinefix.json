@@ -1,7 +1,12 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-09-23T10:34:09Z",
+  "lastChecked": "2026-09-24T10:50:29Z",
   "games": [
+    {
+      "title": "Dark Souls II Scholar of the First Sin",
+      "platform": "Steam",
+      "appId": "335300"
+    },
     {
       "title": "Bar After Bar",
       "platform": "Steam",
