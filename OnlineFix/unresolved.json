@@ -1,5 +1,9 @@
 [
   {
+    "title": "Crimson Moon",
+    "platform": "Steam + Epic"
+  },
+  {
     "title": "Hytale",
     "platform": "LAN"
   },
@@ -12,12 +16,24 @@
     "platform": "Steam"
   },
   {
+    "title": "Haven",
+    "platform": "Steam Remote Play"
+  },
+  {
     "title": "ReadySet Heroes",
     "platform": "Epic"
   },
   {
     "title": "Teenage Mutant Ninja Turtles Mutants in Manhattan",
     "platform": "Steam"
+  },
+  {
+    "title": "AFTERBLAST",
+    "platform": "Steam"
+  },
+  {
+    "title": "REMATCH",
+    "platform": "Microsoft Store"
   },
   {
     "title": "Marvel Ultimate Alliance",
@@ -28,7 +44,27 @@
     "platform": "Microsoft Store"
   },
   {
+    "title": "Distance",
+    "platform": "Steam"
+  },
+  {
+    "title": "Move or Die",
+    "platform": "Steam"
+  },
+  {
+    "title": "Journey",
+    "platform": "Steam"
+  },
+  {
+    "title": "Ashen",
+    "platform": "Steam"
+  },
+  {
     "title": "MotoGP 26",
+    "platform": "Epic"
+  },
+  {
+    "title": "Screamer",
     "platform": "Epic"
   },
   {
@@ -52,8 +88,16 @@
     "platform": "Microsoft Store"
   },
   {
+    "title": "GRAVEN",
+    "platform": "Steam"
+  },
+  {
     "title": "Plants vs Zombies Garden Warfare",
     "platform": "EA"
+  },
+  {
+    "title": "GUARDS",
+    "platform": "Steam"
   },
   {
     "title": "Gears of War 4",
@@ -64,16 +108,40 @@
     "platform": "Microsoft Store"
   },
   {
+    "title": "OPERATOR",
+    "platform": "Steam"
+  },
+  {
     "title": "Crackdown 3",
     "platform": "Microsoft Store"
+  },
+  {
+    "title": "Waterpark Simulator",
+    "platform": "Steam"
+  },
+  {
+    "title": "The House Always Wins",
+    "platform": "Steam"
+  },
+  {
+    "title": "ICARUS",
+    "platform": "Steam"
   },
   {
     "title": "Pro Soccer",
     "platform": "Steam"
   },
   {
+    "title": "Turmoil",
+    "platform": "Steam"
+  },
+  {
     "title": "Halo Wars 2",
     "platform": "Microsoft Store"
+  },
+  {
+    "title": "Through the Ages",
+    "platform": "Steam"
   },
   {
     "title": "Dont Die In The West",
