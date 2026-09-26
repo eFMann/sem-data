@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-09-25T10:53:27Z",
+  "lastChecked": "2026-09-26T10:37:10Z",
   "games": [
     {
       "title": "Dark Souls II Scholar of the First Sin",
@@ -1036,8 +1036,7 @@
     },
     {
       "title": "FlyKnight",
-      "platform": "Steam",
-      "appId": "3108510"
+      "platform": "Steam"
     },
     {
       "title": "Cardfight!! Vanguard Dear Days 2",
