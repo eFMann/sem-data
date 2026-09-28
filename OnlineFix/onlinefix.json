@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-09-27T11:08:12Z",
+  "lastChecked": "2026-09-28T12:22:18Z",
   "games": [
     {
       "title": "Dark Souls II Scholar of the First Sin",
@@ -69,7 +69,8 @@
     },
     {
       "title": "Crimson Moon",
-      "platform": "Steam + Epic"
+      "platform": "Steam + Epic",
+      "appId": "4317690"
     },
     {
       "title": "VHOLUME",
@@ -1954,7 +1955,8 @@
     },
     {
       "title": "Haven",
-      "platform": "Steam Remote Play"
+      "platform": "Steam Remote Play",
+      "appId": "983970"
     },
     {
       "title": "Operation Tango",
@@ -2246,7 +2248,8 @@
     },
     {
       "title": "AFTERBLAST",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1338490"
     },
     {
       "title": "Explosive Odds",
@@ -2260,7 +2263,8 @@
     },
     {
       "title": "REMATCH",
-      "platform": "Microsoft Store"
+      "platform": "Microsoft Store",
+      "appId": "2138720"
     },
     {
       "title": "The Mosquito Gang",
@@ -2707,7 +2711,8 @@
     },
     {
       "title": "Distance",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "233610"
     },
     {
       "title": "Colt Canyon",
@@ -2801,7 +2806,8 @@
     },
     {
       "title": "Move or Die",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "323850"
     },
     {
       "title": "LEGO STAR WARS The Force Awakens",
@@ -3080,7 +3086,8 @@
     },
     {
       "title": "Journey",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "638230"
     },
     {
       "title": "HELLDIVERS",
@@ -3089,7 +3096,8 @@
     },
     {
       "title": "Ashen",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "649950"
     },
     {
       "title": "Aragami",
@@ -4522,7 +4530,8 @@
     },
     {
       "title": "Screamer",
-      "platform": "Epic"
+      "platform": "Epic",
+      "appId": "2814990"
     },
     {
       "title": "D&D Lords of Waterdeep",
@@ -5776,7 +5785,8 @@
     },
     {
       "title": "GRAVEN",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1371690"
     },
     {
       "title": "TrinityS",
@@ -6389,7 +6399,8 @@
     },
     {
       "title": "GUARDS",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2514460"
     },
     {
       "title": "Crossfire Sierra Squad",
@@ -6476,7 +6487,8 @@
     },
     {
       "title": "OPERATOR",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1913370"
     },
     {
       "title": "ULTRAKILL",
@@ -7399,7 +7411,8 @@
     },
     {
       "title": "Waterpark Simulator",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "3293260"
     },
     {
       "title": "Dirty Business",
@@ -7438,7 +7451,8 @@
     },
     {
       "title": "The House Always Wins",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "3412160"
     },
     {
       "title": "TIEBREAK Official Game of the ATP and WTA",
@@ -7927,7 +7941,8 @@
     },
     {
       "title": "ICARUS",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "1149460"
     },
     {
       "title": "Roots of Pacha",
@@ -8695,7 +8710,8 @@
     },
     {
       "title": "Turmoil",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "361280"
     },
     {
       "title": "Superfuse",
@@ -8838,7 +8854,8 @@
     },
     {
       "title": "Through the Ages",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "758370"
     },
     {
       "title": "SuperPower 2 Steam Edition",
