@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-09-28T15:07:17Z",
+  "lastChecked": "2026-09-29T13:54:11Z",
   "games": [
     {
       "name": "007 First Light",
@@ -434,6 +434,16 @@
     {
       "name": "Discovery Tour: Ancient Egypt",
       "appId": "775430",
+      "status": "active"
+    },
+    {
+      "name": "Discovery Tour: Ancient Greece",
+      "appId": "",
+      "status": "active"
+    },
+    {
+      "name": "Discovery Tour: Viking Age",
+      "appId": "",
       "status": "active"
     },
     {
