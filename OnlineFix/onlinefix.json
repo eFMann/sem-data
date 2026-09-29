@@ -1,7 +1,12 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-09-28T12:22:18Z",
+  "lastChecked": "2026-09-29T11:53:45Z",
   "games": [
+    {
+      "title": "Noita",
+      "platform": "Steam",
+      "appId": "881100"
+    },
     {
       "title": "Dark Souls II Scholar of the First Sin",
       "platform": "Steam",
@@ -2180,6 +2185,11 @@
       "title": "Journey to the Savage Planet",
       "platform": "Steam",
       "appId": "973810"
+    },
+    {
+      "title": "Dino Party",
+      "platform": "Steam",
+      "appId": "1939390"
     },
     {
       "title": "How To Train Your Cock",
@@ -7355,6 +7365,16 @@
       "appId": "550"
     },
     {
+      "title": "Dub Together",
+      "platform": "Steam",
+      "appId": "5020310"
+    },
+    {
+      "title": "iRacing Studios NASCAR 26",
+      "platform": "Steam",
+      "appId": "4883590"
+    },
+    {
       "title": "Anime Shop Simulator",
       "platform": "Steam",
       "appId": "3393280"
@@ -9034,8 +9054,7 @@
     },
     {
       "title": "Total War SHOGUN 2",
-      "platform": "Steam",
-      "appId": "201270"
+      "platform": "Steam"
     },
     {
       "title": "Kingdoms Reborn",
