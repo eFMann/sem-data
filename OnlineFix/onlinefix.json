@@ -1,7 +1,12 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-09-29T11:53:45Z",
+  "lastChecked": "2026-09-30T11:40:38Z",
   "games": [
+    {
+      "title": "Minecraft Dungeons II",
+      "platform": "Microsoft Store",
+      "appId": "1912410"
+    },
     {
       "title": "Noita",
       "platform": "Steam",
