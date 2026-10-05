@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-04T11:37:20Z",
+  "lastChecked": "2026-10-05T13:02:35Z",
   "games": [
     {
       "title": "Minecraft Dungeons II",
@@ -8332,11 +8332,6 @@
       "title": "Spintires",
       "platform": "Steam",
       "appId": "263280"
-    },
-    {
-      "title": "Surgeon Simulator 2",
-      "platform": "Steam + Microsoft",
-      "appId": "774791"
     },
     {
       "title": "Flashing Lights",
