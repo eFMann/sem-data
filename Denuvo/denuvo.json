@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-06T14:02:10Z",
+  "lastChecked": "2026-10-07T14:19:55Z",
   "games": [
     {
       "name": "007 First Light",
@@ -2154,6 +2154,11 @@
       "status": "removed",
       "removalRef": "https://support.codefusion.technology/TheClimb",
       "removalDate": "2019-07-30"
+    },
+    {
+      "name": "The Crew Motorfest",
+      "appId": "2698940",
+      "status": "removed"
     },
     {
       "name": "The DioField Chronicle",
