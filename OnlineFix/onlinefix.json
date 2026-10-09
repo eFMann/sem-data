@@ -1,7 +1,22 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-08T12:33:25Z",
+  "lastChecked": "2026-10-09T12:23:26Z",
   "games": [
+    {
+      "title": "Gears of War E-Day",
+      "platform": "Microsoft Store",
+      "appId": "3010850"
+    },
+    {
+      "title": "DEADBOLT",
+      "platform": "Steam",
+      "appId": "394970"
+    },
+    {
+      "title": "Papers, Please",
+      "platform": "Steam",
+      "appId": "239030"
+    },
     {
       "title": "METAL GEAR SOLID Peace Walker Master Collection Version",
       "platform": "Steam",
@@ -987,8 +1002,7 @@
     },
     {
       "title": "Secret Agent Wizard Boy and the International Crime Syndicate",
-      "platform": "Steam",
-      "appId": "3111080"
+      "platform": "Steam"
     },
     {
       "title": "Keep Keepers",
