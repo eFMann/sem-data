@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-09T14:14:36Z",
+  "lastChecked": "2026-10-10T13:24:12Z",
   "games": [
     {
       "name": "007 First Light",
@@ -1611,8 +1611,7 @@
     {
       "name": "PGA Tour 2K25",
       "appId": "2385530",
-      "status": "removed",
-      "removalDate": "2026-09-30"
+      "status": "active"
     },
     {
       "name": "Persona 3 Portable",
