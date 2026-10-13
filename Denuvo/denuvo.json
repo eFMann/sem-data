@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-12T16:37:24Z",
+  "lastChecked": "2026-10-13T14:55:01Z",
   "games": [
     {
       "name": "007 First Light",
@@ -2138,6 +2138,11 @@
     {
       "name": "The Awesome Adventures of Captain Spirit",
       "appId": "845070",
+      "status": "active"
+    },
+    {
+      "name": "The Bus",
+      "appId": "491540",
       "status": "active"
     },
     {
