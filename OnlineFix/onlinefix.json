@@ -1,7 +1,11 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-12T13:53:36Z",
+  "lastChecked": "2026-10-13T13:15:11Z",
   "games": [
+    {
+      "title": "Assassins Creed III",
+      "platform": "Steam"
+    },
     {
       "title": "Gears of War E-Day",
       "platform": "Microsoft Store",
@@ -6238,6 +6242,11 @@
       "appId": "49520"
     },
     {
+      "title": "Far Cry 3",
+      "platform": "Steam",
+      "appId": "220240"
+    },
+    {
       "title": "Serious Sam Shatterverse",
       "platform": "Steam",
       "appId": "2067210"
@@ -8476,6 +8485,11 @@
       "title": "Farming Simulator 17",
       "platform": "Steam",
       "appId": "447020"
+    },
+    {
+      "title": "UNO",
+      "platform": "Steam",
+      "appId": "470220"
     },
     {
       "title": "R.U.S.E.™",
