@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-14T12:45:19Z",
+  "lastChecked": "2026-10-15T12:34:17Z",
   "games": [
     {
       "name": "007 First Light",
@@ -875,6 +875,11 @@
     {
       "name": "Football Manager 2020",
       "appId": "1100600",
+      "status": "active"
+    },
+    {
+      "name": "Football Manager 2020 Touch",
+      "appId": "1100620",
       "status": "active"
     },
     {
