@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-14T10:56:51Z",
+  "lastChecked": "2026-10-15T10:39:30Z",
   "games": [
     {
       "title": "Assassins Creed III",
@@ -902,8 +902,7 @@
     },
     {
       "title": "PEAK",
-      "platform": "Steam",
-      "appId": "3527290"
+      "platform": "Steam"
     },
     {
       "title": "Undercover Fools",
