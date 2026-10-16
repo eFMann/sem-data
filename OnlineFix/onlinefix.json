@@ -1,7 +1,22 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-15T10:39:30Z",
+  "lastChecked": "2026-10-16T10:26:53Z",
   "games": [
+    {
+      "title": "over the hill",
+      "platform": "Steam",
+      "appId": "2929250"
+    },
+    {
+      "title": "Crawl",
+      "platform": "Steam",
+      "appId": "293780"
+    },
+    {
+      "title": "INSIDE",
+      "platform": "Steam",
+      "appId": "304430"
+    },
     {
       "title": "Assassins Creed III",
       "platform": "Steam"
@@ -902,7 +917,8 @@
     },
     {
       "title": "PEAK",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "3527290"
     },
     {
       "title": "Undercover Fools",
@@ -3647,6 +3663,11 @@
       "appId": "1090630"
     },
     {
+      "title": "Invokyr",
+      "platform": "Steam",
+      "appId": "3883570"
+    },
+    {
       "title": "the cabin game",
       "platform": "Steam",
       "appId": "4406280"
@@ -4440,6 +4461,11 @@
       "title": "Desolate",
       "platform": "Steam",
       "appId": "671510"
+    },
+    {
+      "title": "Permafrost",
+      "platform": "Steam",
+      "appId": "2254990"
     },
     {
       "title": "Bus Simulator 27",
@@ -6054,11 +6080,6 @@
       "title": "BROKE PROTOCOL Online City RPG",
       "platform": "Steam",
       "appId": "696370"
-    },
-    {
-      "title": "Crawl",
-      "platform": "Steam Remote Play",
-      "appId": "293780"
     },
     {
       "title": "Sun Haven",
@@ -9091,7 +9112,8 @@
     },
     {
       "title": "Total War SHOGUN 2",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "201270"
     },
     {
       "title": "Kingdoms Reborn",
