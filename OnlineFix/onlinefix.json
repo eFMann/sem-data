@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-16T10:26:53Z",
+  "lastChecked": "2026-10-17T10:00:51Z",
   "games": [
     {
       "title": "over the hill",
@@ -2228,6 +2228,11 @@
       "title": "Journey to the Savage Planet",
       "platform": "Steam",
       "appId": "973810"
+    },
+    {
+      "title": "The Crew Motorfest",
+      "platform": "Steam",
+      "appId": "2698940"
     },
     {
       "title": "Dino Party",
