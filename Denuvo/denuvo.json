@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-18T12:03:21Z",
+  "lastChecked": "2026-10-19T14:28:45Z",
   "games": [
     {
       "name": "007 First Light",
@@ -1882,6 +1882,11 @@
     {
       "name": "Shin Megami Tensei III Nocturne HD Remaster",
       "appId": "1413480",
+      "status": "active"
+    },
+    {
+      "name": "Shin Megami Tensei V: Vengeance",
+      "appId": "1875830",
       "status": "active"
     },
     {
