@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-18T10:12:41Z",
+  "lastChecked": "2026-10-19T11:36:11Z",
   "games": [
     {
       "title": "over the hill",
@@ -3144,8 +3144,7 @@
     },
     {
       "title": "Journey",
-      "platform": "Steam",
-      "appId": "638230"
+      "platform": "Steam"
     },
     {
       "title": "HELLDIVERS",
@@ -7829,8 +7828,7 @@
     },
     {
       "title": "Fast Food Simulator",
-      "platform": "Steam",
-      "appId": "2916430"
+      "platform": "Steam"
     },
     {
       "title": "Finnish Cottage Simulator",
