@@ -1,7 +1,22 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-19T11:36:11Z",
+  "lastChecked": "2026-10-20T10:43:34Z",
   "games": [
+    {
+      "title": "Party Animals",
+      "platform": "Steam",
+      "appId": "1260320"
+    },
+    {
+      "title": "Clair Obscur Expedition 33",
+      "platform": "Steam",
+      "appId": "1903340"
+    },
+    {
+      "title": "Needle In A Haystack",
+      "platform": "Steam",
+      "appId": "5085740"
+    },
     {
       "title": "over the hill",
       "platform": "Steam",
@@ -2230,6 +2245,11 @@
       "appId": "973810"
     },
     {
+      "title": "Happy Wheels",
+      "platform": "Steam",
+      "appId": "4705510"
+    },
+    {
       "title": "The Crew Motorfest",
       "platform": "Steam",
       "appId": "2698940"
@@ -2457,11 +2477,6 @@
       "title": "KallaX",
       "platform": "Steam",
       "appId": "1818280"
-    },
-    {
-      "title": "Party Animals",
-      "platform": "Steam + Microsoft",
-      "appId": "1260320"
     },
     {
       "title": "Hello Engineer Scrap Machines Constructor",
@@ -3144,7 +3159,8 @@
     },
     {
       "title": "Journey",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "638230"
     },
     {
       "title": "HELLDIVERS",
@@ -7828,7 +7844,8 @@
     },
     {
       "title": "Fast Food Simulator",
-      "platform": "Steam"
+      "platform": "Steam",
+      "appId": "2916430"
     },
     {
       "title": "Finnish Cottage Simulator",
