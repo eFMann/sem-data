@@ -1,7 +1,27 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-20T10:43:34Z",
+  "lastChecked": "2026-10-21T10:55:44Z",
   "games": [
+    {
+      "title": "We Were Here Tomorrow",
+      "platform": "Steam",
+      "appId": "2315050"
+    },
+    {
+      "title": "Chained Beasts",
+      "platform": "Steam",
+      "appId": "3569420"
+    },
+    {
+      "title": "MOGGED Looksmaxx or Die",
+      "platform": "Steam",
+      "appId": "4917440"
+    },
+    {
+      "title": "Deep Dish Dungeon",
+      "platform": "Steam",
+      "appId": "2871520"
+    },
     {
       "title": "Party Animals",
       "platform": "Steam",
@@ -3683,6 +3703,11 @@
       "appId": "1090630"
     },
     {
+      "title": "Lucid Cats",
+      "platform": "Steam",
+      "appId": "4778540"
+    },
+    {
       "title": "Invokyr",
       "platform": "Steam",
       "appId": "3883570"
@@ -4481,6 +4506,11 @@
       "title": "Desolate",
       "platform": "Steam",
       "appId": "671510"
+    },
+    {
+      "title": "Hood Warfare 2",
+      "platform": "Steam",
+      "appId": "5155360"
     },
     {
       "title": "Permafrost",
@@ -5755,6 +5785,11 @@
       "title": "GRID Autosport",
       "platform": "Steam",
       "appId": "255220"
+    },
+    {
+      "title": "Forsworn",
+      "platform": "Steam",
+      "appId": "3560360"
     },
     {
       "title": "Dawson Oaks Trailer Park",
@@ -7436,6 +7471,16 @@
       "title": "Left 4 Dead 2",
       "platform": "Steam",
       "appId": "550"
+    },
+    {
+      "title": "Japanese Ramen Simulator",
+      "platform": "Steam",
+      "appId": "4968640"
+    },
+    {
+      "title": "Scam With Your Friends",
+      "platform": "Steam",
+      "appId": "4954910"
     },
     {
       "title": "Surgeon Simulator 2",
