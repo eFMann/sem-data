@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-10-23T10:48:44Z",
+  "lastChecked": "2026-10-24T10:07:17Z",
   "games": [
     {
       "title": "We Were Here Tomorrow",
@@ -4506,6 +4506,11 @@
       "title": "Desolate",
       "platform": "Steam",
       "appId": "671510"
+    },
+    {
+      "title": "Solasta II",
+      "platform": "Steam",
+      "appId": "2975950"
     },
     {
       "title": "Hood Warfare 2",
