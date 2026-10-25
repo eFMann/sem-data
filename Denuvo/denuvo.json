@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-24T11:57:21Z",
+  "lastChecked": "2026-10-25T12:27:15Z",
   "games": [
     {
       "name": "007 First Light",
@@ -1000,6 +1000,11 @@
     {
       "name": "Hello Kitty Island Adventure",
       "appId": "2495100",
+      "status": "active"
+    },
+    {
+      "name": "Heroes of Might and Magic III Remake",
+      "appId": "3809850",
       "status": "active"
     },
     {
