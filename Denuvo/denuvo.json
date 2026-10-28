@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-10-27T13:05:29Z",
+  "lastChecked": "2026-10-28T13:56:27Z",
   "games": [
     {
       "name": "007 First Light",
@@ -288,7 +288,9 @@
     {
       "name": "Conan Exiles",
       "appId": "440900",
-      "status": "removed"
+      "status": "removed",
+      "removalRef": "https://steamcommunity.com/games/440900/announcements/detail/2393048143819456187",
+      "removalDate": "2020-06-16"
     },
     {
       "name": "Conan Unconquered",
@@ -426,7 +428,9 @@
     {
       "name": "Digimon Story: Time Stranger",
       "appId": "1984270",
-      "status": "removed"
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1984270/history/?changeid=U:80375435",
+      "removalDate": "2026-07-09"
     },
     {
       "name": "Discovery Tour: Ancient Egypt",
