@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-01T14:10:18Z",
+  "lastChecked": "2026-11-02T16:56:41Z",
   "games": [
     {
       "name": "007 First Light",
@@ -1361,9 +1361,7 @@
     {
       "name": "Mega Man Star Force Legacy Collection",
       "appId": "3500390",
-      "status": "removed",
-      "removalRef": "https://steamdb.info/patchnotes/23297979/",
-      "removalDate": "2026-09-08"
+      "status": "removed"
     },
     {
       "name": "Metal Gear Solid V: The Phantom Pain",
