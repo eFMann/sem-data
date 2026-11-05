@@ -1,7 +1,12 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-11-04T13:35:30Z",
+  "lastChecked": "2026-11-05T13:49:38Z",
   "games": [
+    {
+      "title": "CRACK",
+      "platform": "Steam",
+      "appId": "4312190"
+    },
     {
       "title": "We Were Here Tomorrow",
       "platform": "Steam",
@@ -952,7 +957,7 @@
     },
     {
       "title": "PEAK",
-      "platform": "Steam",
+      "platform": "Microsoft Store",
       "appId": "3527290"
     },
     {
@@ -6325,6 +6330,11 @@
       "title": "Borderlands 2",
       "platform": "Steam",
       "appId": "49520"
+    },
+    {
+      "title": "POSTAL Brain Damaged",
+      "platform": "Steam",
+      "appId": "1359980"
     },
     {
       "title": "Far Cry 3",
