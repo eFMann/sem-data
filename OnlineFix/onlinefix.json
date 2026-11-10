@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-11-09T14:43:50Z",
+  "lastChecked": "2026-11-10T14:05:04Z",
   "games": [
     {
       "title": "CRACK",
@@ -4513,6 +4513,11 @@
       "appId": "671510"
     },
     {
+      "title": "Nomad Drive",
+      "platform": "Steam",
+      "appId": "2223980"
+    },
+    {
       "title": "Borderlands 4",
       "platform": "Epic",
       "appId": "1285190"
@@ -7491,6 +7496,31 @@
       "title": "Left 4 Dead 2",
       "platform": "Steam",
       "appId": "550"
+    },
+    {
+      "title": "Finals Week",
+      "platform": "Steam",
+      "appId": "4715160"
+    },
+    {
+      "title": "S.O.N.A.R. - Submarine Operators Not Actually Ready",
+      "platform": "Steam",
+      "appId": "4096830"
+    },
+    {
+      "title": "Groundwork Simulator",
+      "platform": "Steam",
+      "appId": "5306540"
+    },
+    {
+      "title": "Trash Day",
+      "platform": "Steam",
+      "appId": "3314580"
+    },
+    {
+      "title": "Whos Cheating?",
+      "platform": "Steam",
+      "appId": "5127370"
     },
     {
       "title": "Moon Sweepers",
