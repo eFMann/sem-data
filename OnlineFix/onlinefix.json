@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-11-12T14:18:48Z",
+  "lastChecked": "2026-11-13T13:43:40Z",
   "games": [
     {
       "title": "Finals Week",
@@ -4536,6 +4536,11 @@
       "title": "Desolate",
       "platform": "Steam",
       "appId": "671510"
+    },
+    {
+      "title": "HOT WHEELS Infinite Rush",
+      "platform": "Epic",
+      "appId": "2821390"
     },
     {
       "title": "Borderlands 4",
