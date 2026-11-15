@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-14T14:03:35Z",
+  "lastChecked": "2026-11-15T14:37:03Z",
   "games": [
     {
       "name": "007 First Light",
@@ -396,6 +396,11 @@
       "status": "removed",
       "removalRef": "https://steamdb.info/depot/1345891/history/?changeid=M:8640828234384242134",
       "removalDate": "2025-01-31"
+    },
+    {
+      "name": "Demon Slayer -Kimetsu no Yaiba- Sweep the Board!",
+      "appId": "2424110",
+      "status": "active"
     },
     {
       "name": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
