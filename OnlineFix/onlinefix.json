@@ -1,6 +1,6 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-11-15T13:14:56Z",
+  "lastChecked": "2026-11-16T14:19:40Z",
   "games": [
     {
       "title": "Minecraft Dungeons II",
@@ -4244,8 +4244,7 @@
     },
     {
       "title": "PURGE Three vs Blood",
-      "platform": "Steam",
-      "appId": "1843710"
+      "platform": "Steam"
     },
     {
       "title": "The Dark Pictures Anthology The Devil in Me",
