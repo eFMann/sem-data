@@ -1,7 +1,12 @@
 {
   "name": "onlinefix",
-  "lastChecked": "2026-11-16T14:19:40Z",
+  "lastChecked": "2026-11-17T15:12:57Z",
   "games": [
+    {
+      "title": "ATMOSFAR",
+      "platform": "Steam",
+      "appId": "1798230"
+    },
     {
       "title": "Minecraft Dungeons II",
       "platform": "Microsoft Store",
@@ -4537,6 +4542,11 @@
       "appId": "671510"
     },
     {
+      "title": "RoadCraft",
+      "platform": "Microsoft Store",
+      "appId": "2104890"
+    },
+    {
       "title": "HOT WHEELS Infinite Rush",
       "platform": "Epic",
       "appId": "2821390"
@@ -4635,11 +4645,6 @@
       "title": "Over The Top WWI",
       "platform": "Steam",
       "appId": "2778610"
-    },
-    {
-      "title": "RoadCraft",
-      "platform": "Microsoft Store",
-      "appId": "2104890"
     },
     {
       "title": "Expeditions A MudRunner Game",
@@ -5168,6 +5173,11 @@
       "title": "MechWarrior 5 Mercenaries",
       "platform": "Epic",
       "appId": "784080"
+    },
+    {
+      "title": "Escape Academy 2 Back 2 School",
+      "platform": "Steam",
+      "appId": "3296060"
     },
     {
       "title": "Inkwellers",
