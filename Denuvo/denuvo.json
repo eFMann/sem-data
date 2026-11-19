@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-18T16:19:01Z",
+  "lastChecked": "2026-11-19T16:24:56Z",
   "games": [
     {
       "name": "007 First Light",
@@ -936,7 +936,9 @@
     {
       "name": "For Honor",
       "appId": "304390",
-      "status": "active"
+      "status": "removed",
+      "removalRef": "https://steamdb.info/depot/304391/history/?changeid=M:242928879380288952",
+      "removalDate": "2026-04-30"
     },
     {
       "name": "Forspoken",
@@ -1383,7 +1385,9 @@
     {
       "name": "Metro Exodus",
       "appId": "412020",
-      "status": "removed"
+      "status": "removed",
+      "removalRef": "https://www.metrothegame.com/news/patch-notes-pc-hotfix/",
+      "removalDate": "2020-05-27"
     },
     {
       "name": "Middle-earth: Shadow of War",
@@ -2208,7 +2212,8 @@
     {
       "name": "The Great War: Western Front",
       "appId": "2109370",
-      "status": "removed"
+      "status": "removed",
+      "removalDate": "2025-01-30"
     },
     {
       "name": "The Quarry",
