@@ -1,5 +1,5 @@
 {
-  "lastChecked": "2026-11-23T19:05:34Z",
+  "lastChecked": "2026-11-24T18:45:57Z",
   "games": [
     {
       "name": "007 First Light",
@@ -1066,7 +1066,8 @@
     {
       "name": "Immortals of Aveum",
       "appId": "2009100",
-      "status": "removed"
+      "status": "removed",
+      "removalDate": "2025-02-07"
     },
     {
       "name": "InZOI",
@@ -1598,7 +1599,9 @@
     {
       "name": "Octopath Traveler II",
       "appId": "1971650",
-      "status": "removed"
+      "status": "removed",
+      "removalRef": "https://steamdb.info/app/1971650/history/?changeid=U:40419733",
+      "removalDate": "2023-08-09"
     },
     {
       "name": "OddBallers",
